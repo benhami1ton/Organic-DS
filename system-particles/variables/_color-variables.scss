@@ -1,0 +1,170 @@
+/////////////////////////////////////////
+// SYSTEM COLOR VARIABLES ASSIGNMENT FILE
+/////////////////////////////////////////
+
+// This file creates the color variables for use in Orgainc DS's system tokens. If you want to change the actual color values, make changes to the following imported config file, then create corresponding new variables, if needed.
+
+@import "../config/color";
+
+// Creates red particle tokens
+$red-5: map-get(map-get($systemColors, "red"), 5);
+$red-10: map-get(map-get($systemColors, "red"), 10);
+$red-20: map-get(map-get($systemColors, "red"), 20);
+$red-30: map-get(map-get($systemColors, "red"), 30);
+$red-40: map-get(map-get($systemColors, "red"), 40);
+$red-50: map-get(map-get($systemColors, "red"), 50);
+$red-60: map-get(map-get($systemColors, "red"), 60);
+$red-70: map-get(map-get($systemColors, "red"), 70);
+$red-80: map-get(map-get($systemColors, "red"), 80);
+$red-90: map-get(map-get($systemColors, "red"), 90);
+
+// Creates orange particle tokens
+$orange-5: map-get(map-get($systemColors, "orange"), 5);
+$orange-10: map-get(map-get($systemColors, "orange"), 10);
+$orange-20: map-get(map-get($systemColors, "orange"), 20);
+$orange-30: map-get(map-get($systemColors, "orange"), 30);
+$orange-40: map-get(map-get($systemColors, "orange"), 40);
+$orange-50: map-get(map-get($systemColors, "orange"), 50);
+$orange-60: map-get(map-get($systemColors, "orange"), 60);
+$orange-70: map-get(map-get($systemColors, "orange"), 70);
+$orange-80: map-get(map-get($systemColors, "orange"), 80);
+$orange-90: map-get(map-get($systemColors, "orange"), 90);
+
+// Creates gold particle tokens
+$gold-5: map-get(map-get($systemColors, "gold"), 5);
+$gold-10: map-get(map-get($systemColors, "gold"), 10);
+$gold-20: map-get(map-get($systemColors, "gold"), 20);
+$gold-30: map-get(map-get($systemColors, "gold"), 30);
+$gold-40: map-get(map-get($systemColors, "gold"), 40);
+$gold-50: map-get(map-get($systemColors, "gold"), 50);
+$gold-60: map-get(map-get($systemColors, "gold"), 60);
+$gold-70: map-get(map-get($systemColors, "gold"), 70);
+$gold-80: map-get(map-get($systemColors, "gold"), 80);
+$gold-90: map-get(map-get($systemColors, "gold"), 90);
+
+// Creates green particle tokens
+$green-5: map-get(map-get($systemColors, "green"), 5);
+$green-10: map-get(map-get($systemColors, "green"), 10);
+$green-20: map-get(map-get($systemColors, "green"), 20);
+$green-30: map-get(map-get($systemColors, "green"), 30);
+$green-40: map-get(map-get($systemColors, "green"), 40);
+$green-50: map-get(map-get($systemColors, "green"), 50);
+$green-60: map-get(map-get($systemColors, "green"), 60);
+$green-70: map-get(map-get($systemColors, "green"), 70);
+$green-80: map-get(map-get($systemColors, "green"), 80);
+$green-90: map-get(map-get($systemColors, "green"), 90);
+
+// Creates mint particle tokens
+$mint-5: map-get(map-get($systemColors, "mint"), 5);
+$mint-10: map-get(map-get($systemColors, "mint"), 10);
+$mint-20: map-get(map-get($systemColors, "mint"), 20);
+$mint-30: map-get(map-get($systemColors, "mint"), 30);
+$mint-40: map-get(map-get($systemColors, "mint"), 40);
+$mint-50: map-get(map-get($systemColors, "mint"), 50);
+$mint-60: map-get(map-get($systemColors, "mint"), 60);
+$mint-70: map-get(map-get($systemColors, "mint"), 70);
+$mint-80: map-get(map-get($systemColors, "mint"), 80);
+$mint-90: map-get(map-get($systemColors, "mint"), 90);
+
+// Creates cyan particle tokens
+$cyan-5: map-get(map-get($systemColors, "cyan"), 5);
+$cyan-10: map-get(map-get($systemColors, "cyan"), 10);
+$cyan-20: map-get(map-get($systemColors, "cyan"), 20);
+$cyan-30: map-get(map-get($systemColors, "cyan"), 30);
+$cyan-40: map-get(map-get($systemColors, "cyan"), 40);
+$cyan-50: map-get(map-get($systemColors, "cyan"), 50);
+$cyan-60: map-get(map-get($systemColors, "cyan"), 60);
+$cyan-70: map-get(map-get($systemColors, "cyan"), 70);
+$cyan-80: map-get(map-get($systemColors, "cyan"), 80);
+$cyan-90: map-get(map-get($systemColors, "cyan"), 90);
+
+// Creates blue particle tokens
+$blue-5: map-get(map-get($systemColors, "blue"), 5);
+$blue-10: map-get(map-get($systemColors, "blue"), 10);
+$blue-20: map-get(map-get($systemColors, "blue"), 20);
+$blue-30: map-get(map-get($systemColors, "blue"), 30);
+$blue-40: map-get(map-get($systemColors, "blue"), 40);
+$blue-50: map-get(map-get($systemColors, "blue"), 50);
+$blue-60: map-get(map-get($systemColors, "blue"), 60);
+$blue-70: map-get(map-get($systemColors, "blue"), 70);
+$blue-80: map-get(map-get($systemColors, "blue"), 80);
+$blue-90: map-get(map-get($systemColors, "blue"), 90);
+
+// Creates indigo particle tokens
+$indigo-5: map-get(map-get($systemColors, "indigo"), 5);
+$indigo-10: map-get(map-get($systemColors, "indigo"), 10);
+$indigo-20: map-get(map-get($systemColors, "indigo"), 20);
+$indigo-30: map-get(map-get($systemColors, "indigo"), 30);
+$indigo-40: map-get(map-get($systemColors, "indigo"), 40);
+$indigo-50: map-get(map-get($systemColors, "indigo"), 50);
+$indigo-60: map-get(map-get($systemColors, "indigo"), 60);
+$indigo-70: map-get(map-get($systemColors, "indigo"), 70);
+$indigo-80: map-get(map-get($systemColors, "indigo"), 80);
+$indigo-90: map-get(map-get($systemColors, "indigo"), 90);
+
+// Creates violet particle tokens
+$violet-5: map-get(map-get($systemColors, "violet"), 5);
+$violet-10: map-get(map-get($systemColors, "violet"), 10);
+$violet-20: map-get(map-get($systemColors, "violet"), 20);
+$violet-30: map-get(map-get($systemColors, "violet"), 30);
+$violet-40: map-get(map-get($systemColors, "violet"), 40);
+$violet-50: map-get(map-get($systemColors, "violet"), 50);
+$violet-60: map-get(map-get($systemColors, "violet"), 60);
+$violet-70: map-get(map-get($systemColors, "violet"), 70);
+$violet-80: map-get(map-get($systemColors, "violet"), 80);
+$violet-90: map-get(map-get($systemColors, "violet"), 90);
+
+// Creates magenta particle tokens
+$magenta-5: map-get(map-get($systemColors, "magenta"), 5);
+$magenta-10: map-get(map-get($systemColors, "magenta"), 10);
+$magenta-20: map-get(map-get($systemColors, "magenta"), 20);
+$magenta-30: map-get(map-get($systemColors, "magenta"), 30);
+$magenta-40: map-get(map-get($systemColors, "magenta"), 40);
+$magenta-50: map-get(map-get($systemColors, "magenta"), 50);
+$magenta-60: map-get(map-get($systemColors, "magenta"), 60);
+$magenta-70: map-get(map-get($systemColors, "magenta"), 70);
+$magenta-80: map-get(map-get($systemColors, "magenta"), 80);
+$magenta-90: map-get(map-get($systemColors, "magenta"), 90);
+
+// Creates gray particle tokens
+$gray-1: map-get(map-get($systemColors, "gray"), 1);
+$gray-2: map-get(map-get($systemColors, "gray"), 2);
+$gray-3: map-get(map-get($systemColors, "gray"), 3);
+$gray-4: map-get(map-get($systemColors, "gray"), 4);
+$gray-5: map-get(map-get($systemColors, "gray"), 5);
+$gray-10: map-get(map-get($systemColors, "gray"), 10);
+$gray-20: map-get(map-get($systemColors, "gray"), 20);
+$gray-30: map-get(map-get($systemColors, "gray"), 30);
+$gray-40: map-get(map-get($systemColors, "gray"), 40);
+$gray-50: map-get(map-get($systemColors, "gray"), 50);
+$gray-60: map-get(map-get($systemColors, "gray"), 60);
+$gray-70: map-get(map-get($systemColors, "gray"), 70);
+$gray-80: map-get(map-get($systemColors, "gray"), 80);
+$gray-90: map-get(map-get($systemColors, "gray"), 90);
+$gray-100: map-get(map-get($systemColors, "gray"), 100);
+
+// Creates white particle tokens
+$white-1: map-get(map-get($systemColors, "white"), 1);
+$white-10: map-get(map-get($systemColors, "white"), 10);
+$white-20: map-get(map-get($systemColors, "white"), 20);
+$white-30: map-get(map-get($systemColors, "white"), 30);
+$white-40: map-get(map-get($systemColors, "white"), 40);
+$white-50: map-get(map-get($systemColors, "white"), 50);
+$white-60: map-get(map-get($systemColors, "white"), 60);
+$white-70: map-get(map-get($systemColors, "white"), 70);
+$white-80: map-get(map-get($systemColors, "white"), 80);
+$white-90: map-get(map-get($systemColors, "white"), 90);
+$white-100: map-get(map-get($systemColors, "white"), 100);
+
+// Creates black particle tokens
+$black-1: map-get(map-get($systemColors, "black"), 1);
+$black-10: map-get(map-get($systemColors, "black"), 10);
+$black-20: map-get(map-get($systemColors, "black"), 20);
+$black-30: map-get(map-get($systemColors, "black"), 30);
+$black-40: map-get(map-get($systemColors, "black"), 40);
+$black-50: map-get(map-get($systemColors, "black"), 50);
+$black-60: map-get(map-get($systemColors, "black"), 60);
+$black-70: map-get(map-get($systemColors, "black"), 70);
+$black-80: map-get(map-get($systemColors, "black"), 80);
+$black-90: map-get(map-get($systemColors, "black"), 90);
+$black-100: map-get(map-get($systemColors, "black"), 100);

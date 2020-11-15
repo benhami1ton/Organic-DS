@@ -1,0 +1,411 @@
+.--COLORS- .red .red-5 {
+  color: #f9eeee;
+}
+.--COLORS- .red .red-10 {
+  color: #f8e1de;
+}
+.--COLORS- .red .red-20 {
+  color: #f7bbb1;
+}
+.--COLORS- .red .red-30 {
+  color: #f2938c;
+}
+.--COLORS- .red .red-40 {
+  color: #e9695f;
+}
+.--COLORS- .red .red-50 {
+  color: #d83933;
+}
+.--COLORS- .red .red-60 {
+  color: #a23737;
+}
+.--COLORS- .red .red-70 {
+  color: #6f3331;
+}
+.--COLORS- .red .red-80 {
+  color: #3e2927;
+}
+.--COLORS- .red .red-90 {
+  color: #1b1616;
+}
+.--COLORS- .orange .orange-5 {
+  color: #f6efe9;
+}
+.--COLORS- .orange .orange-10 {
+  color: #f2e4d4;
+}
+.--COLORS- .orange .orange-20 {
+  color: #f3bf90;
+}
+.--COLORS- .orange .orange-30 {
+  color: #f09860;
+}
+.--COLORS- .orange .orange-40 {
+  color: #dd7533;
+}
+.--COLORS- .orange .orange-50 {
+  color: #a86437;
+}
+.--COLORS- .orange .orange-60 {
+  color: #775540;
+}
+.--COLORS- .orange .orange-70 {
+  color: #524236;
+}
+.--COLORS- .orange .orange-80 {
+  color: #332d27;
+}
+.--COLORS- .orange .orange-90 {
+  color: #1b1614;
+}
+.--COLORS- .gold .gold-5 {
+  color: #f5f0e6;
+}
+.--COLORS- .gold .gold-10 {
+  color: #f1e5cd;
+}
+.--COLORS- .gold .gold-20 {
+  color: #dec69a;
+}
+.--COLORS- .gold .gold-30 {
+  color: #c7a97b;
+}
+.--COLORS- .gold .gold-40 {
+  color: #ad8b65;
+}
+.--COLORS- .gold .gold-50 {
+  color: #8e704f;
+}
+.--COLORS- .gold .gold-60 {
+  color: #6b5947;
+}
+.--COLORS- .gold .gold-70 {
+  color: #4d4438;
+}
+.--COLORS- .gold .gold-80 {
+  color: #322d26;
+}
+.--COLORS- .gold .gold-90 {
+  color: #191714;
+}
+.--COLORS- .green .green-5 {
+  color: #eaf4dd;
+}
+.--COLORS- .green .green-10 {
+  color: #dfeacd;
+}
+.--COLORS- .green .green-20 {
+  color: #b8d293;
+}
+.--COLORS- .green .green-30 {
+  color: #9bb672;
+}
+.--COLORS- .green .green-40 {
+  color: #7d9b4e;
+}
+.--COLORS- .green .green-50 {
+  color: #607f35;
+}
+.--COLORS- .green .green-60 {
+  color: #4c6424;
+}
+.--COLORS- .green .green-70 {
+  color: #3c4a29;
+}
+.--COLORS- .green .green-80 {
+  color: #293021;
+}
+.--COLORS- .green .green-90 {
+  color: #161814;
+}
+.--COLORS- .mint .mint-5 {
+  color: #dbf6ed;
+}
+.--COLORS- .mint .mint-10 {
+  color: #c7efe2;
+}
+.--COLORS- .mint .mint-20 {
+  color: #92d9bb;
+}
+.--COLORS- .mint .mint-30 {
+  color: #5abf95;
+}
+.--COLORS- .mint .mint-40 {
+  color: #34a37e;
+}
+.--COLORS- .mint .mint-50 {
+  color: #2e8367;
+}
+.--COLORS- .mint .mint-60 {
+  color: #286846;
+}
+.--COLORS- .mint .mint-70 {
+  color: #204e34;
+}
+.--COLORS- .mint .mint-80 {
+  color: #193324;
+}
+.--COLORS- .mint .mint-90 {
+  color: #0d1a12;
+}
+.--COLORS- .cyan .cyan-5 {
+  color: #e7f6f8;
+}
+.--COLORS- .cyan .cyan-10 {
+  color: #ccecf2;
+}
+.--COLORS- .cyan .cyan-20 {
+  color: #99deea;
+}
+.--COLORS- .cyan .cyan-30 {
+  color: #5dc0d1;
+}
+.--COLORS- .cyan .cyan-40 {
+  color: #449dac;
+}
+.--COLORS- .cyan .cyan-50 {
+  color: #168092;
+}
+.--COLORS- .cyan .cyan-60 {
+  color: #2a646d;
+}
+.--COLORS- .cyan .cyan-70 {
+  color: #2c4a4e;
+}
+.--COLORS- .cyan .cyan-80 {
+  color: #203133;
+}
+.--COLORS- .cyan .cyan-90 {
+  color: #111819;
+}
+.--COLORS- .blue .blue-5 {
+  color: #eff6fb;
+}
+.--COLORS- .blue .blue-10 {
+  color: #d9e8f6;
+}
+.--COLORS- .blue .blue-20 {
+  color: #aacdec;
+}
+.--COLORS- .blue .blue-30 {
+  color: #73b3e7;
+}
+.--COLORS- .blue .blue-40 {
+  color: #4f97d1;
+}
+.--COLORS- .blue .blue-50 {
+  color: #2378c3;
+}
+.--COLORS- .blue .blue-60 {
+  color: #2c608a;
+}
+.--COLORS- .blue .blue-70 {
+  color: #274863;
+}
+.--COLORS- .blue .blue-80 {
+  color: #1f303e;
+}
+.--COLORS- .blue .blue-90 {
+  color: #11181d;
+}
+.--COLORS- .indigo .indigo-5 {
+  color: #efeff8;
+}
+.--COLORS- .indigo .indigo-10 {
+  color: #e5e4fa;
+}
+.--COLORS- .indigo .indigo-20 {
+  color: #c5c5f3;
+}
+.--COLORS- .indigo .indigo-30 {
+  color: #a5a8eb;
+}
+.--COLORS- .indigo .indigo-40 {
+  color: #8889db;
+}
+.--COLORS- .indigo .indigo-50 {
+  color: #676cc8;
+}
+.--COLORS- .indigo .indigo-60 {
+  color: #4d52af;
+}
+.--COLORS- .indigo .indigo-70 {
+  color: #3d4076;
+}
+.--COLORS- .indigo .indigo-80 {
+  color: #2b2c40;
+}
+.--COLORS- .indigo .indigo-90 {
+  color: #16171f;
+}
+.--COLORS- .violet .violet-5 {
+  color: #f4f1f9;
+}
+.--COLORS- .violet .violet-10 {
+  color: #ebe3f9;
+}
+.--COLORS- .violet .violet-20 {
+  color: #d0c3e9;
+}
+.--COLORS- .violet .violet-30 {
+  color: #b8a2e3;
+}
+.--COLORS- .violet .violet-40 {
+  color: #9d84d2;
+}
+.--COLORS- .violet .violet-50 {
+  color: #8168b3;
+}
+.--COLORS- .violet .violet-60 {
+  color: #665190;
+}
+.--COLORS- .violet .violet-70 {
+  color: #4c3d69;
+}
+.--COLORS- .violet .violet-80 {
+  color: #312b3f;
+}
+.--COLORS- .violet .violet-90 {
+  color: #18161d;
+}
+.--COLORS- .magenta .magenta-5 {
+  color: #f9f0f2;
+}
+.--COLORS- .magenta .magenta-10 {
+  color: #f6e1e8;
+}
+.--COLORS- .magenta .magenta-20 {
+  color: #f0bbcc;
+}
+.--COLORS- .magenta .magenta-30 {
+  color: #e895b3;
+}
+.--COLORS- .magenta .magenta-40 {
+  color: #e0699f;
+}
+.--COLORS- .magenta .magenta-50 {
+  color: #c84281;
+}
+.--COLORS- .magenta .magenta-60 {
+  color: #8b4566;
+}
+.--COLORS- .magenta .magenta-70 {
+  color: #66364b;
+}
+.--COLORS- .magenta .magenta-80 {
+  color: #402731;
+}
+.--COLORS- .magenta .magenta-90 {
+  color: #1b1617;
+}
+.--COLORS- .gray .gray-1 {
+  color: #fcfcfc;
+}
+.--COLORS- .gray .gray-2 {
+  color: #f9f9f9;
+}
+.--COLORS- .gray .gray-3 {
+  color: #f6f6f6;
+}
+.--COLORS- .gray .gray-4 {
+  color: #f3f3f3;
+}
+.--COLORS- .gray .gray-5 {
+  color: #f0f0f0;
+}
+.--COLORS- .gray .gray-10 {
+  color: #e6e6e6;
+}
+.--COLORS- .gray .gray-20 {
+  color: #c9c9c9;
+}
+.--COLORS- .gray .gray-30 {
+  color: #adadad;
+}
+.--COLORS- .gray .gray-40 {
+  color: #919191;
+}
+.--COLORS- .gray .gray-50 {
+  color: #757575;
+}
+.--COLORS- .gray .gray-60 {
+  color: #5c5c5c;
+}
+.--COLORS- .gray .gray-70 {
+  color: #454545;
+}
+.--COLORS- .gray .gray-80 {
+  color: #2e2e2e;
+}
+.--COLORS- .gray .gray-90 {
+  color: #1b1b1b;
+}
+.--COLORS- .gray .gray-100 {
+  color: #000000;
+}
+.--COLORS- .black .black-1 {
+  color: rgba(0, 0, 0, 0.03);
+}
+.--COLORS- .black .black-10 {
+  color: rgba(0, 0, 0, 0.1);
+}
+.--COLORS- .black .black-20 {
+  color: rgba(0, 0, 0, 0.2);
+}
+.--COLORS- .black .black-30 {
+  color: rgba(0, 0, 0, 0.3);
+}
+.--COLORS- .black .black-40 {
+  color: rgba(0, 0, 0, 0.4);
+}
+.--COLORS- .black .black-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+.--COLORS- .black .black-60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+.--COLORS- .black .black-70 {
+  color: rgba(0, 0, 0, 0.7);
+}
+.--COLORS- .black .black-80 {
+  color: rgba(0, 0, 0, 0.8);
+}
+.--COLORS- .black .black-90 {
+  color: rgba(0, 0, 0, 0.9);
+}
+.--COLORS- .black .black-100 {
+  color: black;
+}
+.--COLORS- .white .white-1 {
+  color: rgba(255, 255, 255, 0.03);
+}
+.--COLORS- .white .white-10 {
+  color: rgba(255, 255, 255, 0.1);
+}
+.--COLORS- .white .white-20 {
+  color: rgba(255, 255, 255, 0.2);
+}
+.--COLORS- .white .white-30 {
+  color: rgba(255, 255, 255, 0.3);
+}
+.--COLORS- .white .white-40 {
+  color: rgba(255, 255, 255, 0.4);
+}
+.--COLORS- .white .white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.--COLORS- .white .white-60 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.--COLORS- .white .white-70 {
+  color: rgba(255, 255, 255, 0.7);
+}
+.--COLORS- .white .white-80 {
+  color: rgba(255, 255, 255, 0.8);
+}
+.--COLORS- .white .white-90 {
+  color: rgba(255, 255, 255, 0.9);
+}
+.--COLORS- .white .white-100 {
+  color: white;
+}

@@ -1,0 +1,15 @@
+@import "../../system-variables.scss";
+
+// Create Elevation layer styles
+.Elevation {
+  .Outer__Shadow {
+    // Loop through the Elevations list and grab all the dp values
+    @each $dpKey, $dpValues in $elevations {
+      $styleName: #{$dpKey}+"dp";
+
+      .--PT-#{$styleName} {
+        box-shadow: #{$dpValues};
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+//imports text details from the System's text config file
+@import "../../../system-particles/config/text";
+
+//imports text details from theme's config files
+@import "../../config/text";
+
+
+
+// Create Text Styles
+.Theme__UI {
+    @each $colorName, $colorValue in $uiColors{
+
+    @each $level,
+    $remCalc in $type-scale {
+        $levelName: "Level"+#{$level};
+        $fontSize: $text-base * $remCalc;
+
+        .#{$levelName} {
+           
+            @each $alignment in $text-align {
+                .#{$alignment} {
+
+                .#{$colorName} {
+                    font-size: $fontSize;
+                    text-align: $alignment;
+                    vertical-align: middle;
+                    line-height: 1.3;
+                    font-weight: 400;
+
+                    font-family: $font-sans-serif;
+
+                    color: $colorValue;
+                }
+            }
+        }
+    
+}
+}
+}
+}
+.Semantic__Styles {
+
+    // For each alignment
+    @each $alignment in $text-align {
+        $ia: index($list: $text-align,
+                $value: $alignment,
+            );
+
+        .--PT-#{$ia}__#{$alignment} {
+
+            @each $textColor,
+            $colorToken in $textColors {
+                .--PT-1__Header__1 {
+                    .#{$textColor} {
+                        -pt-layer-type: text;
+                        font-family: $font-serif;
+                        font-size: $font-level-1;
+                        line-height: 1.3;
+                        font-weight: bold;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-2__Header__2 {
+                    .#{$textColor} {
+                        font-family: $font-serif;
+                        font-size: $font-level-2;
+                        line-height: 1.3;
+                        font-weight: bold;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-3__Header__3 {
+                    .#{$textColor} {
+                        font-family: $font-serif;
+                        font-size: $font-level-3;
+                        line-height: 1.3;
+                        font-weight: bold;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-4__Header__4 {
+                    .#{$textColor} {
+                        font-family: $font-serif;
+                        font-size: $font-level-4;
+                        line-height: 1.3;
+                        font-weight: bold;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-5__Header__5 {
+                    .#{$textColor} {
+                        font-family: $font-serif;
+                        font-size: $font-level-5;
+                        line-height: 1.3;
+                        font-weight: bold;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-6__Header__6 {
+                    .#{$textColor} {
+                        font-family: $font-sans-serif;
+                        font-size: $font-level-6;
+                        line-height: 1.3;
+                        font-weight: bold;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-7__Paragraph__Large {
+                    .#{$textColor} {
+                        font-family: $font-sans-serif;
+                        font-size: $font-level-6;
+                        line-height: 1.3;
+                        font-weight: regular;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-8__Paragraph-Small {
+                    .#{$textColor} {
+                        font-family: $font-sans-serif;
+                        font-size: $font-level-7;
+                        line-height: 1.3;
+                        font-weight: regular;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-9__Eyebrow {
+                    .#{$textColor} {
+                        font-family: $font-sans-serif;
+                        font-size: $font-level-7;
+                        line-height: 1.3;
+                        font-weight: regular;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+
+                .--PT-10__Button {
+                    .#{$textColor} {
+                        font-family: $font-sans-serif;
+                        font-size: $font-level-5;
+                        font-weight: bold;
+                        line-height: 1;
+                        text-align: #{$alignment};
+                        color: $colorToken;
+                    }
+                }
+            }
+        }
+    }
+}

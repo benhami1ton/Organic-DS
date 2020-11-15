@@ -1,0 +1,21 @@
+@import "../../system-variables.scss";
+@import "../../config/color";
+
+.Colors {
+  // Loop and grab each base color and its related colors from the System Colors variable
+  @each $baseColor, $colors in $systemColors {
+    // Loop and grab each color name and hex value from each list of base colors
+    @each $colorName, $colorValue in $colors {
+      // Create sub folders for the base colors
+      .#{$baseColor} {
+        $styleName: #{$baseColor}+ "-" +#{$colorName};
+
+        // Create the layer style and assign it the visual properties
+        .#{$styleName} {
+          background-color: #{$colorValue};
+          // final output should be .System .baseColor .colorName {key:value;}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "../config/text";
+@import "../../system-particles/system-variables.scss";
+
+$trad-clr-text-ink: map-get($brandColors, "Ink", "ink");
+$trad-clr-text-base: map-get($brandColors, "Base", "base");
+$trad-clr-text-primary: map-get($brandColors, "Primary", "primary");
+$trad-clr-text-secondary: map-get($brandColors, "Secondary", "secondary");
+$trad-clr-text-accent-warm: map-get($brandColors, "Accent-Warm", "accent-warm");
+$trad-clr-text-accent-cool: map-get($brandColors, "Accent-Cool", "accent-cool");
+$trad-clr-text-info: map-get($uiColors, "Info", "info");
+$trad-clr-text-error: map-get($uiColors, "Error", "error");
+$trad-clr-text-warning: map-get($uiColors, "Warning", "warning");
+$trad-clr-text-success: map-get($uiColors, "Success", "success");

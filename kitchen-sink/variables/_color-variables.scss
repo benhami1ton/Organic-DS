@@ -1,0 +1,119 @@
+@import "../config/color";
+
+$trad-clr-bkg-ink: map-get($brandColors, "Ink", "ink");
+
+// Brand Color variables
+
+$trad-clr-bkg-base-lighest: map-get($brandColors, "Base", "base-lightest");
+$trad-clr-bkg-base-lighter: map-get($brandColors, "Base", "base-lighter");
+$trad-clr-bkg-base-light: map-get($brandColors, "Base", "base-light");
+$trad-clr-bkg-base: map-get($brandColors, "Base", "base");
+$trad-clr-bkg-base-dark: map-get($brandColors, "Base", "base-dark");
+$trad-clr-bkg-base-darker: map-get($brandColors, "Base", "base-darker");
+$trad-clr-bkg-base-darkest: map-get($brandColors, "Base", "base-darkest");
+
+$trad-clr-bkg-primary-lighter: map-get(
+  $brandColors,
+  "Primary",
+  "primary-lighter"
+);
+$trad-clr-bkg-primary-light: map-get($brandColors, "Primary", "primary-light");
+$trad-clr-bkg-primary: map-get($brandColors, "Primary", "primary");
+$trad-clr-bkg-primary-dark: map-get($brandColors, "Primary", "primary-dark");
+$trad-clr-bkg-primary-darker: map-get(
+  $brandColors,
+  "Primary",
+  "primary-darker"
+);
+
+$trad-clr-bkg-secondary-lighter: map-get(
+  $brandColors,
+  "Secondary",
+  "secondary-lighter"
+);
+$trad-clr-bkg-secondary-light: map-get(
+  $brandColors,
+  "Secondary",
+  "secondary-light"
+);
+$trad-clr-bkg-secondary: map-get($brandColors, "Secondary", "secondary");
+$trad-clr-bkg-secondary-dark: map-get(
+  $brandColors,
+  "Secondary",
+  "secondary-dark"
+);
+$trad-clr-bkg-secondary-darker: map-get(
+  $brandColors,
+  "Secondary",
+  "secondary-darker"
+);
+
+$trad-clr-bkg-accent-warm-lighter: map-get(
+  $brandColors,
+  "Accent-Warm",
+  "accent-warm-lighter"
+);
+$trad-clr-bkg-accent-warm-light: map-get(
+  $brandColors,
+  "Accent-Warm",
+  "accent-warm-light"
+);
+$trad-clr-bkg-accent-warm: map-get($brandColors, "Accent-Warm", "accent-warm");
+$trad-clr-bkg-accent-warm-dark: map-get(
+  $brandColors,
+  "Accent-Warm",
+  "accent-warm-dark"
+);
+$trad-clr-bkg-accent-warm-darker: map-get(
+  $brandColors,
+  "Accent-Warm",
+  "accent-warm-darker"
+);
+
+$trad-clr-bkg-accent-cool-lighter: map-get(
+  $brandColors,
+  "Accent-Cool",
+  "accent-cool-lighter"
+);
+$trad-clr-bkg-accent-cool-light: map-get(
+  $brandColors,
+  "Accent-Cool",
+  "accent-cool-light"
+);
+$trad-clr-bkg-accent-cool: map-get($brandColors, "Accent-Cool", "accent-cool");
+$trad-clr-bkg-accent-cool-dark: map-get(
+  $brandColors,
+  "Accent-Cool",
+  "accent-cool-dark"
+);
+$trad-clr-bkg-accent-cool-darker: map-get(
+  $brandColors,
+  "Accent-Cool",
+  "accent-cool-darker"
+);
+
+// UI Color variables
+
+$trad-clr-bkg-info-lighter: map-get($uiColors, "Info", "info-lighter");
+$trad-clr-bkg-info-light: map-get($uiColors, "Info", "info-light");
+$trad-clr-bkg-info: map-get($uiColors, "Info", "info");
+$trad-clr-bkg-info-dark: map-get($uiColors, "Info", "info-dark");
+$trad-clr-bkg-info-darker: map-get($uiColors, "Info", "info-darker");
+
+$trad-clr-bkg-error-lighter: map-get($uiColors, "Error", "error-lighter");
+$trad-clr-bkg-error-light: map-get($uiColors, "Error", "error-light");
+$trad-clr-bkg-error: map-get($uiColors, "Error", "error");
+$trad-clr-bkg-error-dark: map-get($uiColors, "Error", "error-dark");
+$trad-clr-bkg-error-darker: map-get($uiColors, "Error", "error-darker");
+
+$trad-clr-bkg-warning-lighter: map-get($uiColors, "Warning", "warning-lighter");
+$trad-clr-bkg-warning-light: map-get($uiColors, "Warning", "warning-light");
+$trad-clr-bkg-warning: map-get($uiColors, "Warning", "warning");
+$trad-clr-bkg-warning-dark: map-get($uiColors, "Warning", "warning-dark");
+$trad-clr-bkg-warning-darker: map-get($uiColors, "Warning", "warning-darker");
+
+$trad-clr-bkg-success-lighter: map-get($uiColors, "Success", "success-lighter");
+$trad-clr-bkg-success-light: map-get($uiColors, "Success", "success-light");
+$trad-clr-bkg-success: map-get($uiColors, "Success", "success");
+$trad-clr-bkg-success-dark: map-get($uiColors, "Success", "success-dark");
+$trad-clr-bkg-success-darker: map-get($uiColors, "Success", "success-darker");

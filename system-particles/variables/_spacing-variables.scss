@@ -1,0 +1,15 @@
+@import "../config/spacing";
+
+$space0: $spacing-unit * 0;
+$space50: $spacing-unit * map-get($spacing-scale, 050);
+$space100: $spacing-unit * map-get($spacing-scale, 100);
+$space150: $spacing-unit * map-get($spacing-scale, 150);
+$space200: $spacing-unit * map-get($spacing-scale, 200);
+$space300: $spacing-unit * map-get($spacing-scale, 300);
+$space400: $spacing-unit * map-get($spacing-scale, 400);
+$space500: $spacing-unit * map-get($spacing-scale, 500);
+$space600: $spacing-unit * map-get($spacing-scale, 600);
+$space800: $spacing-unit * map-get($spacing-scale, 800);
+$space1000: $spacing-unit * map-get($spacing-scale, 1000);
+$space1200: $spacing-unit * map-get($spacing-scale, 1200);
+$space1600: $spacing-unit * map-get($spacing-scale, 1600);

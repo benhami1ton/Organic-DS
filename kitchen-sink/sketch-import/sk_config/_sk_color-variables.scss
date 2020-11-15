@@ -1,0 +1,29 @@
+@import "../../config/color";
+
+.--COLORS-{
+.Brand {    
+@each $colorType, $colors in $brandColors {
+    @each $colorToken, $systemColor in $colors {
+      .#{$colorType} {
+        .#{$colorToken} {
+          color: #{$systemColor};
+        }
+      }
+    }
+  }
+}
+
+.Theme__UI {
+    @each $colorType, $colors in $uiColors {
+        @each $colorToken, $systemColor in $colors {
+          
+            .#{$colorType} {
+              .#{$colorToken} {
+                color: #{$systemColor};
+              }
+            }
+          }
+        }
+      }
+    }
+

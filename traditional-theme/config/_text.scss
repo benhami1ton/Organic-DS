@@ -1,0 +1,27 @@
+@import "../config/color";
+
+$font-sans-serif: "Karla";
+$font-serif: "Spectral";
+
+
+// This config file assigns the colors used for text styles. Most of the time you won't need to edit this file, but there may be instances where you want to lighten or darken the text.
+
+$textColors: (
+  Ink: map-get(map-get($brandColors, "Ink"), "ink"),
+  Base: map-get(map-get($brandColors, "Base"), "base"),
+  Primary: map-get(map-get($brandColors, "Primary"), "primary"),
+  Secondary: map-get(map-get($brandColors, "Secondary"), "secondary"),
+  Accent-Warm: map-get(map-get($brandColors, "Accent-Warm"), "accent-warm"),
+  Accent-Cool: map-get(map-get($brandColors, "Accent-Cool"), "accent-cool"),
+  "White": $white-100,
+  "Black": $black-100,
+);
+
+$uiColors: (
+  Info: map-get(map-get($uiColors, "Info"), "info"),
+  Error: map-get(map-get($uiColors, "Error"), "error"),
+  Warning: map-get(map-get($uiColors, "Warning"), "warning"),
+  Success: map-get(map-get($uiColors, "Success"), "success"),
+);
+
+// Note: This file needs to be imported AFTER the theme's color partial to allow for this file to reference those colors.

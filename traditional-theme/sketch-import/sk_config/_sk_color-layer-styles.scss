@@ -1,0 +1,72 @@
+
+@import "../../theme-variables.scss";
+@import "../../config/color";
+
+
+.Background__Color {
+
+  // Generate Theme's Brand colors as layer styles
+  .Brand {
+
+    @each $colorType,
+    $colors in $brandColors {
+
+      @each $colorToken,
+      $systemColor in $colors {
+        .#{$colorType} {
+          .#{$colorToken} {
+            background-color: #{$systemColor};
+          }
+        }
+      }
+    }
+  }
+
+  // Generate Theme's UI colors as layer styles
+  .UI__Colors {
+
+    @each $colorType,
+    $colors in $uiColors {
+
+      @each $colorToken,
+      $systemColor in $colors {
+
+        .#{$colorType} {
+          .#{$colorToken} {
+            background-color: #{$systemColor};
+          }
+        }
+      }
+    }
+  }
+
+  //Generate Theme's Gradient colors as layer styles
+  .Gradients {
+    .Primary {
+      .Primary-0deg {
+        background-color: linear-gradient(0deg,
+            $trad-clr-bkg-primary-darker,
+            $trad-clr-bkg-primary);
+      }
+
+      .Primary-45deg {
+        background-color: linear-gradient(45deg,
+            $trad-clr-bkg-primary-darker,
+            $trad-clr-bkg-primary);
+      }
+
+      .Primary-90deg {
+        background-color: linear-gradient(90deg,
+            $trad-clr-bkg-primary-darker,
+            $trad-clr-bkg-primary);
+      }
+
+      .Primary-135deg {
+        background-color: linear-gradient(135deg,
+            $trad-clr-bkg-primary-darker,
+            $trad-clr-bkg-primary);
+      }
+    }
+
+  }
+}

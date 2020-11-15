@@ -1,0 +1,12 @@
+@import "../config/text";
+
+$font-level-1: $text-base * map-get($type-scale, 1);
+$font-level-2: $text-base * map-get($type-scale, 2);
+$font-level-3: $text-base * map-get($type-scale, 3);
+$font-level-4: $text-base * map-get($type-scale, 4);
+$font-level-5: $text-base * map-get($type-scale, 5);
+$font-level-6: $text-base * map-get($type-scale, 6);
+$font-level-7: $text-base * map-get($type-scale, 7);
+$font-level-8: $text-base * map-get($type-scale, 8);
+$font-level-9: $text-base * map-get($type-scale, 9);
+$font-level-10: $text-base * map-get($type-scale, 10);

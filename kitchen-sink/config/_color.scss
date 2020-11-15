@@ -1,0 +1,95 @@
+@import "../../system-particles/system-variables.scss";
+
+$brandColors: (
+  // Ink color - same as $base-darkest
+  Ink:
+    (
+      ink: $gray-90,
+    ),
+  // Base color
+  Base:
+    (
+      base-lightest: $gray-5,
+      base-lighter: $gray-10,
+      base-light: $gray-30,
+      base: $gray-50,
+      base-dark: $gray-60,
+      base-darker: $gray-70,
+      base-darkest: $gray-90,
+    ),
+  // Primary color
+  Primary:
+    (
+      primary-lighter: $gray-10,
+      primary-light: $gray-30,
+      primary: $gray-50,
+      primary-dark: $gray-60,
+      primary-darker: $gray-70,
+    ),
+  // Secondary color
+  Secondary:
+    (
+      secondary-lighter: $gray-10,
+      secondary-light: $gray-30,
+      secondary: $gray-50,
+      secondary-dark: $gray-60,
+      secondary-darker: $gray-70,
+    ),
+  // Warm Accent color
+  Accent-Warm:
+    (
+      accent-warm-lighter: $gray-10,
+      accent-warm-light: $gray-30,
+      accent-warm: $gray-50,
+      accent-warm-dark: $gray-60,
+      accent-warm-darker: $gray-70,
+    ),
+  // Cool Accent color
+  Accent-Cool:
+    (
+      accent-cool-lighter: $gray-10,
+      accent-cool-light: $gray-30,
+      accent-cool: $gray-50,
+      accent-cool-dark: $gray-60,
+      accent-cool-darker: $gray-70,
+    )
+);
+
+$uiColors: (
+  // UI Info color
+  Info:
+    (
+      info-lighter: $gray-10,
+      info-light: $gray-30,
+      info: $gray-50,
+      info-dark: $gray-60,
+      info-darker: $gray-70,
+    ),
+  // UI Error color
+  Error:
+    (
+      error-lighter: $gray-10,
+      error-light: $gray-30,
+      error: $gray-50,
+      error-dark: $gray-60,
+      error-darker: $gray-70,
+    ),
+  // UI Warning color
+  Warning:
+    (
+      warning-lighter: $gray-10,
+      warning-light: $gray-30,
+      warning: $gray-50,
+      warning-dark: $gray-60,
+      warning-darker: $gray-70,
+    ),
+  // UI Success color
+  Success:
+    (
+      success-lighter: $gray-10,
+      success-light: $gray-30,
+      success: $gray-50,
+      success-dark: $gray-60,
+      success-darker: $gray-70,
+    )
+);

@@ -1,0 +1,411 @@
+.Colors .red .red-5 {
+  background-color: #f9eeee;
+}
+.Colors .red .red-10 {
+  background-color: #f8e1de;
+}
+.Colors .red .red-20 {
+  background-color: #f7bbb1;
+}
+.Colors .red .red-30 {
+  background-color: #f2938c;
+}
+.Colors .red .red-40 {
+  background-color: #e9695f;
+}
+.Colors .red .red-50 {
+  background-color: #d83933;
+}
+.Colors .red .red-60 {
+  background-color: #a23737;
+}
+.Colors .red .red-70 {
+  background-color: #6f3331;
+}
+.Colors .red .red-80 {
+  background-color: #3e2927;
+}
+.Colors .red .red-90 {
+  background-color: #1b1616;
+}
+.Colors .orange .orange-5 {
+  background-color: #f6efe9;
+}
+.Colors .orange .orange-10 {
+  background-color: #f2e4d4;
+}
+.Colors .orange .orange-20 {
+  background-color: #f3bf90;
+}
+.Colors .orange .orange-30 {
+  background-color: #f09860;
+}
+.Colors .orange .orange-40 {
+  background-color: #dd7533;
+}
+.Colors .orange .orange-50 {
+  background-color: #a86437;
+}
+.Colors .orange .orange-60 {
+  background-color: #775540;
+}
+.Colors .orange .orange-70 {
+  background-color: #524236;
+}
+.Colors .orange .orange-80 {
+  background-color: #332d27;
+}
+.Colors .orange .orange-90 {
+  background-color: #1b1614;
+}
+.Colors .gold .gold-5 {
+  background-color: #f5f0e6;
+}
+.Colors .gold .gold-10 {
+  background-color: #f1e5cd;
+}
+.Colors .gold .gold-20 {
+  background-color: #dec69a;
+}
+.Colors .gold .gold-30 {
+  background-color: #c7a97b;
+}
+.Colors .gold .gold-40 {
+  background-color: #ad8b65;
+}
+.Colors .gold .gold-50 {
+  background-color: #8e704f;
+}
+.Colors .gold .gold-60 {
+  background-color: #6b5947;
+}
+.Colors .gold .gold-70 {
+  background-color: #4d4438;
+}
+.Colors .gold .gold-80 {
+  background-color: #322d26;
+}
+.Colors .gold .gold-90 {
+  background-color: #191714;
+}
+.Colors .green .green-5 {
+  background-color: #eaf4dd;
+}
+.Colors .green .green-10 {
+  background-color: #dfeacd;
+}
+.Colors .green .green-20 {
+  background-color: #b8d293;
+}
+.Colors .green .green-30 {
+  background-color: #9bb672;
+}
+.Colors .green .green-40 {
+  background-color: #7d9b4e;
+}
+.Colors .green .green-50 {
+  background-color: #607f35;
+}
+.Colors .green .green-60 {
+  background-color: #4c6424;
+}
+.Colors .green .green-70 {
+  background-color: #3c4a29;
+}
+.Colors .green .green-80 {
+  background-color: #293021;
+}
+.Colors .green .green-90 {
+  background-color: #161814;
+}
+.Colors .mint .mint-5 {
+  background-color: #dbf6ed;
+}
+.Colors .mint .mint-10 {
+  background-color: #c7efe2;
+}
+.Colors .mint .mint-20 {
+  background-color: #92d9bb;
+}
+.Colors .mint .mint-30 {
+  background-color: #5abf95;
+}
+.Colors .mint .mint-40 {
+  background-color: #34a37e;
+}
+.Colors .mint .mint-50 {
+  background-color: #2e8367;
+}
+.Colors .mint .mint-60 {
+  background-color: #286846;
+}
+.Colors .mint .mint-70 {
+  background-color: #204e34;
+}
+.Colors .mint .mint-80 {
+  background-color: #193324;
+}
+.Colors .mint .mint-90 {
+  background-color: #0d1a12;
+}
+.Colors .cyan .cyan-5 {
+  background-color: #e7f6f8;
+}
+.Colors .cyan .cyan-10 {
+  background-color: #ccecf2;
+}
+.Colors .cyan .cyan-20 {
+  background-color: #99deea;
+}
+.Colors .cyan .cyan-30 {
+  background-color: #5dc0d1;
+}
+.Colors .cyan .cyan-40 {
+  background-color: #449dac;
+}
+.Colors .cyan .cyan-50 {
+  background-color: #168092;
+}
+.Colors .cyan .cyan-60 {
+  background-color: #2a646d;
+}
+.Colors .cyan .cyan-70 {
+  background-color: #2c4a4e;
+}
+.Colors .cyan .cyan-80 {
+  background-color: #203133;
+}
+.Colors .cyan .cyan-90 {
+  background-color: #111819;
+}
+.Colors .blue .blue-5 {
+  background-color: #eff6fb;
+}
+.Colors .blue .blue-10 {
+  background-color: #d9e8f6;
+}
+.Colors .blue .blue-20 {
+  background-color: #aacdec;
+}
+.Colors .blue .blue-30 {
+  background-color: #73b3e7;
+}
+.Colors .blue .blue-40 {
+  background-color: #4f97d1;
+}
+.Colors .blue .blue-50 {
+  background-color: #2378c3;
+}
+.Colors .blue .blue-60 {
+  background-color: #2c608a;
+}
+.Colors .blue .blue-70 {
+  background-color: #274863;
+}
+.Colors .blue .blue-80 {
+  background-color: #1f303e;
+}
+.Colors .blue .blue-90 {
+  background-color: #11181d;
+}
+.Colors .indigo .indigo-5 {
+  background-color: #efeff8;
+}
+.Colors .indigo .indigo-10 {
+  background-color: #e5e4fa;
+}
+.Colors .indigo .indigo-20 {
+  background-color: #c5c5f3;
+}
+.Colors .indigo .indigo-30 {
+  background-color: #a5a8eb;
+}
+.Colors .indigo .indigo-40 {
+  background-color: #8889db;
+}
+.Colors .indigo .indigo-50 {
+  background-color: #676cc8;
+}
+.Colors .indigo .indigo-60 {
+  background-color: #4d52af;
+}
+.Colors .indigo .indigo-70 {
+  background-color: #3d4076;
+}
+.Colors .indigo .indigo-80 {
+  background-color: #2b2c40;
+}
+.Colors .indigo .indigo-90 {
+  background-color: #16171f;
+}
+.Colors .violet .violet-5 {
+  background-color: #f4f1f9;
+}
+.Colors .violet .violet-10 {
+  background-color: #ebe3f9;
+}
+.Colors .violet .violet-20 {
+  background-color: #d0c3e9;
+}
+.Colors .violet .violet-30 {
+  background-color: #b8a2e3;
+}
+.Colors .violet .violet-40 {
+  background-color: #9d84d2;
+}
+.Colors .violet .violet-50 {
+  background-color: #8168b3;
+}
+.Colors .violet .violet-60 {
+  background-color: #665190;
+}
+.Colors .violet .violet-70 {
+  background-color: #4c3d69;
+}
+.Colors .violet .violet-80 {
+  background-color: #312b3f;
+}
+.Colors .violet .violet-90 {
+  background-color: #18161d;
+}
+.Colors .magenta .magenta-5 {
+  background-color: #f9f0f2;
+}
+.Colors .magenta .magenta-10 {
+  background-color: #f6e1e8;
+}
+.Colors .magenta .magenta-20 {
+  background-color: #f0bbcc;
+}
+.Colors .magenta .magenta-30 {
+  background-color: #e895b3;
+}
+.Colors .magenta .magenta-40 {
+  background-color: #e0699f;
+}
+.Colors .magenta .magenta-50 {
+  background-color: #c84281;
+}
+.Colors .magenta .magenta-60 {
+  background-color: #8b4566;
+}
+.Colors .magenta .magenta-70 {
+  background-color: #66364b;
+}
+.Colors .magenta .magenta-80 {
+  background-color: #402731;
+}
+.Colors .magenta .magenta-90 {
+  background-color: #1b1617;
+}
+.Colors .gray .gray-1 {
+  background-color: #fcfcfc;
+}
+.Colors .gray .gray-2 {
+  background-color: #f9f9f9;
+}
+.Colors .gray .gray-3 {
+  background-color: #f6f6f6;
+}
+.Colors .gray .gray-4 {
+  background-color: #f3f3f3;
+}
+.Colors .gray .gray-5 {
+  background-color: #f0f0f0;
+}
+.Colors .gray .gray-10 {
+  background-color: #e6e6e6;
+}
+.Colors .gray .gray-20 {
+  background-color: #c9c9c9;
+}
+.Colors .gray .gray-30 {
+  background-color: #adadad;
+}
+.Colors .gray .gray-40 {
+  background-color: #919191;
+}
+.Colors .gray .gray-50 {
+  background-color: #757575;
+}
+.Colors .gray .gray-60 {
+  background-color: #5c5c5c;
+}
+.Colors .gray .gray-70 {
+  background-color: #454545;
+}
+.Colors .gray .gray-80 {
+  background-color: #2e2e2e;
+}
+.Colors .gray .gray-90 {
+  background-color: #1b1b1b;
+}
+.Colors .gray .gray-100 {
+  background-color: #000000;
+}
+.Colors .black .black-1 {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.Colors .black .black-10 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.Colors .black .black-20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Colors .black .black-30 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.Colors .black .black-40 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.Colors .black .black-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.Colors .black .black-60 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.Colors .black .black-70 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.Colors .black .black-80 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.Colors .black .black-90 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.Colors .black .black-100 {
+  background-color: black;
+}
+.Colors .white .white-1 {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+.Colors .white .white-10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.Colors .white .white-20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.Colors .white .white-30 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.Colors .white .white-40 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.Colors .white .white-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.Colors .white .white-60 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.Colors .white .white-70 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.Colors .white .white-80 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.Colors .white .white-90 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.Colors .white .white-100 {
+  background-color: white;
+}

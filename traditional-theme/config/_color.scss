@@ -1,0 +1,74 @@
+@import "../../system-particles/system-variables.scss";
+
+$brandColors: ( // Ink color - same as $base-darkest
+  Ink: (ink: $gray-90,
+  ),
+  // Base color
+  Base: (base-lightest: $gray-5,
+    base-lighter: $gray-10,
+    base-light: $gray-30,
+    base: $gray-50,
+    base-dark: $gray-60,
+    base-darker: $gray-70,
+    base-darkest: $gray-90,
+  ),
+  // Primary color
+  Primary: (primary-lighter: $indigo-10,
+    primary-light: $indigo-40,
+    primary: $indigo-60,
+    primary-dark: $indigo-70,
+    primary-darker: $indigo-80,
+  ),
+  // Secondary color
+  Secondary: (secondary-lighter: $mint-10,
+    secondary-light: $mint-20,
+    secondary: $mint-30,
+    secondary-dark: $mint-50,
+    secondary-darker: $mint-70,
+  ),
+  // Warm Accent color
+  Accent-Warm: (accent-warm-lighter: $gold-10,
+    accent-warm-light: $gold-30,
+    accent-warm: $gold-40,
+    accent-warm-dark: $gold-50,
+    accent-warm-darker: $gold-60,
+  ),
+  // Cool Accent color
+  Accent-Cool: (accent-cool-lighter: $blue-10,
+    accent-cool-light: $blue-20,
+    accent-cool: $blue-30,
+    accent-cool-dark: $blue-50,
+    accent-cool-darker: $blue-70,
+  ));
+
+
+$uiColors: ( // UI Info color
+  Info: (
+    info-lighter: $cyan-10,
+    info-light: $cyan-20,
+    info: $cyan-30,
+    info-dark: $cyan-40,
+    info-darker: $cyan-60,
+  ),
+  // UI Error color
+  Error: (
+    error-lighter: $red-10,
+    error-light: $red-20,
+    error: $red-30,
+    error-dark: $red-40,
+    error-darker: $red-60,
+  ),
+  // UI Warning color
+  Warning: (warning-lighter: $orange-10,
+    warning-light: $orange-20,
+    warning: $orange-30,
+    warning-dark: $orange-40,
+    warning-darker: $orange-60,
+  ),
+  // UI Success color
+  Success: (success-lighter: $green-10,
+    success-light: $green-30,
+    success: $green-40,
+    success-dark: $green-50,
+    success-darker: $green-60,
+  ));
