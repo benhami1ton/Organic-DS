@@ -1,8 +1,8 @@
 {
-  "_class": "group",
+  "_class": "symbolInstance",
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "2C8A0141-2B6E-4D25-95A4-23AC79892F92",
+  "do_objectID": "851EFF2A-5D9E-4E19-B413-D8312119E4F5",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -14,66 +14,33 @@
   },
   "frame": {
     "_class": "rect",
-    "constrainProportions": true,
-    "height": 4099,
-    "width": 245,
-    "x": -269,
-    "y": -8
+    "constrainProportions": false,
+    "height": 55,
+    "width": 193,
+    "x": 0,
+    "y": 276
   },
-  "groupLayout": {
-    "_class": "MSImmutableFreeformGroupLayout"
-  },
-  "hasClickThrough": true,
   "hasClippingMask": false,
+  "horizontalSpacing": 0,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
-  "isLocked": true,
+  "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
-  "layers": [
+  "layerListExpandedType": 0,
+  "name": "Cell/Button/Primary/Primary Left",
+  "nameIsFixed": false,
+  "overrideValues": [
     {
-      "class": "text",
-      "id": "9A1E78D4-7869-415E-A4DD-C7115CF2A76C"
-    },
-    {
-      "class": "text",
-      "id": "3DE5DFE2-2EEC-43DF-803C-882C4A5D7C29"
-    },
-    {
-      "class": "text",
-      "id": "EF2D05F2-1A69-40F9-BCC4-036C708E30A4"
-    },
-    {
-      "class": "text",
-      "id": "887EDAA6-08D5-4AAB-85C3-5CDB6BD8823A"
-    },
-    {
-      "class": "text",
-      "id": "D92E63DF-4367-4A21-B2B9-D0880BE042EF"
-    },
-    {
-      "class": "text",
-      "id": "0056E321-C0B5-44C5-8972-46BD2744D080"
-    },
-    {
-      "class": "text",
-      "id": "4856FBD3-B7FE-4CFF-A520-81B60894821E"
-    },
-    {
-      "class": "text",
-      "id": "EB2FD45D-F506-4F36-9A19-C89395F3596A"
-    },
-    {
-      "class": "text",
-      "id": "60D27BC3-DBF8-41E3-8828-F9E777B102F2"
+      "_class": "overrideValue",
+      "overrideName": "1F81070E-8461-4102-91E9-3470952BE71B/9CC15628-F472-4127-B230-9AB521B0D15A_stringValue",
+      "value": "Learn More"
     }
   ],
-  "name": "Titles",
-  "nameIsFixed": false,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
+  "scale": 1,
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -109,7 +76,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "D454EC92-B87A-45F4-90C4-4F7A1DD93E7F",
+    "do_objectID": "E65D0B69-C9D1-4C9C-BE83-141DF98E22E4",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -120,5 +87,7 @@
     ],
     "startMarkerType": 0,
     "windingRule": 1
-  }
+  },
+  "symbolID": "927718E8-75E8-4206-9554-28FE3FEAC24B",
+  "verticalSpacing": 0
 }

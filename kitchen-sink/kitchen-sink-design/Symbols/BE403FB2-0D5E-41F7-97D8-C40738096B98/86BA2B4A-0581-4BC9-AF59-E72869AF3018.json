@@ -22,21 +22,21 @@
           },
           "paragraphStyle": {
             "_class": "paragraphStyle",
-            "alignment": 1,
+            "alignment": 0,
             "maximumLineHeight": 24,
             "minimumLineHeight": 24
           }
         },
-        "length": 21,
+        "length": 14,
         "location": 0
       }
     ],
-    "string": "Cell/Button/Secondary"
+    "string": "Cell/Accordion"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "887EDAA6-08D5-4AAB-85C3-5CDB6BD8823A",
+  "do_objectID": "86BA2B4A-0581-4BC9-AF59-E72869AF3018",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -50,21 +50,21 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 48,
-    "width": 231,
-    "x": 14,
-    "y": 885
+    "height": 24,
+    "width": 148,
+    "x": 0,
+    "y": 0
   },
-  "glyphBounds": "{{1, 4}, {227, 19}}",
+  "glyphBounds": "{{1, 3}, {146, 20}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
+  "layerListExpandedType": 0,
   "lineSpacingBehaviour": 3,
-  "name": "Cell/Button/Secondary",
+  "name": "Cell/Accordion",
   "nameIsFixed": false,
   "resizingConstraint": 47,
   "resizingType": 0,
@@ -105,7 +105,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "CBC17CCB-4BF2-4E48-B85C-E18918672D9D",
+    "do_objectID": "29061223-7FB0-402D-9075-3C90AFD3E48E",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -134,7 +134,7 @@
         },
         "paragraphStyle": {
           "_class": "paragraphStyle",
-          "alignment": 1,
+          "alignment": 0,
           "maximumLineHeight": 24,
           "minimumLineHeight": 24
         }

@@ -22,21 +22,21 @@
           },
           "paragraphStyle": {
             "_class": "paragraphStyle",
-            "alignment": 1,
+            "alignment": 0,
             "maximumLineHeight": 24,
             "minimumLineHeight": 24
           }
         },
-        "length": 16,
+        "length": 5,
         "location": 0
       }
     ],
-    "string": "Cell/Button/Base"
+    "string": "Organ"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "3DE5DFE2-2EEC-43DF-803C-882C4A5D7C29",
+  "do_objectID": "E42275DF-EEED-433F-8DD0-D63B1CF90780",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -50,21 +50,21 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 48,
-    "width": 172,
-    "x": 73,
-    "y": 295
+    "height": 24,
+    "width": 62,
+    "x": 5977,
+    "y": 0
   },
-  "glyphBounds": "{{1, 4}, {168, 19}}",
+  "glyphBounds": "{{1, 4}, {60, 20}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
+  "layerListExpandedType": 0,
   "lineSpacingBehaviour": 3,
-  "name": "Cell/Button/Base",
+  "name": "Organ",
   "nameIsFixed": false,
   "resizingConstraint": 47,
   "resizingType": 0,
@@ -105,7 +105,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "611015F2-34AF-4B5D-B393-5DD6F70DB47A",
+    "do_objectID": "CB02CB8E-C6BA-489A-AFFA-FD99C42EEF2E",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -134,7 +134,7 @@
         },
         "paragraphStyle": {
           "_class": "paragraphStyle",
-          "alignment": 1,
+          "alignment": 0,
           "maximumLineHeight": 24,
           "minimumLineHeight": 24
         }

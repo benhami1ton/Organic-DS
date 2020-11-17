@@ -9,34 +9,38 @@
           "MSAttributedStringColorAttribute": {
             "_class": "color",
             "alpha": 1,
-            "blue": 1,
-            "green": 1,
-            "red": 1
+            "blue": 0.1058823529411765,
+            "green": 0.1058823529411765,
+            "red": 0.1058823529411765
           },
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "SFProText-Bold",
-              "size": 20
+              "name": "OpenSans",
+              "size": 16
             }
           },
+          "kerning": 0,
           "paragraphStyle": {
             "_class": "paragraphStyle",
-            "alignment": 1,
-            "maximumLineHeight": 24,
-            "minimumLineHeight": 24
-          }
+            "alignment": 0,
+            "allowsDefaultTighteningForTruncation": 0,
+            "maximumLineHeight": 21,
+            "minimumLineHeight": 21,
+            "paragraphSpacing": 16
+          },
+          "textStyleVerticalAlignmentKey": 0
         },
-        "length": 11,
+        "length": 12,
         "location": 0
       }
     ],
-    "string": "trad-card-3"
+    "string": "Eyebrow Text"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "60D27BC3-DBF8-41E3-8828-F9E777B102F2",
+  "do_objectID": "600F0682-967B-4868-B0DD-4A670963170A",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -50,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 24,
-    "width": 120,
-    "x": 125,
-    "y": 4075
+    "height": 21,
+    "width": 411,
+    "x": 0,
+    "y": 0
   },
-  "glyphBounds": "{{0, 4}, {119, 16}}",
+  "glyphBounds": "{{1, 4}, {100, 17}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -64,12 +68,12 @@
   "isVisible": true,
   "layerListExpandedType": 1,
   "lineSpacingBehaviour": 3,
-  "name": "trad-card-3",
-  "nameIsFixed": false,
-  "resizingConstraint": 47,
+  "name": "eyebrow-text",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "D581B211-319C-49C6-849A-65782E7DF8DA",
+  "sharedStyleID": "524795E5-73B9-43FE-AD9C-2B11B4B2A970",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -105,7 +109,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "B611C575-D881-4968-BAB4-719DBCA75223",
+    "do_objectID": "5F60F7BF-FB23-487C-861F-05C51A3A1A60",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -121,27 +125,39 @@
         "MSAttributedStringColorAttribute": {
           "_class": "color",
           "alpha": 1,
-          "blue": 1,
-          "green": 1,
-          "red": 1
+          "blue": 0.1058823529411765,
+          "green": 0.1058823529411765,
+          "red": 0.1058823529411765
         },
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "SFProText-Bold",
-            "size": 20
+            "name": "OpenSans",
+            "size": 16
           }
         },
+        "kerning": 0,
         "paragraphStyle": {
           "_class": "paragraphStyle",
-          "alignment": 1,
-          "maximumLineHeight": 24,
-          "minimumLineHeight": 24
-        }
+          "alignment": 0,
+          "allowsDefaultTighteningForTruncation": 0,
+          "maximumLineHeight": 21,
+          "minimumLineHeight": 21,
+          "paragraphSpacing": 16
+        },
+        "textStyleVerticalAlignmentKey": 0
       },
       "verticalAlignment": 0
     },
     "windingRule": 1
   },
-  "textBehaviour": 0
+  "textBehaviour": 1,
+  "userInfo": {
+    "com.animaapp.stc-sketch-plugin": {
+      "kModelPropertiesKey": {
+        "isAutoWidth": 0
+      }
+    },
+    "datasupplier.key": "sketch-ipsum_my-command_SupplyDataShort"
+  }
 }

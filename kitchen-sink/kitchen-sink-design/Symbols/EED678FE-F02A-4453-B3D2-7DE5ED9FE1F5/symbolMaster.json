@@ -25,8 +25,8 @@
     "constrainProportions": false,
     "height": 603,
     "width": 459,
-    "x": 0,
-    "y": 1180
+    "x": 5318,
+    "y": 698
   },
   "groupLayout": {
     "_class": "MSImmutableInferredGroupLayout",
@@ -53,7 +53,7 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 1,
   "layers": [
     {
       "class": "rectangle",
@@ -64,8 +64,8 @@
       "id": "E89C8321-BCF5-4B39-A217-9622177202CB"
     }
   ],
-  "name": "Cell/Card",
-  "nameIsFixed": false,
+  "name": "Cell/Card/Article",
+  "nameIsFixed": true,
   "overrideProperties": [
     {
       "_class": "MSImmutableOverrideProperty",
