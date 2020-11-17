@@ -22,21 +22,21 @@
           },
           "paragraphStyle": {
             "_class": "paragraphStyle",
-            "alignment": 1,
+            "alignment": 0,
             "maximumLineHeight": 24,
             "minimumLineHeight": 24
           }
         },
-        "length": 23,
+        "length": 11,
         "location": 0
       }
     ],
-    "string": "Cell/Button/Accent-Cool"
+    "string": "trad-card-1"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "9A1E78D4-7869-415E-A4DD-C7115CF2A76C",
+  "do_objectID": "E139398F-D0C1-47BB-B53B-3DBC607F91DA",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -50,21 +50,21 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 48,
-    "width": 247,
-    "x": -2,
+    "height": 24,
+    "width": 117,
+    "x": 9649,
     "y": 0
   },
-  "glyphBounds": "{{1, 4}, {243, 19}}",
+  "glyphBounds": "{{0, 4}, {114, 16}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
+  "layerListExpandedType": 0,
   "lineSpacingBehaviour": 3,
-  "name": "Cell/Button/Accent-Cool",
+  "name": "trad-card-1",
   "nameIsFixed": false,
   "resizingConstraint": 47,
   "resizingType": 0,
@@ -105,7 +105,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "3C4DE1A7-6FF7-4125-90FC-570857759B2F",
+    "do_objectID": "39E05945-5673-4085-9D98-E1242318B503",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -134,7 +134,7 @@
         },
         "paragraphStyle": {
           "_class": "paragraphStyle",
-          "alignment": 1,
+          "alignment": 0,
           "maximumLineHeight": 24,
           "minimumLineHeight": 24
         }

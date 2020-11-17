@@ -9,34 +9,38 @@
           "MSAttributedStringColorAttribute": {
             "_class": "color",
             "alpha": 1,
-            "blue": 1,
-            "green": 1,
-            "red": 1
+            "blue": 0.1058823529411765,
+            "green": 0.1058823529411765,
+            "red": 0.1058823529411765
           },
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "SFProText-Bold",
+              "name": "OpenSans",
               "size": 20
             }
           },
+          "kerning": 0,
           "paragraphStyle": {
             "_class": "paragraphStyle",
-            "alignment": 1,
-            "maximumLineHeight": 24,
-            "minimumLineHeight": 24
-          }
+            "alignment": 0,
+            "allowsDefaultTighteningForTruncation": 0,
+            "maximumLineHeight": 26,
+            "minimumLineHeight": 26,
+            "paragraphSpacing": 16
+          },
+          "textStyleVerticalAlignmentKey": 0
         },
-        "length": 4,
+        "length": 85,
         "location": 0
       }
     ],
-    "string": "Cell"
+    "string": "12345 Behavioral Healthcare Boulevard Suite A5, Unit #555 B King of Prussia, PA 12345"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "D92E63DF-4367-4A21-B2B9-D0880BE042EF",
+  "do_objectID": "C9D45F85-3AED-475D-AA5A-86C031ABA900",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -50,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 24,
-    "width": 39,
-    "x": 206,
-    "y": 1180
+    "height": 78,
+    "width": 671,
+    "x": 0,
+    "y": 49
   },
-  "glyphBounds": "{{1, 4}, {37, 16}}",
+  "glyphBounds": "{{1, 5}, {366, 73}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -64,12 +68,12 @@
   "isVisible": true,
   "layerListExpandedType": 1,
   "lineSpacingBehaviour": 3,
-  "name": "Cell",
-  "nameIsFixed": false,
-  "resizingConstraint": 47,
+  "name": "location-address",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "D581B211-319C-49C6-849A-65782E7DF8DA",
+  "sharedStyleID": "F733882D-6A53-4C07-9374-BB36D3E19AA2",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -105,7 +109,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "8C5B0EFD-7BC6-4AAE-B33E-050F90A2F127",
+    "do_objectID": "F0210D66-BBB8-4A84-8263-58A2806B0609",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -121,27 +125,34 @@
         "MSAttributedStringColorAttribute": {
           "_class": "color",
           "alpha": 1,
-          "blue": 1,
-          "green": 1,
-          "red": 1
+          "blue": 0.1058823529411765,
+          "green": 0.1058823529411765,
+          "red": 0.1058823529411765
         },
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "SFProText-Bold",
+            "name": "OpenSans",
             "size": 20
           }
         },
+        "kerning": 0,
         "paragraphStyle": {
           "_class": "paragraphStyle",
-          "alignment": 1,
-          "maximumLineHeight": 24,
-          "minimumLineHeight": 24
-        }
+          "alignment": 0,
+          "allowsDefaultTighteningForTruncation": 0,
+          "maximumLineHeight": 26,
+          "minimumLineHeight": 26,
+          "paragraphSpacing": 16
+        },
+        "textStyleVerticalAlignmentKey": 0
       },
       "verticalAlignment": 0
     },
     "windingRule": 1
   },
-  "textBehaviour": 0
+  "textBehaviour": 1,
+  "userInfo": {
+    "datasupplier.key": "sketch-ipsum_my-command_SupplyDataMedium"
+  }
 }
