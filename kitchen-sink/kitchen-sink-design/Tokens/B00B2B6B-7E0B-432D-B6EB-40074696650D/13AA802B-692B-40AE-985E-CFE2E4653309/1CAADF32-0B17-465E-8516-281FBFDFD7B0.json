@@ -9,23 +9,24 @@
           "MSAttributedStringColorAttribute": {
             "_class": "color",
             "alpha": 1,
-            "blue": 0.2588235294117647,
-            "green": 0.2352941176470588,
-            "red": 0.2078431372549019
+            "blue": 0,
+            "green": 0,
+            "red": 0
           },
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "Helvetica-Bold",
+              "name": "NunitoSans-Regular",
               "size": 20
             }
           },
-          "MSAttributedStringTextTransformAttribute": 1,
-          "kerning": 1.5,
+          "kerning": 0,
           "paragraphStyle": {
             "_class": "paragraphStyle",
             "alignment": 0,
             "allowsDefaultTighteningForTruncation": 0,
+            "maximumLineHeight": 26,
+            "minimumLineHeight": 26,
             "paragraphSpacing": 16
           },
           "textStyleVerticalAlignmentKey": 0
@@ -53,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 24,
+    "height": 26,
     "width": 927.9999999999998,
     "x": 0,
     "y": -1.06581410364015e-14
   },
-  "glyphBounds": "{{1, 4}, {120, 16}}",
+  "glyphBounds": "{{1, 5}, {91, 19}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -72,6 +73,7 @@
   "resizingConstraint": 47,
   "resizingType": 0,
   "rotation": 0,
+  "sharedStyleID": "CB0556D0-61BA-439E-BEB5-B7F6D08E5884",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -123,28 +125,29 @@
         "MSAttributedStringColorAttribute": {
           "_class": "color",
           "alpha": 1,
-          "blue": 0.2588235294117647,
-          "green": 0.2352941176470588,
-          "red": 0.2078431372549019
+          "blue": 0,
+          "green": 0,
+          "red": 0
         },
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "Helvetica-Bold",
+            "name": "NunitoSans-Regular",
             "size": 20
           }
         },
-        "MSAttributedStringTextTransformAttribute": 1,
-        "kerning": 1.5,
+        "kerning": 0,
         "paragraphStyle": {
           "_class": "paragraphStyle",
           "alignment": 0,
           "allowsDefaultTighteningForTruncation": 0,
+          "maximumLineHeight": 26,
+          "minimumLineHeight": 26,
           "paragraphSpacing": 16
         },
         "textStyleVerticalAlignmentKey": 0
       },
-      "verticalAlignment": 0
+      "verticalAlignment": 1
     },
     "windingRule": 1
   },
