@@ -29,12 +29,32 @@
   "fontReferences": [
     {
       "_class": "fontReference",
+      "do_objectID": "0054C183-0616-4DF1-899A-C25257B498A2",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraLightItalic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-ExtraLightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "0110D5C4-BDDF-4AE4-AABF-4C6CA374FE6B",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-UltralightItalic.otf",
       "options": 0,
       "postscriptNames": [
         "SFProText-UltralightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0535F114-3128-4380-B8AE-4F7527572959",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraLight.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-ExtraLight"
       ]
     },
     {
@@ -55,6 +75,56 @@
       "options": 0,
       "postscriptNames": [
         "OpenSans-Extrabold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "1A06C345-C707-4FDB-A348-F2F5A4A1A510",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Light.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "1BC4C029-DC87-4AB3-8302-75CC826980D9",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-LightItalic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "1DDEFDA7-DF33-4527-AD68-F6CA0B53774C",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Black.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "3D341894-5A34-43A2-BA95-742EC240E2E4",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-SemiBoldItalic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-SemiBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "43C53126-6BA1-431E-A87B-2BD9BC0D2DA8",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraBold.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-ExtraBold"
       ]
     },
     {
@@ -119,6 +189,16 @@
     },
     {
       "_class": "fontReference",
+      "do_objectID": "6DE7D4CA-ADB8-4CD7-B1AF-3A6CE87ED789",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-SemiBold.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-SemiBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "7EC96662-2F25-46FA-8011-50CE1BFD1C31",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Regular.ttf",
@@ -139,6 +219,21 @@
     },
     {
       "_class": "fontReference",
+      "do_objectID": "85799D97-1D6B-4092-954B-A51BC4185742",
+      "fontData": {
+        "_class": "MSJSONFileReference",
+        "_ref": "fonts/0edae0cc4483d5be2de15df325910e1f5ee86a71",
+        "_ref_class": "MSFontData"
+      },
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Regular.ttf",
+      "options": 3,
+      "postscriptNames": [
+        "NunitoSans-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "8771BEA9-FDA7-4D2B-A85D-A0418A556686",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-MediumItalic.otf",
@@ -155,6 +250,16 @@
       "options": 0,
       "postscriptNames": [
         "OpenSansLight-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8C7F9AB8-C5FE-4891-B33B-B15A7251F658",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraBoldItalic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-ExtraBoldItalic"
       ]
     },
     {
@@ -249,12 +354,42 @@
     },
     {
       "_class": "fontReference",
+      "do_objectID": "B1EB12D7-B727-489B-86DA-3BC3F5C59A73",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-BoldItalic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "B3C7A04D-CFA8-4EFD-951C-24194EA88C90",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Bold.otf",
       "options": 2,
       "postscriptNames": [
         "SFProText-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B8990C39-02D7-4095-9783-5D19ACCC5C99",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Italic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B9573FBB-9FDB-4DC6-8FB9-BABED47AE348",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-BlackItalic.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-BlackItalic"
       ]
     },
     {
@@ -275,6 +410,16 @@
       "options": 0,
       "postscriptNames": [
         "SFProText-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "CDD39BDE-4E81-4AE2-BE4C-BE3F61508F91",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Bold.ttf",
+      "options": 1,
+      "postscriptNames": [
+        "NunitoSans-Bold"
       ]
     },
     {
@@ -302,7 +447,7 @@
       "do_objectID": "F9844BFA-68E1-4A6A-A73C-243EBE2688E8",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Regular.ttf",
-      "options": 2,
+      "options": 0,
       "postscriptNames": [
         "OpenSans-Regular"
       ]
@@ -343,8 +488,8 @@
     ]
   },
   "meta": {
-    "appVersion": "69.2",
-    "build": 107504,
+    "appVersion": "70",
+    "build": 108797,
     "version": 134
   },
   "pages": [

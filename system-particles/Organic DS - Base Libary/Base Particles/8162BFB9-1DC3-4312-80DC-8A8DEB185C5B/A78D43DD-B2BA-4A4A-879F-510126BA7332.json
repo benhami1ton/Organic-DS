@@ -9,14 +9,14 @@
           "MSAttributedStringColorAttribute": {
             "_class": "color",
             "alpha": 1,
-            "blue": 0.2588235294117647,
-            "green": 0.2352941176470588,
-            "red": 0.2078431372549019
+            "blue": 0,
+            "green": 0,
+            "red": 0
           },
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "Helvetica-Bold",
+              "name": "NunitoSans-Regular",
               "size": 20
             }
           },
@@ -25,6 +25,8 @@
             "_class": "paragraphStyle",
             "alignment": 0,
             "allowsDefaultTighteningForTruncation": 0,
+            "maximumLineHeight": 26,
+            "minimumLineHeight": 26,
             "paragraphSpacing": 16
           },
           "textStyleVerticalAlignmentKey": 0
@@ -52,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 24,
-    "width": 78,
+    "height": 26,
+    "width": 76,
     "x": 1216,
     "y": 626
   },
-  "glyphBounds": "{{1, 4}, {77, 20}}",
+  "glyphBounds": "{{2, 5}, {74, 19}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -71,6 +73,7 @@
   "resizingConstraint": 47,
   "resizingType": 0,
   "rotation": 0,
+  "sharedStyleID": "7C3E085B-33E2-4750-84AC-081313D2CCBD",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -122,14 +125,14 @@
         "MSAttributedStringColorAttribute": {
           "_class": "color",
           "alpha": 1,
-          "blue": 0.2588235294117647,
-          "green": 0.2352941176470588,
-          "red": 0.2078431372549019
+          "blue": 0,
+          "green": 0,
+          "red": 0
         },
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "Helvetica-Bold",
+            "name": "NunitoSans-Regular",
             "size": 20
           }
         },
@@ -138,11 +141,13 @@
           "_class": "paragraphStyle",
           "alignment": 0,
           "allowsDefaultTighteningForTruncation": 0,
+          "maximumLineHeight": 26,
+          "minimumLineHeight": 26,
           "paragraphSpacing": 16
         },
         "textStyleVerticalAlignmentKey": 0
       },
-      "verticalAlignment": 0
+      "verticalAlignment": 1
     },
     "windingRule": 1
   },
