@@ -16,7 +16,7 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "OpenSans-Regular",
+              "name": "NunitoSans-Regular",
               "size": 16
             }
           },
@@ -31,11 +31,11 @@
           },
           "textStyleVerticalAlignmentKey": 0
         },
-        "length": 25,
+        "length": 26,
         "location": 0
       }
     ],
-    "string": "Probabo, inquit, sic agam"
+    "string": "Probabo, inquit, sic agam "
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
@@ -59,7 +59,7 @@
     "x": 0,
     "y": 34
   },
-  "glyphBounds": "{{1, 3}, {179, 16}}",
+  "glyphBounds": "{{1, 4}, {178, 15}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -132,7 +132,7 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "OpenSans-Regular",
+            "name": "NunitoSans-Regular",
             "size": 16
           }
         },
