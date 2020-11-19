@@ -16,7 +16,7 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "OpenSans",
+              "name": "NunitoSans-Regular",
               "size": 16
             }
           },
@@ -31,11 +31,11 @@
           },
           "textStyleVerticalAlignmentKey": 0
         },
-        "length": 284,
+        "length": 285,
         "location": 0
       }
     ],
-    "string": "Primum igitur, inquit, modo ista sis aequitate, quam ostendis sed quia dolor sit, amet, consectetur, adipisci velit, sed quia non quo voluptas assumenda est, quid et aut quid et fortibus viris commemorandis eorumque factis non ero tibique, si mihi probabis ea, quae ab illo inventore."
+    "string": "Primum igitur, inquit, modo ista sis aequitate, quam ostendis sed quia dolor sit, amet, consectetur, adipisci velit, sed quia non quo voluptas assumenda est, quid et aut quid et fortibus viris commemorandis eorumque factis non ero tibique, si mihi probabis ea, quae ab illo inventore. "
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
@@ -57,9 +57,9 @@
     "height": 63,
     "width": 927.9999999999998,
     "x": 0,
-    "y": 46
+    "y": 44
   },
-  "glyphBounds": "{{1, 4}, {921, 59}}",
+  "glyphBounds": "{{0, 4}, {915, 57}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -132,7 +132,7 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "OpenSans",
+            "name": "NunitoSans-Regular",
             "size": 16
           }
         },

@@ -29,10 +29,20 @@
   "fontReferences": [
     {
       "_class": "fontReference",
+      "do_objectID": "047F6A1B-D59C-41DA-AF00-5E6F31836318",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraLightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-ExtraLightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "049B4BC9-9098-4087-B615-C8C8965D67D1",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Light.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-Light"
       ]
@@ -42,7 +52,7 @@
       "do_objectID": "05C6F94D-6F18-4564-8A86-D1C71F0D891A",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Thin.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Thin"
       ]
@@ -50,9 +60,14 @@
     {
       "_class": "fontReference",
       "do_objectID": "06384EEA-0F99-4F89-91FD-F4C727F3B1FE",
+      "fontData": {
+        "_class": "MSJSONFileReference",
+        "_ref": "fonts/abb749221923ab2d5291f223d3925bcab53fbd43",
+        "_ref_class": "MSFontData"
+      },
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Bold.otf",
-      "options": 2,
+      "options": 3,
       "postscriptNames": [
         "SFProText-Bold"
       ]
@@ -62,7 +77,7 @@
       "do_objectID": "11A87C08-30BE-4A0B-B440-B1AFAA980ECD",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Regular.ttf",
-      "options": 2,
+      "options": 1,
       "postscriptNames": [
         "OpenSans"
       ]
@@ -72,7 +87,7 @@
       "do_objectID": "1213523D-247A-4F15-9BBB-20A07184CEEF",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-ThinItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-ThinItalic"
       ]
@@ -82,7 +97,7 @@
       "do_objectID": "1A39710A-2435-4C33-B063-FC75516C55CD",
       "fontFamilyName": "Karla",
       "fontFileName": "Karla-Bold.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "Karla-Bold"
       ]
@@ -92,7 +107,7 @@
       "do_objectID": "1B3337B8-3DCD-4B5A-B343-666F02740DBE",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-BlackItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-BlackItalic"
       ]
@@ -102,7 +117,7 @@
       "do_objectID": "1E7B961C-2A7D-4C24-99F7-70FA7F072795",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Italic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-Italic"
       ]
@@ -112,9 +127,19 @@
       "do_objectID": "1FA75397-846A-4054-9308-363598738548",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-SemiBold.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-SemiBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "27B6CF45-1742-4D14-9224-C5EDC048F3B1",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-SemiBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-SemiBoldItalic"
       ]
     },
     {
@@ -122,7 +147,7 @@
       "do_objectID": "2DDA0E8E-2528-49C4-8E4C-A544097BD7E3",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-LightItalic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-LightItalic"
       ]
@@ -132,7 +157,7 @@
       "do_objectID": "3A19008D-0910-4173-AD2E-3A0E04BE3B39",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-ExtraBold.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-ExtraBold"
       ]
@@ -142,7 +167,7 @@
       "do_objectID": "40C9FFE5-0450-4AB6-86A9-5A4DC6D89E1F",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-MediumItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-MediumItalic"
       ]
@@ -152,7 +177,7 @@
       "do_objectID": "471C7774-C21D-42F1-B334-B980846B07C5",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-HeavyItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-HeavyItalic"
       ]
@@ -162,7 +187,7 @@
       "do_objectID": "54D0BD2F-5F4F-4ADB-880F-B19721DCCC09",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Bold.ttf",
-      "options": 2,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-Bold"
       ]
@@ -172,9 +197,19 @@
       "do_objectID": "61FF125C-2C64-4E51-BDA2-ADFDA915ED19",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Black.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "6337D91F-7860-4EF4-9D6F-FDDCBF4B4996",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-Light"
       ]
     },
     {
@@ -182,9 +217,19 @@
       "do_objectID": "684EE0F1-FC8B-439A-9CED-7FF13C58D57B",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Light.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "75C25E8C-2AB0-4A87-90FA-2A2B44E1D3E0",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-BlackItalic"
       ]
     },
     {
@@ -222,9 +267,19 @@
       "do_objectID": "816CA87C-6A30-4F8D-A4C3-3CFF92FA831B",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-RegularItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-RegularItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8235502C-7355-4938-8FF0-7495924FFF48",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Regular.ttf",
+      "options": 6,
+      "postscriptNames": [
+        "NunitoSans-Regular"
       ]
     },
     {
@@ -252,7 +307,7 @@
       "do_objectID": "8AD49EFA-E030-49EC-BFF2-EC660CE72392",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-ExtraBoldItalic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-ExtraBoldItalic"
       ]
@@ -272,9 +327,19 @@
       "do_objectID": "8FC73E5F-796C-4A2B-954E-11FD9FC8C3D3",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Ultralight.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Ultralight"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "91316D90-C2E7-4481-9982-BC48C1D4ABE7",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-LightItalic"
       ]
     },
     {
@@ -282,9 +347,19 @@
       "do_objectID": "913520CB-6050-4CB9-A5A9-34FDBF00C1EF",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-UltralightItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-UltralightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "958500A2-D55A-4A5C-8B97-4E7D3E71229A",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraBold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-ExtraBold"
       ]
     },
     {
@@ -309,6 +384,16 @@
     },
     {
       "_class": "fontReference",
+      "do_objectID": "A30A5117-9AD7-47EB-AA4A-0C9375B4AF58",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraLight.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-ExtraLight"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "A30DFFE0-F5CD-45CB-8D2E-55AE20983B9D",
       "fontFamilyName": "Spectral",
       "fontFileName": "Spectral-LightItalic.ttf",
@@ -322,7 +407,7 @@
       "do_objectID": "A47CB2BB-862E-43E9-AA43-E05CE891AA2F",
       "fontFamilyName": "Karla",
       "fontFileName": "Karla-BoldItalic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "Karla-BoldItalic"
       ]
@@ -332,9 +417,19 @@
       "do_objectID": "A589B94A-F306-42D4-8CE6-EBFC480013D6",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-BoldItalic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "A5BB3134-4652-4E46-90A7-A390CB5409C3",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-Black"
       ]
     },
     {
@@ -342,7 +437,7 @@
       "do_objectID": "A91274B3-4C34-49DA-A674-87A303B135C2",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-LightItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-LightItalic"
       ]
@@ -352,9 +447,19 @@
       "do_objectID": "AD180BE2-BA0A-4B98-9BA3-02D1E6EB850E",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-BoldItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "AD8002CB-F635-45E0-A7D4-665EADC5CE21",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-SemiBold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-SemiBold"
       ]
     },
     {
@@ -362,9 +467,19 @@
       "do_objectID": "B2CE4C81-B7F8-479A-ABA0-CB70830CAC58",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Medium.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B75B111F-9546-4151-899F-5E21325F01A4",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-ExtraBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-ExtraBoldItalic"
       ]
     },
     {
@@ -382,7 +497,7 @@
       "do_objectID": "BA7D8839-DBB5-40C1-9742-B468E65014D6",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-SemiBoldItalic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-SemiBoldItalic"
       ]
@@ -392,7 +507,7 @@
       "do_objectID": "BCBAEB19-2858-491B-AFA3-2D310ACB3E84",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-LightItalic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSansLight-Italic"
       ]
@@ -402,7 +517,7 @@
       "do_objectID": "C2681A64-C858-45BA-96C8-AF6F4CADD702",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Regular.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "OpenSans-Regular"
       ]
@@ -412,9 +527,19 @@
       "do_objectID": "C2F26F01-1AAB-43BE-8F7C-18D708CAF740",
       "fontFamilyName": "Karla",
       "fontFileName": "Karla-Italic.ttf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "Karla-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C32DE57E-54C4-4B21-B26D-D984C7E41421",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-BoldItalic"
       ]
     },
     {
@@ -432,7 +557,7 @@
       "do_objectID": "CBB7C252-59D8-4F4F-BCC9-19743F8A0320",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Regular.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Regular"
       ]
@@ -459,6 +584,16 @@
     },
     {
       "_class": "fontReference",
+      "do_objectID": "EBEEF8C4-7F95-4AE6-882A-8438EAFF0A76",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Italic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "NunitoSans-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "EFC7ACD9-B9F8-4577-B9E0-D40B472BCD27",
       "fontFamilyName": "Spectral",
       "fontFileName": "Spectral-ExtraLight.ttf",
@@ -469,10 +604,20 @@
     },
     {
       "_class": "fontReference",
+      "do_objectID": "F12F1B2D-4FB2-4315-A50D-EA3884A80C73",
+      "fontFamilyName": "Nunito Sans",
+      "fontFileName": "NunitoSans-Bold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "NunitoSans-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
       "do_objectID": "F29C5784-031E-450A-AA54-9B1B913C38DC",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-SemiboldItalic.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-SemiboldItalic"
       ]
@@ -480,9 +625,14 @@
     {
       "_class": "fontReference",
       "do_objectID": "FA9FF6BF-BDAB-4813-A7BC-7F8E129E3BC3",
+      "fontData": {
+        "_class": "MSJSONFileReference",
+        "_ref": "fonts/13a069bd86873421c9660e6b5f2ba13c6dc76b30",
+        "_ref_class": "MSFontData"
+      },
       "fontFamilyName": "Karla",
       "fontFileName": "Karla-Regular.ttf",
-      "options": 2,
+      "options": 3,
       "postscriptNames": [
         "Karla-Regular"
       ]
@@ -492,7 +642,7 @@
       "do_objectID": "FBF0C1E9-33E5-4932-B6FC-93D866ADB506",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Heavy.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Heavy"
       ]
@@ -502,7 +652,7 @@
       "do_objectID": "FE16E253-61EF-4D68-A87A-EEA1373D5377",
       "fontFamilyName": "SF Pro Text",
       "fontFileName": "SF-Pro-Text-Semibold.otf",
-      "options": 0,
+      "options": 1,
       "postscriptNames": [
         "SFProText-Semibold"
       ]
@@ -733,118 +883,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "A320117E-D1C0-40FA-8250-4DE4B8953ED4",
-      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
-      "localSharedStyle": {
-        "_class": "sharedStyle",
-        "do_objectID": "EE38FA2A-DE28-432D-BA3F-80EA865C93F8[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
-        "name": "Colors/black/black-100",
-        "value": {
-          "_class": "style",
-          "blur": {
-            "_class": "blur",
-            "center": "{0.5, 0.5}",
-            "isEnabled": false,
-            "motionAngle": 0,
-            "radius": 10,
-            "saturation": 1,
-            "type": 0
-          },
-          "borderOptions": {
-            "_class": "borderOptions",
-            "dashPattern": [
-            ],
-            "isEnabled": true,
-            "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
-          },
-          "borders": [
-          ],
-          "colorControls": {
-            "_class": "colorControls",
-            "brightness": 0,
-            "contrast": 1,
-            "hue": 0,
-            "isEnabled": false,
-            "saturation": 1
-          },
-          "contextSettings": {
-            "_class": "graphicsContextSettings",
-            "blendMode": 0,
-            "opacity": 1
-          },
-          "do_objectID": "15F9FF7B-B0A6-4F76-A441-7EEE3358A16A",
-          "endMarkerType": 0,
-          "fills": [
-            {
-              "_class": "fill",
-              "color": {
-                "_class": "color",
-                "alpha": 1,
-                "blue": 0,
-                "green": 0,
-                "red": 0
-              },
-              "contextSettings": {
-                "_class": "graphicsContextSettings",
-                "blendMode": 0,
-                "opacity": 1
-              },
-              "fillType": 0,
-              "gradient": {
-                "_class": "gradient",
-                "elipseLength": 0,
-                "from": "{0.5, 0}",
-                "gradientType": 0,
-                "stops": [
-                  {
-                    "_class": "gradientStop",
-                    "color": {
-                      "_class": "color",
-                      "alpha": 1,
-                      "blue": 1,
-                      "green": 1,
-                      "red": 1
-                    },
-                    "position": 0
-                  },
-                  {
-                    "_class": "gradientStop",
-                    "color": {
-                      "_class": "color",
-                      "alpha": 1,
-                      "blue": 0,
-                      "green": 0,
-                      "red": 0
-                    },
-                    "position": 1
-                  }
-                ],
-                "to": "{0.5, 1}"
-              },
-              "isEnabled": true,
-              "noiseIndex": 0,
-              "noiseIntensity": 0,
-              "patternFillType": 1,
-              "patternTileScale": 1
-            }
-          ],
-          "innerShadows": [
-          ],
-          "miterLimit": 10,
-          "shadows": [
-          ],
-          "startMarkerType": 0,
-          "windingRule": 1
-        }
-      },
-      "remoteStyleID": "EE38FA2A-DE28-432D-BA3F-80EA865C93F8[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
-      "sourceLibraryName": "Organic DS - Base Libary",
-      "symbolPrivate": true
-    },
-    {
-      "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "608AEE1D-F75F-40AB-9826-DB3C8BE2E79F",
+      "do_objectID": "AD3CCB6E-3F7D-40D5-A8AA-664009248BD0",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -955,118 +994,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "C59E8BBD-E4E1-456B-84E6-B51E993D2BF7",
-      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
-      "localSharedStyle": {
-        "_class": "sharedStyle",
-        "do_objectID": "5274D925-0050-4A4F-8272-263533EB3F23[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
-        "name": "Colors/black/black-100",
-        "value": {
-          "_class": "style",
-          "blur": {
-            "_class": "blur",
-            "center": "{0.5, 0.5}",
-            "isEnabled": false,
-            "motionAngle": 0,
-            "radius": 10,
-            "saturation": 1,
-            "type": 0
-          },
-          "borderOptions": {
-            "_class": "borderOptions",
-            "dashPattern": [
-            ],
-            "isEnabled": true,
-            "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
-          },
-          "borders": [
-          ],
-          "colorControls": {
-            "_class": "colorControls",
-            "brightness": 0,
-            "contrast": 1,
-            "hue": 0,
-            "isEnabled": false,
-            "saturation": 1
-          },
-          "contextSettings": {
-            "_class": "graphicsContextSettings",
-            "blendMode": 0,
-            "opacity": 1
-          },
-          "do_objectID": "15F9FF7B-B0A6-4F76-A441-7EEE3358A16A",
-          "endMarkerType": 0,
-          "fills": [
-            {
-              "_class": "fill",
-              "color": {
-                "_class": "color",
-                "alpha": 1,
-                "blue": 0,
-                "green": 0,
-                "red": 0
-              },
-              "contextSettings": {
-                "_class": "graphicsContextSettings",
-                "blendMode": 0,
-                "opacity": 1
-              },
-              "fillType": 0,
-              "gradient": {
-                "_class": "gradient",
-                "elipseLength": 0,
-                "from": "{0.5, 0}",
-                "gradientType": 0,
-                "stops": [
-                  {
-                    "_class": "gradientStop",
-                    "color": {
-                      "_class": "color",
-                      "alpha": 1,
-                      "blue": 1,
-                      "green": 1,
-                      "red": 1
-                    },
-                    "position": 0
-                  },
-                  {
-                    "_class": "gradientStop",
-                    "color": {
-                      "_class": "color",
-                      "alpha": 1,
-                      "blue": 0,
-                      "green": 0,
-                      "red": 0
-                    },
-                    "position": 1
-                  }
-                ],
-                "to": "{0.5, 1}"
-              },
-              "isEnabled": true,
-              "noiseIndex": 0,
-              "noiseIntensity": 0,
-              "patternFillType": 1,
-              "patternTileScale": 1
-            }
-          ],
-          "innerShadows": [
-          ],
-          "miterLimit": 10,
-          "shadows": [
-          ],
-          "startMarkerType": 0,
-          "windingRule": 1
-        }
-      },
-      "remoteStyleID": "5274D925-0050-4A4F-8272-263533EB3F23[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
-      "sourceLibraryName": "Organic DS - Base Libary",
-      "symbolPrivate": true
-    },
-    {
-      "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "1E230317-B7DE-41D2-BA58-D82E6482FF17",
+      "do_objectID": "75021746-E618-4DFD-9068-9FDC71BAFB61",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1177,11 +1105,11 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "F00E0CAB-EBC1-4F39-9F4E-1E7D0BE989F4",
+      "do_objectID": "3EEFF98F-84C6-441E-BEF3-B1A7CE02A8E3",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
-        "do_objectID": "BA5737A3-BF33-4B9B-9A14-8CEB8E924524[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+        "do_objectID": "5274D925-0050-4A4F-8272-263533EB3F23[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
         "name": "Colors/black/black-100",
         "value": {
           "_class": "style",
@@ -1282,13 +1210,124 @@
           "windingRule": 1
         }
       },
-      "remoteStyleID": "BA5737A3-BF33-4B9B-9A14-8CEB8E924524[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+      "remoteStyleID": "5274D925-0050-4A4F-8272-263533EB3F23[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
       "sourceLibraryName": "Organic DS - Base Libary",
       "symbolPrivate": true
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "7701E8C1-8798-45C7-BE14-BA2AB351CA31",
+      "do_objectID": "68BB8768-7517-490A-936D-E0C3F76657E2",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "EE38FA2A-DE28-432D-BA3F-80EA865C93F8[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+        "name": "Colors/black/black-100",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": -9223372036854776000
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "15F9FF7B-B0A6-4F76-A441-7EEE3358A16A",
+          "endMarkerType": 0,
+          "fills": [
+            {
+              "_class": "fill",
+              "color": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "contextSettings": {
+                "_class": "graphicsContextSettings",
+                "blendMode": 0,
+                "opacity": 1
+              },
+              "fillType": 0,
+              "gradient": {
+                "_class": "gradient",
+                "elipseLength": 0,
+                "from": "{0.5, 0}",
+                "gradientType": 0,
+                "stops": [
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 1,
+                      "green": 1,
+                      "red": 1
+                    },
+                    "position": 0
+                  },
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0,
+                      "red": 0
+                    },
+                    "position": 1
+                  }
+                ],
+                "to": "{0.5, 1}"
+              },
+              "isEnabled": true,
+              "noiseIndex": 0,
+              "noiseIntensity": 0,
+              "patternFillType": 1,
+              "patternTileScale": 1
+            }
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "EE38FA2A-DE28-432D-BA3F-80EA865C93F8[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": true
+    },
+    {
+      "_class": "MSImmutableForeignLayerStyle",
+      "do_objectID": "EC565FB6-B67B-4C0F-BEC8-928BD3AEEF3D",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1394,6 +1433,117 @@
         }
       },
       "remoteStyleID": "BFE705F0-0A76-4FB9-96B6-E57CDB68E75A[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": true
+    },
+    {
+      "_class": "MSImmutableForeignLayerStyle",
+      "do_objectID": "836FD7EB-96F9-4AD9-8A5E-24CD1E305A20",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "BA5737A3-BF33-4B9B-9A14-8CEB8E924524[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+        "name": "Colors/black/black-100",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": -9223372036854776000
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "15F9FF7B-B0A6-4F76-A441-7EEE3358A16A",
+          "endMarkerType": 0,
+          "fills": [
+            {
+              "_class": "fill",
+              "color": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "contextSettings": {
+                "_class": "graphicsContextSettings",
+                "blendMode": 0,
+                "opacity": 1
+              },
+              "fillType": 0,
+              "gradient": {
+                "_class": "gradient",
+                "elipseLength": 0,
+                "from": "{0.5, 0}",
+                "gradientType": 0,
+                "stops": [
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 1,
+                      "green": 1,
+                      "red": 1
+                    },
+                    "position": 0
+                  },
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0,
+                      "red": 0
+                    },
+                    "position": 1
+                  }
+                ],
+                "to": "{0.5, 1}"
+              },
+              "isEnabled": true,
+              "noiseIndex": 0,
+              "noiseIntensity": 0,
+              "patternFillType": 1,
+              "patternTileScale": 1
+            }
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "BA5737A3-BF33-4B9B-9A14-8CEB8E924524[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
       "sourceLibraryName": "Organic DS - Base Libary",
       "symbolPrivate": true
     }
@@ -8781,6 +8931,451 @@
     }
   ],
   "foreignTextStyles": [
+    {
+      "_class": "MSImmutableForeignTextStyle",
+      "do_objectID": "5E19BEA8-2341-46D4-8DBA-1CF1505AF19E",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "8F0980E3-E58C-40F4-AC0D-B06BF263674C",
+        "name": "System/Level7/Level7right",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "CA829280-9225-4CEA-9FF9-954C992F4436",
+          "endMarkerType": 0,
+          "fills": [
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "textStyle": {
+            "_class": "textStyle",
+            "encodedAttributes": {
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": {
+                  "name": "NunitoSans-Regular",
+                  "size": 16
+                }
+              },
+              "kerning": 0,
+              "paragraphStyle": {
+                "_class": "paragraphStyle",
+                "alignment": 1,
+                "allowsDefaultTighteningForTruncation": 0,
+                "maximumLineHeight": 21,
+                "minimumLineHeight": 21,
+                "paragraphSpacing": 16
+              },
+              "textStyleVerticalAlignmentKey": 0
+            },
+            "verticalAlignment": 1
+          },
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "62D294DA-53ED-4CC3-8044-C4CA39D0C77F",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": false
+    },
+    {
+      "_class": "MSImmutableForeignTextStyle",
+      "do_objectID": "9F6ED808-A8BA-4970-8E15-9CD9CEE57B6F",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "27048A9E-E978-41F5-8721-2185C67F1718",
+        "name": "System/Level7/Level7center",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "66F5F4EA-0D6D-43AE-98AF-86A92B38085C",
+          "endMarkerType": 0,
+          "fills": [
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "textStyle": {
+            "_class": "textStyle",
+            "encodedAttributes": {
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": {
+                  "name": "NunitoSans-Regular",
+                  "size": 16
+                }
+              },
+              "kerning": 0,
+              "paragraphStyle": {
+                "_class": "paragraphStyle",
+                "alignment": 2,
+                "allowsDefaultTighteningForTruncation": 0,
+                "maximumLineHeight": 21,
+                "minimumLineHeight": 21,
+                "paragraphSpacing": 16
+              },
+              "textStyleVerticalAlignmentKey": 0
+            },
+            "verticalAlignment": 1
+          },
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "50C1516D-C9B4-4E1B-85AA-B52FD7FAC1CC",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": false
+    },
+    {
+      "_class": "MSImmutableForeignTextStyle",
+      "do_objectID": "F558C3F8-74B7-493C-97EE-AA443026FCF9",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "1987B110-77DC-4AB3-BF42-527BEA3C10EF",
+        "name": "System/Level1/Level1left",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "EBD8F3E4-BA0B-4514-8401-12C66BE260B0",
+          "endMarkerType": 0,
+          "fills": [
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "textStyle": {
+            "_class": "textStyle",
+            "encodedAttributes": {
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": {
+                  "name": "NunitoSans-Regular",
+                  "size": 61.04
+                }
+              },
+              "kerning": 0,
+              "paragraphStyle": {
+                "_class": "paragraphStyle",
+                "alignment": 0,
+                "allowsDefaultTighteningForTruncation": 0,
+                "maximumLineHeight": 79,
+                "minimumLineHeight": 79,
+                "paragraphSpacing": 16
+              },
+              "textStyleVerticalAlignmentKey": 0
+            },
+            "verticalAlignment": 1
+          },
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "5290272E-AFE6-4EB6-B0B3-6458011250C8",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": false
+    },
+    {
+      "_class": "MSImmutableForeignTextStyle",
+      "do_objectID": "0E13B529-2A51-48BB-B797-B27EFBF952B0",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "CB0556D0-61BA-439E-BEB5-B7F6D08E5884",
+        "name": "System/Level6/Level6left",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "C29287DF-0B1D-45A9-8747-ECE875A43C0E",
+          "endMarkerType": 0,
+          "fills": [
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "textStyle": {
+            "_class": "textStyle",
+            "encodedAttributes": {
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": {
+                  "name": "NunitoSans-Regular",
+                  "size": 20
+                }
+              },
+              "kerning": 0,
+              "paragraphStyle": {
+                "_class": "paragraphStyle",
+                "alignment": 0,
+                "allowsDefaultTighteningForTruncation": 0,
+                "maximumLineHeight": 26,
+                "minimumLineHeight": 26,
+                "paragraphSpacing": 16
+              },
+              "textStyleVerticalAlignmentKey": 0
+            },
+            "verticalAlignment": 1
+          },
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "7C3E085B-33E2-4750-84AC-081313D2CCBD",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": false
+    },
+    {
+      "_class": "MSImmutableForeignTextStyle",
+      "do_objectID": "31CEA6C1-586C-494B-82BC-7773C30EFA73",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "13957E4E-711F-44ED-84FC-2E3ECAEC9242",
+        "name": "System/Level7/Level7left",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "3CA72F87-FAFE-45BE-9768-27128ADDFE20",
+          "endMarkerType": 0,
+          "fills": [
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "textStyle": {
+            "_class": "textStyle",
+            "encodedAttributes": {
+              "MSAttributedStringColorAttribute": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "MSAttributedStringFontAttribute": {
+                "_class": "fontDescriptor",
+                "attributes": {
+                  "name": "NunitoSans-Regular",
+                  "size": 16
+                }
+              },
+              "kerning": 0,
+              "paragraphStyle": {
+                "_class": "paragraphStyle",
+                "alignment": 0,
+                "allowsDefaultTighteningForTruncation": 0,
+                "maximumLineHeight": 21,
+                "minimumLineHeight": 21,
+                "paragraphSpacing": 16
+              },
+              "textStyleVerticalAlignmentKey": 0
+            },
+            "verticalAlignment": 1
+          },
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "0DB57E47-0FDB-4348-A89D-F5E888A51B5D",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": false
+    }
   ],
   "layerSymbols": {
     "_class": "symbolContainer",
@@ -8789,8 +9384,8 @@
     ]
   },
   "meta": {
-    "appVersion": "69.2",
-    "build": 107504,
+    "appVersion": "70",
+    "build": 108797,
     "version": 134
   },
   "pages": [
@@ -9387,7 +9982,7 @@
           "layerStylesMap": {
             "016EA33C-C0E4-4EDE-A569-F21E7599F9E2": "61787358-86B2-49F5-B070-4751623650B8",
             "4A6F44EA-A670-4AB2-AF41-8A13D35E2423": "F3BCA9B1-0DD1-4CF7-B90E-3E511E2091F9",
-            "6384751B-1CEA-4B08-9A1E-01F42BC9555A": "EE38FA2A-DE28-432D-BA3F-80EA865C93F8[6384751B-1CEA-4B08-9A1E-01F42BC9555A],B154C441-FFBD-46C6-9D70-0742B2088EDE[6384751B-1CEA-4B08-9A1E-01F42BC9555A],5274D925-0050-4A4F-8272-263533EB3F23[6384751B-1CEA-4B08-9A1E-01F42BC9555A],5243E36C-DF1A-4F83-8C2D-0DEF7E6B4C4A[6384751B-1CEA-4B08-9A1E-01F42BC9555A],BA5737A3-BF33-4B9B-9A14-8CEB8E924524[6384751B-1CEA-4B08-9A1E-01F42BC9555A],BFE705F0-0A76-4FB9-96B6-E57CDB68E75A[6384751B-1CEA-4B08-9A1E-01F42BC9555A]"
+            "6384751B-1CEA-4B08-9A1E-01F42BC9555A": "B154C441-FFBD-46C6-9D70-0742B2088EDE[6384751B-1CEA-4B08-9A1E-01F42BC9555A],5243E36C-DF1A-4F83-8C2D-0DEF7E6B4C4A[6384751B-1CEA-4B08-9A1E-01F42BC9555A],5274D925-0050-4A4F-8272-263533EB3F23[6384751B-1CEA-4B08-9A1E-01F42BC9555A],EE38FA2A-DE28-432D-BA3F-80EA865C93F8[6384751B-1CEA-4B08-9A1E-01F42BC9555A],BFE705F0-0A76-4FB9-96B6-E57CDB68E75A[6384751B-1CEA-4B08-9A1E-01F42BC9555A],BA5737A3-BF33-4B9B-9A14-8CEB8E924524[6384751B-1CEA-4B08-9A1E-01F42BC9555A]"
           },
           "symbolsMap": {
             "163E0206-C42E-478B-91EB-C1F1F829C3FA": "5243E36C-DF1A-4F83-8C2D-0DEF7E6B4C4A",
@@ -9398,6 +9993,11 @@
             "A565E6A9-3664-4BA5-9FA1-387E18A07C57": "BA5737A3-BF33-4B9B-9A14-8CEB8E924524"
           },
           "textStylesMap": {
+            "0DB57E47-0FDB-4348-A89D-F5E888A51B5D": "13957E4E-711F-44ED-84FC-2E3ECAEC9242",
+            "50C1516D-C9B4-4E1B-85AA-B52FD7FAC1CC": "27048A9E-E978-41F5-8721-2185C67F1718",
+            "5290272E-AFE6-4EB6-B0B3-6458011250C8": "1987B110-77DC-4AB3-BF42-527BEA3C10EF",
+            "62D294DA-53ED-4CC3-8044-C4CA39D0C77F": "8F0980E3-E58C-40F4-AC0D-B06BF263674C",
+            "7C3E085B-33E2-4750-84AC-081313D2CCBD": "CB0556D0-61BA-439E-BEB5-B7F6D08E5884"
           }
         }
       }

@@ -16,7 +16,7 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "OpenSans-Bold",
+              "name": "NunitoSans-Bold",
               "size": 20
             }
           },
@@ -55,11 +55,11 @@
     "_class": "rect",
     "constrainProportions": false,
     "height": 26,
-    "width": 61,
+    "width": 58,
     "x": 0,
-    "y": 13.5
+    "y": 14.5
   },
-  "glyphBounds": "{{0, 5}, {61, 17}}",
+  "glyphBounds": "{{0, 5}, {58, 16}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -132,7 +132,7 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "OpenSans-Bold",
+            "name": "NunitoSans-Bold",
             "size": 20
           }
         },
