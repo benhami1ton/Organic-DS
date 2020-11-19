@@ -16,8 +16,8 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "OpenSans-Regular",
-              "size": 20
+              "name": "NunitoSans-Bold",
+              "size": 25.008
             }
           },
           "kerning": 0,
@@ -25,22 +25,22 @@
             "_class": "paragraphStyle",
             "alignment": 0,
             "allowsDefaultTighteningForTruncation": 0,
-            "maximumLineHeight": 26,
-            "minimumLineHeight": 26,
+            "maximumLineHeight": 33,
+            "minimumLineHeight": 33,
             "paragraphSpacing": 16
           },
           "textStyleVerticalAlignmentKey": 0
         },
-        "length": 85,
+        "length": 33,
         "location": 0
       }
     ],
-    "string": "12345 Behavioral Healthcare Boulevard Suite A5, Unit #555 B King of Prussia, PA 12345"
+    "string": "Facility Name or Special Location"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "C9D45F85-3AED-475D-AA5A-86C031ABA900",
+  "do_objectID": "2CAE7274-29B0-476F-84CC-28A7F2A65845",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -54,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 78,
-    "width": 671,
+    "height": 33,
+    "width": 672,
     "x": 0,
-    "y": 46
+    "y": 0
   },
-  "glyphBounds": "{{0, 3}, {353, 72}}",
+  "glyphBounds": "{{1, 7}, {379, 23}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -68,12 +68,12 @@
   "isVisible": true,
   "layerListExpandedType": 1,
   "lineSpacingBehaviour": 3,
-  "name": "location-address",
-  "nameIsFixed": true,
+  "name": "Facility Name or Spe",
+  "nameIsFixed": false,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "F733882D-6A53-4C07-9374-BB36D3E19AA2",
+  "sharedStyleID": "286930AC-1952-436C-BACB-69CB1F746821",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -109,7 +109,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "F0210D66-BBB8-4A84-8263-58A2806B0609",
+    "do_objectID": "4A5F7C29-A571-413F-B466-030421BCA854",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -132,8 +132,8 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "OpenSans-Regular",
-            "size": 20
+            "name": "NunitoSans-Bold",
+            "size": 25.008
           }
         },
         "kerning": 0,
@@ -141,8 +141,8 @@
           "_class": "paragraphStyle",
           "alignment": 0,
           "allowsDefaultTighteningForTruncation": 0,
-          "maximumLineHeight": 26,
-          "minimumLineHeight": 26,
+          "maximumLineHeight": 33,
+          "minimumLineHeight": 33,
           "paragraphSpacing": 16
         },
         "textStyleVerticalAlignmentKey": 0
@@ -151,8 +151,5 @@
     },
     "windingRule": 1
   },
-  "textBehaviour": 1,
-  "userInfo": {
-    "datasupplier.key": "sketch-ipsum_my-command_SupplyDataMedium"
-  }
+  "textBehaviour": 1
 }

@@ -1,9 +1,8 @@
 {
-  "_class": "bitmap",
+  "_class": "group",
   "booleanOperation": -1,
-  "clippingMask": "{{0, 0}, {1, 1}}",
   "clippingMaskMode": 0,
-  "do_objectID": "4281EFF9-846C-4298-B118-D6C025434D0B",
+  "do_objectID": "5B463390-E12E-4A40-83BE-C8E38E0A605E",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -13,29 +12,36 @@
     "layerOptions": 0,
     "shouldTrim": false
   },
-  "fillReplacesImage": false,
   "frame": {
     "_class": "rect",
-    "constrainProportions": true,
-    "height": 704,
+    "constrainProportions": false,
+    "height": 353,
     "width": 704,
     "x": 0,
-    "y": -154
+    "y": 0.3026666666664823
   },
+  "groupLayout": {
+    "_class": "MSImmutableFreeformGroupLayout"
+  },
+  "hasClickThrough": false,
   "hasClippingMask": false,
-  "image": {
-    "_class": "MSJSONFileReference",
-    "_ref": "images/97d6b81ce7a93616d0d9f827e6619b86ab264c11.png",
-    "_ref_class": "MSImageData"
-  },
-  "intendedDPI": 72,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
-  "name": "video-thumbnail",
+  "layerListExpandedType": 2,
+  "layers": [
+    {
+      "class": "rectangle",
+      "id": "05525F5E-D8A1-478E-B78A-B30BC416CF08"
+    },
+    {
+      "class": "rectangle",
+      "id": "2A39EBE7-3646-4BFB-9248-77DB018D8A6F"
+    }
+  ],
+  "name": "map-image",
   "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
@@ -75,7 +81,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "90C2C835-0460-48C6-87F0-24568997BF3B",
+    "do_objectID": "C57679BC-7E86-4EC2-BA18-B208BB95F016",
     "endMarkerType": 0,
     "fills": [
     ],

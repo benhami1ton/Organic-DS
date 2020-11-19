@@ -2,7 +2,7 @@
   "_class": "group",
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "9B571C05-EB50-47D7-BE55-5FA899B20EDE",
+  "do_objectID": "CD2A2753-D07A-4636-B6E5-41C8B21DCD80",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,10 +15,10 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 397,
+    "height": 354,
     "width": 1408,
-    "x": 240,
-    "y": 2916
+    "x": 0,
+    "y": 0
   },
   "groupLayout": {
     "_class": "MSImmutableFreeformGroupLayout"
@@ -34,10 +34,14 @@
   "layers": [
     {
       "class": "group",
-      "id": "CD2A2753-D07A-4636-B6E5-41C8B21DCD80"
+      "id": "B8BE8FDF-4F3D-480B-949C-E8DD9989C2D1"
+    },
+    {
+      "class": "group",
+      "id": "5B463390-E12E-4A40-83BE-C8E38E0A605E"
     }
   ],
-  "name": "Cell/Location-Map",
+  "name": "cell-contents",
   "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
@@ -77,7 +81,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "75776997-7372-4DB4-AF83-C3C4D939EE6B",
+    "do_objectID": "A203C133-108D-49BC-B98A-40DB56486E2E",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -88,41 +92,5 @@
     ],
     "startMarkerType": 0,
     "windingRule": 1
-  },
-  "userInfo": {
-    "com.bohemiancoding.sketchtool.detach": {
-      "symbolInstance": {
-        "do_objectID": "2A5387A9-D0B6-44B3-A9D3-476340B2FB39",
-        "frame": {
-          "_class": "rect",
-          "constrainProportions": false,
-          "height": 395,
-          "width": 1440,
-          "x": 240,
-          "y": 2917
-        }
-      },
-      "symbolMaster": {
-        "do_objectID": "A29DED64-72FF-4828-87C3-48FEFF9B6B7A",
-        "symbolID": "3939C971-B920-4AA1-A34F-6E39F78143C5"
-      }
-    },
-    "com.sketch.detach": {
-      "symbolInstance": {
-        "do_objectID": "2A5387A9-D0B6-44B3-A9D3-476340B2FB39",
-        "frame": {
-          "_class": "rect",
-          "constrainProportions": false,
-          "height": 395,
-          "width": 1440,
-          "x": 240,
-          "y": 2917
-        }
-      },
-      "symbolMaster": {
-        "do_objectID": "A29DED64-72FF-4828-87C3-48FEFF9B6B7A",
-        "symbolID": "3939C971-B920-4AA1-A34F-6E39F78143C5"
-      }
-    }
   }
 }

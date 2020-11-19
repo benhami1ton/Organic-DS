@@ -2,7 +2,7 @@
   "_class": "group",
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "B8BE8FDF-4F3D-480B-949C-E8DD9989C2D1",
+  "do_objectID": "9B571C05-EB50-47D7-BE55-5FA899B20EDE",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,10 +15,10 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 198,
-    "width": 673,
-    "x": 735,
-    "y": 145
+    "height": 354,
+    "width": 1408,
+    "x": 0,
+    "y": 0
   },
   "groupLayout": {
     "_class": "MSImmutableFreeformGroupLayout"
@@ -33,19 +33,11 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "class": "symbolInstance",
-      "id": "A5139328-1286-4FAB-88C4-4BD9D73638BC"
-    },
-    {
-      "class": "text",
-      "id": "C9D45F85-3AED-475D-AA5A-86C031ABA900"
-    },
-    {
-      "class": "text",
-      "id": "2CAE7274-29B0-476F-84CC-28A7F2A65845"
+      "class": "group",
+      "id": "CD2A2753-D07A-4636-B6E5-41C8B21DCD80"
     }
   ],
-  "name": "location-text",
+  "name": "Cell/Location-Map",
   "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
@@ -85,7 +77,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "9966C248-A240-4A99-B7C3-722628EB0039",
+    "do_objectID": "75776997-7372-4DB4-AF83-C3C4D939EE6B",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -96,5 +88,41 @@
     ],
     "startMarkerType": 0,
     "windingRule": 1
+  },
+  "userInfo": {
+    "com.bohemiancoding.sketchtool.detach": {
+      "symbolInstance": {
+        "do_objectID": "2A5387A9-D0B6-44B3-A9D3-476340B2FB39",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 395,
+          "width": 1440,
+          "x": 240,
+          "y": 2917
+        }
+      },
+      "symbolMaster": {
+        "do_objectID": "A29DED64-72FF-4828-87C3-48FEFF9B6B7A",
+        "symbolID": "3939C971-B920-4AA1-A34F-6E39F78143C5"
+      }
+    },
+    "com.sketch.detach": {
+      "symbolInstance": {
+        "do_objectID": "2A5387A9-D0B6-44B3-A9D3-476340B2FB39",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 395,
+          "width": 1440,
+          "x": 240,
+          "y": 2917
+        }
+      },
+      "symbolMaster": {
+        "do_objectID": "A29DED64-72FF-4828-87C3-48FEFF9B6B7A",
+        "symbolID": "3939C971-B920-4AA1-A34F-6E39F78143C5"
+      }
+    }
   }
 }
