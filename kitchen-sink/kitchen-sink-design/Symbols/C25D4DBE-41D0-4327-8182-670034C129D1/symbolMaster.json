@@ -36,7 +36,7 @@
     "minSize": 0
   },
   "hasBackgroundColor": false,
-  "hasClickThrough": true,
+  "hasClickThrough": false,
   "hasClippingMask": false,
   "horizontalRulerData": {
     "_class": "rulerData",
@@ -53,14 +53,14 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
+  "layerListExpandedType": 2,
   "layers": [
     {
       "class": "symbolInstance",
       "id": "1F81070E-8461-4102-91E9-3470952BE71B"
     }
   ],
-  "name": "Cell/Button/Primary/Primary Left",
+  "name": "Cell/Button/Button__Primary--Left",
   "nameIsFixed": false,
   "overrideProperties": [
     {
