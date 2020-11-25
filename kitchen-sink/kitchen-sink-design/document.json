@@ -62,7 +62,7 @@
       "do_objectID": "06384EEA-0F99-4F89-91FD-F4C727F3B1FE",
       "fontData": {
         "_class": "MSJSONFileReference",
-        "_ref": "fonts/abb749221923ab2d5291f223d3925bcab53fbd43",
+        "_ref": "fonts/b2c38c206fac5f3ee01f1fd4463340c7acccaff5",
         "_ref_class": "MSFontData"
       },
       "fontFamilyName": "SF Pro Text",
@@ -684,7 +684,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -795,7 +795,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -883,7 +883,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "AD3CCB6E-3F7D-40D5-A8AA-664009248BD0",
+      "do_objectID": "971B441E-0FD8-491B-B26A-EC1758D4F03C",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -906,7 +906,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -994,7 +994,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "75021746-E618-4DFD-9068-9FDC71BAFB61",
+      "do_objectID": "B1452E55-D7CE-4D00-99CF-2746DBF24654",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1017,7 +1017,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -1105,7 +1105,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "3EEFF98F-84C6-441E-BEF3-B1A7CE02A8E3",
+      "do_objectID": "96584DBB-2384-4ABD-BB9C-04C5B0175A56",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1128,7 +1128,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -1216,7 +1216,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "68BB8768-7517-490A-936D-E0C3F76657E2",
+      "do_objectID": "03E0BB22-A45E-4BDF-A21E-A222B1D12E7E",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1239,7 +1239,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -1327,7 +1327,118 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "EC565FB6-B67B-4C0F-BEC8-928BD3AEEF3D",
+      "do_objectID": "A5CF1DBD-AD3F-4BD4-A0C7-B5C870C129DC",
+      "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "359FD894-1B00-45B9-84C8-2A21DBC77AAC[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+        "name": "Colors/black/black-100",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 9223372036854776000
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": false,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "15F9FF7B-B0A6-4F76-A441-7EEE3358A16A",
+          "endMarkerType": 0,
+          "fills": [
+            {
+              "_class": "fill",
+              "color": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0
+              },
+              "contextSettings": {
+                "_class": "graphicsContextSettings",
+                "blendMode": 0,
+                "opacity": 1
+              },
+              "fillType": 0,
+              "gradient": {
+                "_class": "gradient",
+                "elipseLength": 0,
+                "from": "{0.5, 0}",
+                "gradientType": 0,
+                "stops": [
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 1,
+                      "green": 1,
+                      "red": 1
+                    },
+                    "position": 0
+                  },
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0,
+                      "red": 0
+                    },
+                    "position": 1
+                  }
+                ],
+                "to": "{0.5, 1}"
+              },
+              "isEnabled": true,
+              "noiseIndex": 0,
+              "noiseIntensity": 0,
+              "patternFillType": 1,
+              "patternTileScale": 1
+            }
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "windingRule": 1
+        }
+      },
+      "remoteStyleID": "359FD894-1B00-45B9-84C8-2A21DBC77AAC[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+      "sourceLibraryName": "Organic DS - Base Libary",
+      "symbolPrivate": true
+    },
+    {
+      "_class": "MSImmutableForeignLayerStyle",
+      "do_objectID": "B8E49BC1-73DD-47BC-B8BA-19B3EACFB4BB",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1350,7 +1461,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -1438,7 +1549,7 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "836FD7EB-96F9-4AD9-8A5E-24CD1E305A20",
+      "do_objectID": "043569E0-56CD-40D1-AFBE-89B5BAC06393",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
@@ -1461,7 +1572,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -1549,12 +1660,12 @@
     },
     {
       "_class": "MSImmutableForeignLayerStyle",
-      "do_objectID": "87D46FA0-88FF-469A-9314-EBAE3E68BE94",
+      "do_objectID": "FA93322E-4E31-4C8B-836D-2936B7F5533F",
       "libraryID": "32CD09A4-32AB-4FE7-BA89-E6E6083CD7DA",
       "localSharedStyle": {
         "_class": "sharedStyle",
-        "do_objectID": "359FD894-1B00-45B9-84C8-2A21DBC77AAC[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
-        "name": "Colors/black/black-100",
+        "do_objectID": "020EE070-1ADF-4A41-8857-B30291ECE1A3",
+        "name": "Colors/black/black-30",
         "value": {
           "_class": "style",
           "blur": {
@@ -1572,7 +1683,7 @@
             ],
             "isEnabled": true,
             "lineCapStyle": 0,
-            "lineJoinStyle": -9223372036854776000
+            "lineJoinStyle": 9223372036854776000
           },
           "borders": [
           ],
@@ -1589,14 +1700,14 @@
             "blendMode": 0,
             "opacity": 1
           },
-          "do_objectID": "15F9FF7B-B0A6-4F76-A441-7EEE3358A16A",
+          "do_objectID": "2169D199-B7EF-4D76-8094-9C2400728990",
           "endMarkerType": 0,
           "fills": [
             {
               "_class": "fill",
               "color": {
                 "_class": "color",
-                "alpha": 1,
+                "alpha": 0.3019607843137255,
                 "blue": 0,
                 "green": 0,
                 "red": 0
@@ -1654,9 +1765,9 @@
           "windingRule": 1
         }
       },
-      "remoteStyleID": "359FD894-1B00-45B9-84C8-2A21DBC77AAC[6384751B-1CEA-4B08-9A1E-01F42BC9555A]",
+      "remoteStyleID": "7BD155F7-CFF1-435C-A21E-06E0A4F014D4",
       "sourceLibraryName": "Organic DS - Base Libary",
-      "symbolPrivate": true
+      "symbolPrivate": false
     }
   ],
   "foreignSwatches": [
@@ -2199,7 +2310,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -2873,7 +2984,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -3310,7 +3421,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -3741,7 +3852,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -4227,7 +4338,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -4708,7 +4819,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -5790,7 +5901,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -6868,7 +6979,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -7500,7 +7611,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -8128,7 +8239,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -8516,7 +8627,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -8898,7 +9009,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -9797,7 +9908,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -10691,7 +10802,7 @@
                 ],
                 "isEnabled": true,
                 "lineCapStyle": 0,
-                "lineJoinStyle": -9223372036854776000
+                "lineJoinStyle": 9223372036854776000
               },
               "borders": [
               ],
@@ -11313,8 +11424,8 @@
     "version": 134
   },
   "pages": [
-    "Tokens",
     "Demo",
+    "Tokens",
     "Symbols"
   ],
   "sharedSwatches": {
