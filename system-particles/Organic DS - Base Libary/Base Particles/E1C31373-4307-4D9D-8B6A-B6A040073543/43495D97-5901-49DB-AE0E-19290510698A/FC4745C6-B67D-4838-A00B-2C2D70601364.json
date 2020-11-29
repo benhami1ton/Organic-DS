@@ -19,7 +19,7 @@
     "constrainProportions": false,
     "height": 50,
     "width": 81,
-    "x": 499,
+    "x": 515,
     "y": -2.273736754432321e-13
   },
   "hasClippingMask": false,
@@ -31,7 +31,7 @@
   "isLocked": false,
   "isVisible": true,
   "layerListExpandedType": 1,
-  "name": "Rectangle",
+  "name": "value",
   "nameIsFixed": false,
   "needsConvertionToNewRoundCorners": false,
   "pointRadiusBehaviour": 1,
@@ -80,7 +80,7 @@
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "DDD5665A-FBC6-4BDB-837E-F77F079409A2",
+  "sharedStyleID": "750EBEFC-1D53-4C83-8658-5EBAEB3D9E90",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -99,7 +99,7 @@
       ],
       "isEnabled": true,
       "lineCapStyle": 0,
-      "lineJoinStyle": 9223372036854776000
+      "lineJoinStyle": -9223372036854776000
     },
     "borders": [
     ],
@@ -124,9 +124,9 @@
         "color": {
           "_class": "color",
           "alpha": 1,
-          "blue": 0.5058823529411764,
-          "green": 0.2588235294117647,
-          "red": 0.7843137254901961
+          "blue": 0.1725490196078431,
+          "green": 0.3176470588235294,
+          "red": 0.7647058823529411
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
