@@ -16,7 +16,7 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "NunitoSans-Regular",
+              "name": "OpenSans-Regular",
               "size": 16
             }
           },
@@ -31,11 +31,11 @@
           },
           "textStyleVerticalAlignmentKey": 0
         },
-        "length": 7,
+        "length": 8,
         "location": 0
       }
     ],
-    "string": "Magenta"
+    "string": "Red-Warm"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
@@ -55,11 +55,11 @@
     "_class": "rect",
     "constrainProportions": false,
     "height": 21,
-    "width": 63,
+    "width": 79,
     "x": 0,
     "y": 13
   },
-  "glyphBounds": "{{1, 4}, {61, 15}}",
+  "glyphBounds": "{{1, 4}, {77, 14}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -68,7 +68,7 @@
   "isVisible": true,
   "layerListExpandedType": 1,
   "lineSpacingBehaviour": 3,
-  "name": "Magenta",
+  "name": ".dtignore",
   "nameIsFixed": false,
   "resizingConstraint": 47,
   "resizingType": 0,
@@ -132,7 +132,7 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "NunitoSans-Regular",
+            "name": "OpenSans-Regular",
             "size": 16
           }
         },

@@ -1,0 +1,22 @@
+export const asset = {
+  "asset": {
+    "font": {
+      "opensans": {
+        "name": {
+          "value": "Open Sans"
+        },
+        "ttf": {
+          "value": "assets/fonts/OpenSans-Regular.ttf"
+        }
+      },
+      "roboto": {
+        "name": {
+          "value": "Roboto"
+        },
+        "ttf": {
+          "value": "assets/fonts/Roboto-Regular.ttf"
+        }
+      }
+    }
+  }
+}
