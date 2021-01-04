@@ -33,44 +33,8 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "class": "text",
-      "id": "7D445F39-3288-4231-B670-1C1479D97529"
-    },
-    {
-      "class": "text",
-      "id": "EF868306-5454-4144-AA62-23ABA793BD13"
-    },
-    {
-      "class": "text",
-      "id": "37395A63-95B1-4252-B8B4-C31C156F72A5"
-    },
-    {
-      "class": "text",
-      "id": "187F0ACD-A782-42DA-9C74-B480622AE8FB"
-    },
-    {
-      "class": "text",
-      "id": "2368A7B5-5926-482E-A4F8-838484C092C4"
-    },
-    {
-      "class": "text",
-      "id": "DBA6C789-6F2D-4906-A0C5-54BE1E2CDADD"
-    },
-    {
-      "class": "text",
-      "id": "C419B023-A3B8-4EC5-AB19-E8BCE62AA223"
-    },
-    {
-      "class": "text",
-      "id": "8FEF7E2B-F270-4855-A42A-21A01B9828E0"
-    },
-    {
-      "class": "text",
-      "id": "DA00F85F-D2F4-4EA4-91A9-64D347B70026"
-    },
-    {
-      "class": "text",
-      "id": "3AB60544-37EB-469B-AA39-CCA202CE23AC"
+      "class": "group",
+      "id": "137657FC-D4BB-48A9-BEAE-E369D2210CF5"
     },
     {
       "class": "group",
@@ -1377,47 +1341,11 @@
       "id": "C974C121-6706-4752-97F7-021A9D810CDD"
     },
     {
-      "class": "text",
-      "id": "05CCD30C-F118-4068-A2BA-2A5DE3A2771B"
-    },
-    {
-      "class": "text",
-      "id": "CE0B86F8-9FD9-4D0D-980F-CB5F81065E40"
-    },
-    {
-      "class": "text",
-      "id": "12A12A2F-2EAC-4BF7-BB7B-11DB1A182229"
-    },
-    {
-      "class": "text",
-      "id": "02810118-C0D5-40FA-9F6C-192922855447"
-    },
-    {
-      "class": "text",
-      "id": "FA07D864-097D-4AC9-BED4-093E24D97E8F"
-    },
-    {
-      "class": "text",
-      "id": "B2F70F63-37A8-4EEE-9A49-66FB108BCB09"
-    },
-    {
-      "class": "text",
-      "id": "2299E939-2B4E-42DE-B63E-B69B54EF1745"
-    },
-    {
-      "class": "text",
-      "id": "304B1555-28A3-4341-96C9-442043A21204"
-    },
-    {
-      "class": "text",
-      "id": "B29DB978-5AF2-4834-A927-A3ABA68BC279"
-    },
-    {
-      "class": "text",
-      "id": "15BA9801-18FF-4AA4-B67B-9AE7D8EF8A94"
+      "class": "group",
+      "id": "11A49E75-AECB-4DF6-9F97-EAA66783EFFB"
     }
   ],
-  "name": "system",
+  "name": "core",
   "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
