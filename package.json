@@ -1,23 +1,12 @@
 {
-  "name": "Organic-DS",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "stratostokens",
+  "productName": "StratosTokens",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "style-dictionary": "^2.8.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benhami1ton/Organic-DS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/benhami1ton/Organic-DS/issues"
-  },
-  "homepage": "https://github.com/benhami1ton/Organic-DS#readme",
-  "devDependencies": {
-    "style-dictionary": "^2.10.2"
+    "build": "style-dictionary build"
   }
 }

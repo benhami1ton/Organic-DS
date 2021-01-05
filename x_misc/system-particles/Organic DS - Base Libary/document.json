@@ -220,9 +220,14 @@
     {
       "_class": "fontReference",
       "do_objectID": "85799D97-1D6B-4092-954B-A51BC4185742",
+      "fontData": {
+        "_class": "MSJSONFileReference",
+        "_ref": "fonts/0edae0cc4483d5be2de15df325910e1f5ee86a71",
+        "_ref_class": "MSFontData"
+      },
       "fontFamilyName": "Nunito Sans",
       "fontFileName": "NunitoSans-Regular.ttf",
-      "options": 1,
+      "options": 3,
       "postscriptNames": [
         "NunitoSans-Regular"
       ]
@@ -442,7 +447,7 @@
       "do_objectID": "F9844BFA-68E1-4A6A-A73C-243EBE2688E8",
       "fontFamilyName": "Open Sans",
       "fontFileName": "OpenSans-Regular.ttf",
-      "options": 2,
+      "options": 0,
       "postscriptNames": [
         "OpenSans-Regular"
       ]
@@ -483,8 +488,8 @@
     ]
   },
   "meta": {
-    "appVersion": "70.1",
-    "build": 108880,
+    "appVersion": "70.3",
+    "build": 109109,
     "version": 134
   },
   "pages": [
