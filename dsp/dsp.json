@@ -1,0 +1,58 @@
+// DSP Spec Version, present in all DSP JSON files
+"dsp_spec_version": "1.0",
+
+// Who last updated this file
+"last_updated_by": "Author Name",
+
+// When this file was last updated using UTCDateTime eg. 2020-09-24T06:08:46.497Z
+"last_updated": "2020-09-24T06:08:46.497Z",
+
+"settings": {
+
+    "name": "My Design System",
+    "package_version": "0.5.0",
+
+    // Examples: dev, staged, released, deprecated
+    "build_status_label": "dev",
+
+    // Prefix that will be prepended to code snippets
+    "snippet_trigger_prefix": "xd-",
+
+    "build_tool": "styledictionary",
+    "build_tool_version": "1.0.0",
+
+    // extra command line parameters that can be passed to the build tool during token compilation
+    "build_params": "-c ./config.json",
+
+    // languages to be used in component code snippets and build tool
+    "languages": [
+        {
+            "label": "ODS CSS",
+            "export_tokens": true,
+
+            // snippet_id is used in components to identify a language option for code snippets
+            "snippet_id": "my-css-snippet",
+            "syntax": "text/scss"
+            
+            /*
+            additional properties that are not core to DSP should follow the reverse domain
+            naming convention (e.g. 'ext-com_adobe_xd-styledictionary_id' is set to use Style
+            Dictionary transform group 'css' to compile agnostic design tokens stored in /data,
+            into CSS variables, if export_tokens is set to true)
+            */
+            "ext-com_adobe_xd-styledictionary_id": "css"
+        },
+        {
+            "label": "React",
+            "export_tokens": false,
+            "snippet_id": "react",
+            "syntax": "javascript"
+        },
+        {
+            "label": "Angular",
+            "export_tokens": false,
+            "snippet_id": "angular",
+            "syntax": "javascript"
+        }
+    ]
+}
