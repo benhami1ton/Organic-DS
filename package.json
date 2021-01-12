@@ -7,6 +7,10 @@
     "style-dictionary": "^2.8.3"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build",
+    "custom": "node build.js"
+  },
+  "devDependencies": {
+    "sketch-constructor": "^1.24.2"
   }
 }

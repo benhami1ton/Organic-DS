@@ -2,25 +2,23 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
-function getStyleDictionaryConfig(brand, platform) {
+function getStyleDictionaryConfig(tokenCat) {
   return {
     "source": [
-      `tokens/brand/${brand}/*.json`,
-      "tokens/globals/**/*.json",
-      `tokens/platforms/${platform}/*.json`
+      `dsp/data/json/${tokenCat}/*.json`,
     ],
     "platforms": {
       "web": {
         "transformGroup": "web",
-        "buildPath": `build/web/${brand}/`,
+        "buildPath": `build/web/${tokenCat}/`,
         "files": [{
-          "destination": "tokens.scss",
+          "destination": `${tokenCat}.scss`,
           "format": "scss/variables"
         }]
       },
       "android": {
         "transformGroup": "android",
-        "buildPath": `build/android/${brand}/`,
+        "buildPath": `build/android/${tokenCat}/`,
         "files": [{
           "destination": "tokens.colors.xml",
           "format": "android/colors"
@@ -34,7 +32,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       "ios": {
         "transformGroup": "ios",
-        "buildPath": `build/ios/${brand}/`,
+        "buildPath": `build/ios/${tokenCat}/`,
         "files": [{
           "destination": "tokens.h",
           "format": "ios/macros"
@@ -46,21 +44,20 @@ function getStyleDictionaryConfig(brand, platform) {
 
 console.log('Build started...');
 
-// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
+// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN tokenCatS AND PLATFORMS
 
-['color', 'type', 'spacing'].map(function (brand) {
-  ['web', 'ios', 'android'].map(function (platform) {
-
+['color', 'text', 'spacing'].map(function (tokenCat) {
+  
     console.log('\n==============================================');
-    console.log(`\nProcessing: [${platform}] [${brand}]`);
+    console.log(`\nProcessing: [${tokenCat}]`);
 
-    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(brand, platform));
+    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokenCat));
 
-    StyleDictionary.buildPlatform(platform);
+    StyleDictionary.buildAllPlatforms();
+    
 
     console.log('\nEnd processing');
 
-  })
 })
 
 console.log('\n==============================================');
