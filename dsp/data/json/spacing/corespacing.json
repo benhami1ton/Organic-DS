@@ -1,29 +1,32 @@
 {
   "spacing": {
     "core": {
+      "none": {
+        "value": 0
+      },
       "xxs": {
-        "value": "4px"
+        "value": "0.3"
       },
       "xs": {
-        "value": "8px"
+        "value": "0.5"
       },
       "sm": {
-        "value": "16px"
+        "value": "1.0"
       },
       "smd": {
-        "value": "24px"
+        "value": "1.5"
       },
       "md": {
-        "value": "32px"
+        "value": "2.0"
       },
       "lg": {
-        "value": "48px"
+        "value": "3.0"
       },
       "xl": {
-        "value": "72px"
+        "value": "4.5"
       },
       "xxl": {
-        "value": "144px"
+        "value": "9.0"
       }
     }
   }

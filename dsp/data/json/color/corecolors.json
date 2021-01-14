@@ -1,7 +1,7 @@
 {
   "color": {
     "core": {
-      "gray-warm": { 
+      "gray-warm": {
         "1": {
           "class": "token",
           "type": "color",
@@ -11,43 +11,108 @@
           "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "2": {
-          "value": "rgba(249,249,247,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-2",
+          "name": "gray-warm-2",
+          "value": "rgba(249,249,247,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "3": {
-          "value": "rgba(246,246,242,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-3",
+          "name": "gray-warm-3",
+          "value": "rgba(246,246,242,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "4": {
-          "value": "rgba(245,245,240,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-4",
+          "name": "gray-warm-4",
+          "value": "rgba(245,245,240,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "5": {
-          "value": "rgba(240,240,236,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-5",
+          "name": "gray-warm-5",
+          "value": "rgba(240,240,236,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "10": {
-          "value": "rgba(230,230,226,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-10",
+          "name": "gray-warm-10",
+          "value": "rgba(230,230,226,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "20": {
-          "value": "rgba(202,201,192,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-20",
+          "name": "gray-warm-20",
+          "value": "rgba(202,201,192,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "30": {
-          "value": "rgba(175,174,162,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-30",
+          "name": "gray-warm-30",
+          "value": "rgba(175,174,162,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "40": {
-          "value": "rgba(146,146,133,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-40",
+          "name": "gray-warm-40",
+          "value": "rgba(146,146,133,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "50": {
-          "value": "rgba(118,118,106,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-50",
+          "name": "gray-warm-50",
+          "value": "rgba(118,118,106,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "60": {
-          "value": "rgba(93,93,82,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-60",
+          "name": "gray-warm-60",
+          "value": "rgba(93,93,82,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "70": {
-          "value": "rgba(69,69,64,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-70",
+          "name": "gray-warm-70",
+          "value": "rgba(69,69,64,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "80": {
-          "value": "rgba(46,46,42,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-80",
+          "name": "gray-warm-80",
+          "value": "rgba(46,46,42,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         },
         "90": {
-          "value": "rgba(23,23,22,1)"
+          "class": "token",
+          "type": "color",
+          "id": "gray-warm-90",
+          "name": "gray-warm-90",
+          "value": "rgba(23,23,22,1)",
+          "description": "A color in the Gray Warm color category. This is a core system color."
         }
       },
       "gray-1": {

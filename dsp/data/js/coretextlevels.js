@@ -9,13 +9,13 @@ export const coretextlevels = {
           "value": "inherit"
         },
         "lineHeight": {
-          "value": "4.9"
+          "value": "9.9"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -24,7 +24,7 @@ export const coretextlevels = {
           "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
         },
         "fontSize": {
-          "value": "3.8"
+          "value": "7.6"
         },
         "fontWeight": {
           "value": 400
@@ -38,13 +38,100 @@ export const coretextlevels = {
           "value": "inherit"
         },
         "lineHeight": {
-          "value": "3.9"
+          "value": "7.9"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
+        },
+        "color": {
+          "value": "rgba(0,0,0,1)"
+        },
+        "fontFamily": {
+          "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
+        },
+        "fontSize": {
+          "value": "6.1"
+        },
+        "fontWeight": {
+          "value": 400
+        }
+      },
+      "Level3": {
+        "letterSpacing": {
+          "value": "normal"
+        },
+        "textAlign": {
+          "value": "inherit"
+        },
+        "lineHeight": {
+          "value": "6.4"
+        },
+        "marginTop": {
+          "value": "2.0"
+        },
+        "marginBottom": {
+          "value": "2.0"
+        },
+        "color": {
+          "value": "rgba(0,0,0,1)"
+        },
+        "fontFamily": {
+          "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
+        },
+        "fontSize": {
+          "value": "4.9"
+        },
+        "fontWeight": {
+          "value": 400
+        }
+      },
+      "Level4": {
+        "letterSpacing": {
+          "value": "normal"
+        },
+        "textAlign": {
+          "value": "inherit"
+        },
+        "lineHeight": {
+          "value": "5.1"
+        },
+        "marginTop": {
+          "value": "2.0"
+        },
+        "marginBottom": {
+          "value": "2.0"
+        },
+        "color": {
+          "value": "rgba(0,0,0,1)"
+        },
+        "fontFamily": {
+          "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
+        },
+        "fontSize": {
+          "value": "3.9"
+        },
+        "fontWeight": {
+          "value": 400
+        }
+      },
+      "Level5": {
+        "letterSpacing": {
+          "value": "normal"
+        },
+        "textAlign": {
+          "value": "inherit"
+        },
+        "lineHeight": {
+          "value": "4.1"
+        },
+        "marginTop": {
+          "value": "2.0"
+        },
+        "marginBottom": {
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -59,7 +146,7 @@ export const coretextlevels = {
           "value": 400
         }
       },
-      "Level3": {
+      "Level6": {
         "letterSpacing": {
           "value": "normal"
         },
@@ -67,13 +154,13 @@ export const coretextlevels = {
           "value": "inherit"
         },
         "lineHeight": {
-          "value": "3.2"
+          "value": "3.3"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -82,13 +169,13 @@ export const coretextlevels = {
           "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
         },
         "fontSize": {
-          "value": "2.4"
+          "value": "2.5"
         },
         "fontWeight": {
           "value": 400
         }
       },
-      "Level4": {
+      "Level7": {
         "letterSpacing": {
           "value": "normal"
         },
@@ -99,10 +186,10 @@ export const coretextlevels = {
           "value": "2.6"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -117,7 +204,7 @@ export const coretextlevels = {
           "value": 400
         }
       },
-      "Level5": {
+      "Level8": {
         "letterSpacing": {
           "value": "normal"
         },
@@ -128,10 +215,10 @@ export const coretextlevels = {
           "value": "2.1"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -141,93 +228,6 @@ export const coretextlevels = {
         },
         "fontSize": {
           "value": "1.6"
-        },
-        "fontWeight": {
-          "value": 400
-        }
-      },
-      "Level6": {
-        "letterSpacing": {
-          "value": "normal"
-        },
-        "textAlign": {
-          "value": "inherit"
-        },
-        "lineHeight": {
-          "value": "1.6"
-        },
-        "marginTop": {
-          "value": "1.0"
-        },
-        "marginBottom": {
-          "value": "1.0"
-        },
-        "color": {
-          "value": "rgba(0,0,0,1)"
-        },
-        "fontFamily": {
-          "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
-        },
-        "fontSize": {
-          "value": "1.3"
-        },
-        "fontWeight": {
-          "value": 400
-        }
-      },
-      "Level7": {
-        "letterSpacing": {
-          "value": "normal"
-        },
-        "textAlign": {
-          "value": "inherit"
-        },
-        "lineHeight": {
-          "value": "1.3"
-        },
-        "marginTop": {
-          "value": "1.0"
-        },
-        "marginBottom": {
-          "value": "1.0"
-        },
-        "color": {
-          "value": "rgba(0,0,0,1)"
-        },
-        "fontFamily": {
-          "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
-        },
-        "fontSize": {
-          "value": "1.0"
-        },
-        "fontWeight": {
-          "value": 400
-        }
-      },
-      "Level8": {
-        "letterSpacing": {
-          "value": "normal"
-        },
-        "textAlign": {
-          "value": "inherit"
-        },
-        "lineHeight": {
-          "value": "1.1"
-        },
-        "marginTop": {
-          "value": "1.0"
-        },
-        "marginBottom": {
-          "value": "1.0"
-        },
-        "color": {
-          "value": "rgba(0,0,0,1)"
-        },
-        "fontFamily": {
-          "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
-        },
-        "fontSize": {
-          "value": "0.8"
         },
         "fontWeight": {
           "value": 400
@@ -241,13 +241,13 @@ export const coretextlevels = {
           "value": "inherit"
         },
         "lineHeight": {
-          "value": "0.8"
+          "value": "1.6"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -256,7 +256,7 @@ export const coretextlevels = {
           "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
         },
         "fontSize": {
-          "value": "0.6"
+          "value": "1.3"
         },
         "fontWeight": {
           "value": 400
@@ -270,13 +270,13 @@ export const coretextlevels = {
           "value": "inherit"
         },
         "lineHeight": {
-          "value": "0.7"
+          "value": "1.4"
         },
         "marginTop": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "marginBottom": {
-          "value": "1.0"
+          "value": "2.0"
         },
         "color": {
           "value": "rgba(0,0,0,1)"
@@ -285,7 +285,7 @@ export const coretextlevels = {
           "value": "NunitoSans-Regular, 'Nunito Sans', sans-serif"
         },
         "fontSize": {
-          "value": "0.5"
+          "value": "1.0"
         },
         "fontWeight": {
           "value": 400
