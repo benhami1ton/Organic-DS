@@ -14,7 +14,12 @@ function getStyleDictionaryConfig(tokenCat) {
         "files": [{
           "destination": `${tokenCat}.scss`,
           "format": "scss/variables"
-        }]
+        },
+        {
+            "destination": `${tokenCat}-map.scss`,
+            "format": "scss/variables"
+          }
+    ]
       },
       "android": {
         "transformGroup": "android",
