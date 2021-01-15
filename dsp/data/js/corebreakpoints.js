@@ -2,19 +2,19 @@ export const corebreakpoints = {
   "bp": {
     "core": {
       "xs": {
-        "value": "20rem"
+        "value": "20.0"
       },
       "sm": {
-        "value": "30rem"
+        "value": "30.0"
       },
       "md": {
-        "value": "48rem"
+        "value": "48.0"
       },
       "lg": {
-        "value": "62rem"
+        "value": "62.0"
       },
       "xl": {
-        "value": "73.75rem"
+        "value": "73.8"
       }
     }
   }
