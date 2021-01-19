@@ -7,8 +7,8 @@
     "style-dictionary": "^2.8.3"
   },
   "scripts": {
-    "build core": "node build-core.js",
-    "build theme": "node build-theme.js"
+    "build-core": "node ext/build-scripts/build-core.js",
+    "build-theme": "node ext/build-scripts/build-theme.js"
   },
   "devDependencies": {
     "sketch-constructor": "^1.24.2"

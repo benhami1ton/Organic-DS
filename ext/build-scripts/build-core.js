@@ -1,22 +1,24 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
+const buildCategories = ['color', 'text', 'spacing', 'elevation'];
+
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
 function getStyleDictionaryConfig(tokenCat) {
   return {
     "source": [
-      `../../dsp/data/core/json/${tokenCat}/*.json`,
+      `dsp/data/json/${tokenCat}/*.json`,
     ],
     "platforms": {
       "web": {
         "transformGroup": "web",
         "buildPath": `dsp/dist/web/core/${tokenCat}/`,
         "files": [{
-          "destination": `${tokenCat}.scss`,
+          "destination": `_${tokenCat}.scss`,
           "format": "scss/variables"
         },
         {
-            "destination": `${tokenCat}-map.scss`,
+            "destination": `_${tokenCat}-map.scss`,
             "format": "scss/map-deep"
           }
     ]
@@ -51,7 +53,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN tokenCatS AND PLATFORMS
 
-['color', 'text', 'spacing'].map(function (tokenCat) {
+buildCategories.map(function (tokenCat) {
   
     console.log('\n==============================================');
     console.log(`\nProcessing: [${tokenCat}]`);
