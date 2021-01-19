@@ -5,7 +5,7 @@ const StyleDictionaryPackage = require('style-dictionary');
 function getStyleDictionaryConfig(tokenCat) {
   return {
     "source": [
-      `../../dsp/data/core/json/${tokenCat}/*.json`,
+      `dsp/data/json/${tokenCat}/*.json`,
     ],
     "platforms": {
       "web": {

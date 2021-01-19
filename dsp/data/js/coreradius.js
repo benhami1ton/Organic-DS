@@ -2,7 +2,7 @@ export const coreradius = {
   "borderRadius": {
     "core": {
       "circle": {
-        "value": "50%"
+        "{50%}": "50%"
       },
       "sm": {
         "value": "0.125rem"
