@@ -1,13 +1,9 @@
 
 /*
   Do not edit directly
-  Generated on Tue, 19 Jan 2021 23:17:25 GMT
+  Generated on Sat, 30 Jan 2021 20:59:02 GMT
 */
 
-$color-core-gray-warm-1: #fcfcfb !default;
-$color-core-gray-warm-2: #f9f9f7 !default;
-$color-core-gray-warm-3: #f6f6f2 !default;
-$color-core-gray-warm-4: #f5f5f0 !default;
 $color-core-gray-warm-5: #f0f0ec !default;
 $color-core-gray-warm-10: #e6e6e2 !default;
 $color-core-gray-warm-20: #cac9c0 !default;
@@ -18,10 +14,10 @@ $color-core-gray-warm-60: #5d5d52 !default;
 $color-core-gray-warm-70: #454540 !default;
 $color-core-gray-warm-80: #2e2e2a !default;
 $color-core-gray-warm-90: #171716 !default;
-$color-core-gray-1: #fcfcfc !default;
-$color-core-gray-2: #f9f9f9 !default;
-$color-core-gray-3: #f6f6f6 !default;
-$color-core-gray-4: #f3f3f3 !default;
+$color-core-gray-warm-01: #fcfcfb !default;
+$color-core-gray-warm-02: #f9f9f7 !default;
+$color-core-gray-warm-03: #f6f6f2 !default;
+$color-core-gray-warm-04: #f5f5f0 !default;
 $color-core-gray-5: #f0f0f0 !default;
 $color-core-gray-10: #e6e6e6 !default;
 $color-core-gray-20: #c9c9c9 !default;
@@ -33,10 +29,10 @@ $color-core-gray-70: #454545 !default;
 $color-core-gray-80: #2e2e2e !default;
 $color-core-gray-90: #1b1b1b !default;
 $color-core-gray-100: #000000 !default;
-$color-core-gray-cool-1: #fbfcfd !default;
-$color-core-gray-cool-2: #f7f9fa !default;
-$color-core-gray-cool-3: #f5f6f7 !default;
-$color-core-gray-cool-4: #f1f3f6 !default;
+$color-core-gray-01: #fcfcfc !default;
+$color-core-gray-02: #f9f9f9 !default;
+$color-core-gray-03: #f6f6f6 !default;
+$color-core-gray-04: #f3f3f3 !default;
 $color-core-gray-cool-5: #edeff0 !default;
 $color-core-gray-cool-10: #dfe1e2 !default;
 $color-core-gray-cool-20: #c6cace !default;
@@ -47,6 +43,10 @@ $color-core-gray-cool-60: #565c65 !default;
 $color-core-gray-cool-70: #3d4551 !default;
 $color-core-gray-cool-80: #2d2e2f !default;
 $color-core-gray-cool-90: #1c1d1f !default;
+$color-core-gray-cool-01: #fbfcfd !default;
+$color-core-gray-cool-02: #f7f9fa !default;
+$color-core-gray-cool-03: #f5f6f7 !default;
+$color-core-gray-cool-04: #f1f3f6 !default;
 $color-core-white-trans-5: rgba(255, 255, 255, 0.03) !default;
 $color-core-white-trans-10: rgba(255, 255, 255, 0.1) !default;
 $color-core-white-trans-20: rgba(255, 255, 255, 0.2) !default;
@@ -79,7 +79,7 @@ $color-core-red-60: #a23737 !default;
 $color-core-red-70: #6f3331 !default;
 $color-core-red-80: #3e2927 !default;
 $color-core-red-90: #1b1616 !default;
-$color-core-red-5-v: #fff3f2 !default;
+$color-core-red-05-v: #fff3f2 !default;
 $color-core-red-10-v: #fde0db !default;
 $color-core-red-20-v: #fdb8ae !default;
 $color-core-red-30-v: #ff8d7b !default;
@@ -98,7 +98,7 @@ $color-core-red-warm-60: #805039 !default;
 $color-core-red-warm-70: #524236 !default;
 $color-core-red-warm-80: #332d29 !default;
 $color-core-red-warm-90: #1f1c18 !default;
-$color-core-red-warm-5-v: #fff5ee !default;
+$color-core-red-warm-05-v: #fff5ee !default;
 $color-core-red-warm-10-v: #fce1d4 !default;
 $color-core-red-warm-20-v: #f6bd9c !default;
 $color-core-red-warm-30-v: #f39268 !default;
@@ -117,7 +117,7 @@ $color-core-orange-warm-60: #914734 !default;
 $color-core-orange-warm-70: #633a32 !default;
 $color-core-orange-warm-80: #3d2925 !default;
 $color-core-orange-warm-90: #1c1615 !default;
-$color-core-orange-warm-5-v: #fff3ea !default;
+$color-core-orange-warm-05-v: #fff3ea !default;
 $color-core-orange-warm-10-v: #ffe2d1 !default;
 $color-core-orange-warm-20-v: #fbbaa7 !default;
 $color-core-orange-warm-30-v: #fc906d !default;
@@ -136,7 +136,7 @@ $color-core-orange-60: #775540 !default;
 $color-core-orange-70: #524236 !default;
 $color-core-orange-80: #332d27 !default;
 $color-core-orange-90: #1b1614 !default;
-$color-core-orange-5-v: #fef2e4 !default;
+$color-core-orange-05-v: #fef2e4 !default;
 $color-core-orange-10-v: #fce2c5 !default;
 $color-core-orange-20-v: #ffbc78 !default;
 $color-core-orange-30-v: #fa9441 !default;
@@ -154,7 +154,8 @@ $color-core-gold-50: #8e704f !default;
 $color-core-gold-60: #6b5947 !default;
 $color-core-gold-70: #4d4438 !default;
 $color-core-gold-80: #322d26 !default;
-$color-core-gold-5-v: #fef0c8 !default;
+$color-core-gold-90: #191714 !default;
+$color-core-gold-05-v: #fef0c8 !default;
 $color-core-gold-10-v: #ffe396 !default;
 $color-core-gold-20-v: #ffbe2e !default;
 $color-core-gold-30-v: #e5a000 !default;
@@ -163,7 +164,6 @@ $color-core-gold-50-v: #936f38 !default;
 $color-core-gold-60-v: #7a591a !default;
 $color-core-gold-70-v: #5c410a !default;
 $color-core-gold-80-v: #3b2b15 !default;
-$color-core-gold-90-v: #191714 !default;
 $color-core-yellow-5: #faf3d1 !default;
 $color-core-yellow-10: #f5e6af !default;
 $color-core-yellow-20: #e6c74c !default;
@@ -174,7 +174,7 @@ $color-core-yellow-60: #6b5a39 !default;
 $color-core-yellow-70: #504332 !default;
 $color-core-yellow-80: #332d27 !default;
 $color-core-yellow-90: #1a1614 !default;
-$color-core-yellow-5-v: #fff5c2 !default;
+$color-core-yellow-05-v: #fff5c2 !default;
 $color-core-yellow-10-v: #fee685 !default;
 $color-core-yellow-20-v: #face00 !default;
 $color-core-yellow-30-v: #ddaa01 !default;
@@ -193,7 +193,7 @@ $color-core-green-warm-60: #5a5f38 !default;
 $color-core-green-warm-70: #45472f !default;
 $color-core-green-warm-80: #2d2f21 !default;
 $color-core-green-warm-90: #171712 !default;
-$color-core-green-warm-5-v: #f5fbc1 !default;
+$color-core-green-warm-05-v: #f5fbc1 !default;
 $color-core-green-warm-10-v: #e7f434 !default;
 $color-core-green-warm-20-v: #c5d30a !default;
 $color-core-green-warm-30-v: #a3b72c !default;
@@ -212,7 +212,7 @@ $color-core-green-60: #4c6424 !default;
 $color-core-green-70: #3c4a29 !default;
 $color-core-green-80: #293021 !default;
 $color-core-green-90: #161814 !default;
-$color-core-green-5-v: #ddf9c7 !default;
+$color-core-green-05-v: #ddf9c7 !default;
 $color-core-green-10-v: #c5ee93 !default;
 $color-core-green-20-v: #98d035 !default;
 $color-core-green-30-v: #7fb135 !default;
@@ -231,7 +231,7 @@ $color-core-green-cool-60: #446443 !default;
 $color-core-green-cool-70: #37493b !default;
 $color-core-green-cool-80: #28312a !default;
 $color-core-green-cool-90: #1a1f1a !default;
-$color-core-green-cool-5-v: #e3f5e1 !default;
+$color-core-green-cool-05-v: #e3f5e1 !default;
 $color-core-green-cool-10-v: #b7f5bd !default;
 $color-core-green-cool-20-v: #70e17b !default;
 $color-core-green-cool-30-v: #21c834 !default;
@@ -250,7 +250,7 @@ $color-core-mint-60: #286846 !default;
 $color-core-mint-70: #204e34 !default;
 $color-core-mint-80: #193324 !default;
 $color-core-mint-90: #1a1614 !default;
-$color-core-mint-5-v: #c9fbeb !default;
+$color-core-mint-05-v: #c9fbeb !default;
 $color-core-mint-10-v: #83fcd4 !default;
 $color-core-mint-20-v: #0ceda6 !default;
 $color-core-mint-30-v: #04c585 !default;
@@ -269,7 +269,7 @@ $color-core-mint-cool-60: #376462 !default;
 $color-core-mint-cool-70: #2a4b45 !default;
 $color-core-mint-cool-80: #203131 !default;
 $color-core-mint-cool-90: #111818 !default;
-$color-core-mint-cool-5-v: #d5fbf3 !default;
+$color-core-mint-cool-05-v: #d5fbf3 !default;
 $color-core-mint-cool-10-v: #7efbe1 !default;
 $color-core-mint-cool-20-v: #29e1cb !default;
 $color-core-mint-cool-30-v: #1dc2ae !default;
@@ -288,7 +288,7 @@ $color-core-cyan-60: #2a646d !default;
 $color-core-cyan-70: #2c4a4e !default;
 $color-core-cyan-80: #203133 !default;
 $color-core-cyan-90: #111819 !default;
-$color-core-cyan-5-v: #e5faff !default;
+$color-core-cyan-05-v: #e5faff !default;
 $color-core-cyan-10-v: #a8f2ff !default;
 $color-core-cyan-20-v: #52daf2 !default;
 $color-core-cyan-30-v: #00bde3 !default;
@@ -307,7 +307,7 @@ $color-core-blue-cool-60: #2e6276 !default;
 $color-core-blue-cool-70: #224a58 !default;
 $color-core-blue-cool-80: #14333d !default;
 $color-core-blue-cool-90: #0f191c !default;
-$color-core-blue-cool-5-v: #e1f3f8 !default;
+$color-core-blue-cool-05-v: #e1f3f8 !default;
 $color-core-blue-cool-10-v: #c3ebfa !default;
 $color-core-blue-cool-20-v: #97d4ea !default;
 $color-core-blue-cool-30-v: #59b9de !default;
@@ -326,7 +326,7 @@ $color-core-blue-60: #2c608a !default;
 $color-core-blue-70: #274863 !default;
 $color-core-blue-80: #1f303e !default;
 $color-core-blue-90: #11181d !default;
-$color-core-blue-5-v: #e8f5ff !default;
+$color-core-blue-05-v: #e8f5ff !default;
 $color-core-blue-10-v: #cfe8ff !default;
 $color-core-blue-20-v: #a1d3ff !default;
 $color-core-blue-30-v: #58b4ff !default;
@@ -345,7 +345,7 @@ $color-core-blue-warm-60: #345d96 !default;
 $color-core-blue-warm-70: #2f4668 !default;
 $color-core-blue-warm-80: #252f3e !default;
 $color-core-blue-warm-90: #13171f !default;
-$color-core-blue-warm-5-v: #edf5ff !default;
+$color-core-blue-warm-05-v: #edf5ff !default;
 $color-core-blue-warm-10-v: #d4e5ff !default;
 $color-core-blue-warm-20-v: #adcdff !default;
 $color-core-blue-warm-30-v: #81aefc !default;
@@ -364,7 +364,7 @@ $color-core-indigo-cool-60: #3f57a6 !default;
 $color-core-indigo-cool-70: #374274 !default;
 $color-core-indigo-cool-80: #292d42 !default;
 $color-core-indigo-cool-90: #151622 !default;
-$color-core-indigo-cool-5-v: #edf0ff !default;
+$color-core-indigo-cool-05-v: #edf0ff !default;
 $color-core-indigo-cool-10-v: #dee5ff !default;
 $color-core-indigo-cool-20-v: #b8c8ff !default;
 $color-core-indigo-cool-30-v: #94adff !default;
@@ -383,7 +383,7 @@ $color-core-indigo-60: #4d52af !default;
 $color-core-indigo-70: #3d4076 !default;
 $color-core-indigo-80: #2b2c40 !default;
 $color-core-indigo-90: #16171f !default;
-$color-core-indigo-5-v: #f0f0ff !default;
+$color-core-indigo-05-v: #f0f0ff !default;
 $color-core-indigo-10-v: #e0e0ff !default;
 $color-core-indigo-20-v: #ccceff !default;
 $color-core-indigo-30-v: #a3a7fa !default;
@@ -402,7 +402,7 @@ $color-core-indigo-warm-60: #5e519e !default;
 $color-core-indigo-warm-70: #453c7b !default;
 $color-core-indigo-warm-80: #2e2c40 !default;
 $color-core-indigo-warm-90: #18161d !default;
-$color-core-indigo-warm-5-v: #f5f2ff !default;
+$color-core-indigo-warm-05-v: #f5f2ff !default;
 $color-core-indigo-warm-10-v: #e4deff !default;
 $color-core-indigo-warm-20-v: #cfc4fd !default;
 $color-core-indigo-warm-30-v: #b69fff !default;
@@ -421,7 +421,7 @@ $color-core-violet-60: #665190 !default;
 $color-core-violet-70: #4c3d69 !default;
 $color-core-violet-80: #312b3f !default;
 $color-core-violet-90: #18161d !default;
-$color-core-violet-5-v: #f7f2ff !default;
+$color-core-violet-05-v: #f7f2ff !default;
 $color-core-violet-10-v: #ede3ff !default;
 $color-core-violet-20-v: #d5bfff !default;
 $color-core-violet-30-v: #c39deb !default;
@@ -440,7 +440,7 @@ $color-core-violet-warm-60: #864381 !default;
 $color-core-violet-warm-70: #5c395a !default;
 $color-core-violet-warm-80: #382936 !default;
 $color-core-violet-warm-90: #1b151b !default;
-$color-core-violet-warm-5-v: #fef2ff !default;
+$color-core-violet-warm-05-v: #fef2ff !default;
 $color-core-violet-warm-10-v: #fbdcff !default;
 $color-core-violet-warm-20-v: #f4b2ff !default;
 $color-core-violet-warm-30-v: #ee83ff !default;
@@ -459,7 +459,7 @@ $color-core-magenta-60: #8b4566 !default;
 $color-core-magenta-70: #66364b !default;
 $color-core-magenta-80: #402731 !default;
 $color-core-magenta-90: #1b1617 !default;
-$color-core-magenta-5-v: #fff2f5 !default;
+$color-core-magenta-05-v: #fff2f5 !default;
 $color-core-magenta-10-v: #ffddea !default;
 $color-core-magenta-20-v: #ffb4cf !default;
 $color-core-magenta-30-v: #ff87b2 !default;
@@ -478,7 +478,7 @@ $color-core-red-cool-60: #9e394b !default;
 $color-core-red-cool-70: #68363f !default;
 $color-core-red-cool-80: #40282c !default;
 $color-core-red-cool-90: #1e1517 !default;
-$color-core-red-cool-5-v: #fff2f5 !default;
+$color-core-red-cool-05-v: #fff2f5 !default;
 $color-core-red-cool-10-v: #f8dfe2 !default;
 $color-core-red-cool-20-v: #f8b9c5 !default;
 $color-core-red-cool-30-v: #fd8ba0 !default;
@@ -492,10 +492,6 @@ $tokens: (
   'color': (
     'core': (
       'gray-warm': (
-        '1': $color-core-gray-warm-1,
-        '2': $color-core-gray-warm-2,
-        '3': $color-core-gray-warm-3,
-        '4': $color-core-gray-warm-4,
         '5': $color-core-gray-warm-5,
         '10': $color-core-gray-warm-10,
         '20': $color-core-gray-warm-20,
@@ -505,13 +501,13 @@ $tokens: (
         '60': $color-core-gray-warm-60,
         '70': $color-core-gray-warm-70,
         '80': $color-core-gray-warm-80,
-        '90': $color-core-gray-warm-90
+        '90': $color-core-gray-warm-90,
+        '01': $color-core-gray-warm-01,
+        '02': $color-core-gray-warm-02,
+        '03': $color-core-gray-warm-03,
+        '04': $color-core-gray-warm-04
       ),
       'gray': (
-        '1': $color-core-gray-1,
-        '2': $color-core-gray-2,
-        '3': $color-core-gray-3,
-        '4': $color-core-gray-4,
         '5': $color-core-gray-5,
         '10': $color-core-gray-10,
         '20': $color-core-gray-20,
@@ -522,13 +518,13 @@ $tokens: (
         '70': $color-core-gray-70,
         '80': $color-core-gray-80,
         '90': $color-core-gray-90,
-        '100': $color-core-gray-100
+        '100': $color-core-gray-100,
+        '01': $color-core-gray-01,
+        '02': $color-core-gray-02,
+        '03': $color-core-gray-03,
+        '04': $color-core-gray-04
       ),
       'gray-cool': (
-        '1': $color-core-gray-cool-1,
-        '2': $color-core-gray-cool-2,
-        '3': $color-core-gray-cool-3,
-        '4': $color-core-gray-cool-4,
         '5': $color-core-gray-cool-5,
         '10': $color-core-gray-cool-10,
         '20': $color-core-gray-cool-20,
@@ -538,7 +534,11 @@ $tokens: (
         '60': $color-core-gray-cool-60,
         '70': $color-core-gray-cool-70,
         '80': $color-core-gray-cool-80,
-        '90': $color-core-gray-cool-90
+        '90': $color-core-gray-cool-90,
+        '01': $color-core-gray-cool-01,
+        '02': $color-core-gray-cool-02,
+        '03': $color-core-gray-cool-03,
+        '04': $color-core-gray-cool-04
       ),
       'white-trans': (
         '5': $color-core-white-trans-5,
@@ -577,7 +577,7 @@ $tokens: (
         '70': $color-core-red-70,
         '80': $color-core-red-80,
         '90': $color-core-red-90,
-        '5v': $color-core-red-5-v,
+        '05v': $color-core-red-05-v,
         '10v': $color-core-red-10-v,
         '20v': $color-core-red-20-v,
         '30v': $color-core-red-30-v,
@@ -598,7 +598,7 @@ $tokens: (
         '70': $color-core-red-warm-70,
         '80': $color-core-red-warm-80,
         '90': $color-core-red-warm-90,
-        '5v': $color-core-red-warm-5-v,
+        '05v': $color-core-red-warm-05-v,
         '10v': $color-core-red-warm-10-v,
         '20v': $color-core-red-warm-20-v,
         '30v': $color-core-red-warm-30-v,
@@ -619,7 +619,7 @@ $tokens: (
         '70': $color-core-orange-warm-70,
         '80': $color-core-orange-warm-80,
         '90': $color-core-orange-warm-90,
-        '5v': $color-core-orange-warm-5-v,
+        '05v': $color-core-orange-warm-05-v,
         '10v': $color-core-orange-warm-10-v,
         '20v': $color-core-orange-warm-20-v,
         '30v': $color-core-orange-warm-30-v,
@@ -640,7 +640,7 @@ $tokens: (
         '70': $color-core-orange-70,
         '80': $color-core-orange-80,
         '90': $color-core-orange-90,
-        '5v': $color-core-orange-5-v,
+        '05v': $color-core-orange-05-v,
         '10v': $color-core-orange-10-v,
         '20v': $color-core-orange-20-v,
         '30v': $color-core-orange-30-v,
@@ -660,7 +660,8 @@ $tokens: (
         '60': $color-core-gold-60,
         '70': $color-core-gold-70,
         '80': $color-core-gold-80,
-        '5v': $color-core-gold-5-v,
+        '90': $color-core-gold-90,
+        '05v': $color-core-gold-05-v,
         '10v': $color-core-gold-10-v,
         '20v': $color-core-gold-20-v,
         '30v': $color-core-gold-30-v,
@@ -668,8 +669,7 @@ $tokens: (
         '50v': $color-core-gold-50-v,
         '60v': $color-core-gold-60-v,
         '70v': $color-core-gold-70-v,
-        '80v': $color-core-gold-80-v,
-        '90v': $color-core-gold-90-v
+        '80v': $color-core-gold-80-v
       ),
       'yellow': (
         '5': $color-core-yellow-5,
@@ -682,7 +682,7 @@ $tokens: (
         '70': $color-core-yellow-70,
         '80': $color-core-yellow-80,
         '90': $color-core-yellow-90,
-        '5v': $color-core-yellow-5-v,
+        '05v': $color-core-yellow-05-v,
         '10v': $color-core-yellow-10-v,
         '20v': $color-core-yellow-20-v,
         '30v': $color-core-yellow-30-v,
@@ -703,7 +703,7 @@ $tokens: (
         '70': $color-core-green-warm-70,
         '80': $color-core-green-warm-80,
         '90': $color-core-green-warm-90,
-        '5v': $color-core-green-warm-5-v,
+        '05v': $color-core-green-warm-05-v,
         '10v': $color-core-green-warm-10-v,
         '20v': $color-core-green-warm-20-v,
         '30v': $color-core-green-warm-30-v,
@@ -724,7 +724,7 @@ $tokens: (
         '70': $color-core-green-70,
         '80': $color-core-green-80,
         '90': $color-core-green-90,
-        '5v': $color-core-green-5-v,
+        '05v': $color-core-green-05-v,
         '10v': $color-core-green-10-v,
         '20v': $color-core-green-20-v,
         '30v': $color-core-green-30-v,
@@ -745,7 +745,7 @@ $tokens: (
         '70': $color-core-green-cool-70,
         '80': $color-core-green-cool-80,
         '90': $color-core-green-cool-90,
-        '5v': $color-core-green-cool-5-v,
+        '05v': $color-core-green-cool-05-v,
         '10v': $color-core-green-cool-10-v,
         '20v': $color-core-green-cool-20-v,
         '30v': $color-core-green-cool-30-v,
@@ -766,7 +766,7 @@ $tokens: (
         '70': $color-core-mint-70,
         '80': $color-core-mint-80,
         '90': $color-core-mint-90,
-        '5v': $color-core-mint-5-v,
+        '05v': $color-core-mint-05-v,
         '10v': $color-core-mint-10-v,
         '20v': $color-core-mint-20-v,
         '30v': $color-core-mint-30-v,
@@ -787,7 +787,7 @@ $tokens: (
         '70': $color-core-mint-cool-70,
         '80': $color-core-mint-cool-80,
         '90': $color-core-mint-cool-90,
-        '5v': $color-core-mint-cool-5-v,
+        '05v': $color-core-mint-cool-05-v,
         '10v': $color-core-mint-cool-10-v,
         '20v': $color-core-mint-cool-20-v,
         '30v': $color-core-mint-cool-30-v,
@@ -808,7 +808,7 @@ $tokens: (
         '70': $color-core-cyan-70,
         '80': $color-core-cyan-80,
         '90': $color-core-cyan-90,
-        '5v': $color-core-cyan-5-v,
+        '05v': $color-core-cyan-05-v,
         '10v': $color-core-cyan-10-v,
         '20v': $color-core-cyan-20-v,
         '30v': $color-core-cyan-30-v,
@@ -829,7 +829,7 @@ $tokens: (
         '70': $color-core-blue-cool-70,
         '80': $color-core-blue-cool-80,
         '90': $color-core-blue-cool-90,
-        '5v': $color-core-blue-cool-5-v,
+        '05v': $color-core-blue-cool-05-v,
         '10v': $color-core-blue-cool-10-v,
         '20v': $color-core-blue-cool-20-v,
         '30v': $color-core-blue-cool-30-v,
@@ -850,7 +850,7 @@ $tokens: (
         '70': $color-core-blue-70,
         '80': $color-core-blue-80,
         '90': $color-core-blue-90,
-        '5v': $color-core-blue-5-v,
+        '05v': $color-core-blue-05-v,
         '10v': $color-core-blue-10-v,
         '20v': $color-core-blue-20-v,
         '30v': $color-core-blue-30-v,
@@ -871,7 +871,7 @@ $tokens: (
         '70': $color-core-blue-warm-70,
         '80': $color-core-blue-warm-80,
         '90': $color-core-blue-warm-90,
-        '5v': $color-core-blue-warm-5-v,
+        '05v': $color-core-blue-warm-05-v,
         '10v': $color-core-blue-warm-10-v,
         '20v': $color-core-blue-warm-20-v,
         '30v': $color-core-blue-warm-30-v,
@@ -892,7 +892,7 @@ $tokens: (
         '70': $color-core-indigo-cool-70,
         '80': $color-core-indigo-cool-80,
         '90': $color-core-indigo-cool-90,
-        '5v': $color-core-indigo-cool-5-v,
+        '05v': $color-core-indigo-cool-05-v,
         '10v': $color-core-indigo-cool-10-v,
         '20v': $color-core-indigo-cool-20-v,
         '30v': $color-core-indigo-cool-30-v,
@@ -913,7 +913,7 @@ $tokens: (
         '70': $color-core-indigo-70,
         '80': $color-core-indigo-80,
         '90': $color-core-indigo-90,
-        '5v': $color-core-indigo-5-v,
+        '05v': $color-core-indigo-05-v,
         '10v': $color-core-indigo-10-v,
         '20v': $color-core-indigo-20-v,
         '30v': $color-core-indigo-30-v,
@@ -934,7 +934,7 @@ $tokens: (
         '70': $color-core-indigo-warm-70,
         '80': $color-core-indigo-warm-80,
         '90': $color-core-indigo-warm-90,
-        '5v': $color-core-indigo-warm-5-v,
+        '05v': $color-core-indigo-warm-05-v,
         '10v': $color-core-indigo-warm-10-v,
         '20v': $color-core-indigo-warm-20-v,
         '30v': $color-core-indigo-warm-30-v,
@@ -955,7 +955,7 @@ $tokens: (
         '70': $color-core-violet-70,
         '80': $color-core-violet-80,
         '90': $color-core-violet-90,
-        '5v': $color-core-violet-5-v,
+        '05v': $color-core-violet-05-v,
         '10v': $color-core-violet-10-v,
         '20v': $color-core-violet-20-v,
         '30v': $color-core-violet-30-v,
@@ -976,7 +976,7 @@ $tokens: (
         '70': $color-core-violet-warm-70,
         '80': $color-core-violet-warm-80,
         '90': $color-core-violet-warm-90,
-        '5v': $color-core-violet-warm-5-v,
+        '05v': $color-core-violet-warm-05-v,
         '10v': $color-core-violet-warm-10-v,
         '20v': $color-core-violet-warm-20-v,
         '30v': $color-core-violet-warm-30-v,
@@ -997,7 +997,7 @@ $tokens: (
         '70': $color-core-magenta-70,
         '80': $color-core-magenta-80,
         '90': $color-core-magenta-90,
-        '5v': $color-core-magenta-5-v,
+        '05v': $color-core-magenta-05-v,
         '10v': $color-core-magenta-10-v,
         '20v': $color-core-magenta-20-v,
         '30v': $color-core-magenta-30-v,
@@ -1018,7 +1018,7 @@ $tokens: (
         '70': $color-core-red-cool-70,
         '80': $color-core-red-cool-80,
         '90': $color-core-red-cool-90,
-        '5v': $color-core-red-cool-5-v,
+        '05v': $color-core-red-cool-05-v,
         '10v': $color-core-red-cool-10-v,
         '20v': $color-core-red-cool-20-v,
         '30v': $color-core-red-cool-30-v,

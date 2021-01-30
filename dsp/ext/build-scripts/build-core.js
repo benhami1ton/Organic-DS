@@ -1,6 +1,6 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
-const buildCategories = ['color', 'text', 'spacing', 'elevation'];
+const buildCategories = ['corecolors', 'coreelevation'];
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -12,13 +12,10 @@ function getStyleDictionaryConfig(tokenCat) {
     "platforms": {
       "web": {
         "transformGroup": "web",
-        "buildPath": `dsp/dist/web/core/${tokenCat}/`,
-        "files": [{
-          "destination": `_${tokenCat}.scss`,
-          "format": "scss/variables"
-        },
+        "buildPath": "dsp/dist/web/scss/00_tokens/",
+        "files": [
         {
-            "destination": `_${tokenCat}-map.scss`,
+            "destination": `_${tokenCat}.scss`,
             "format": "scss/map-deep"
           }
     ]

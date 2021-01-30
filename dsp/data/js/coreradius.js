@@ -1,5 +1,5 @@
 export const coreradius = {
-  "borderRadius": {
+  "radius": {
     "core": {
       "circle": {
         "{50%}": "50%"

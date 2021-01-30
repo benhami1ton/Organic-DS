@@ -14,7 +14,16 @@ export const coreelevation = {
         "value": 0
       },
       "02": {
-        "value": "0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),  0px 1px 5px 0px rgba(0, 0, 0, 0.20)"
+        "umbra": {
+          "value": "0px 3px 1px -2px rgba(0, 0, 0, 0.12)"
+        },
+        "penumbra": {
+          "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.14)"
+        },
+        "ambient": {
+          "value": "0px 1px 5px 0px rgba(0, 0, 0, 0.20)"
+        },
+        "value": "{elevation.core.02.umbra.value}, {elevation.core.02.penumbra.value}, {elevation.core.02.ambient.value}"
       },
       "04": {
         "value": "0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12)"
