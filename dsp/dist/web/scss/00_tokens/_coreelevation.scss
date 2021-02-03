@@ -1,15 +1,21 @@
 
 /*
   Do not edit directly
-  Generated on Sat, 30 Jan 2021 20:59:02 GMT
+  Generated on Sat, 30 Jan 2021 21:34:01 GMT
 */
 
 $elevation-core-12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12) !default;
 $elevation-core-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) !default;
 $elevation-core-inner: 0px 0px 7px 0px inset !default;
 $elevation-core-00: 0 !default;
-$elevation-core-02: 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.20) !default;
-$elevation-core-04: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !default;
+$elevation-core-02-full: 0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !default;
+$elevation-core-02-umbra: 0px 3px 1px -2px rgba(0, 0, 0, 0.20) !default;
+$elevation-core-02-penumbra: 0px 2px 2px 0px rgba(0, 0, 0, 0.14) !default;
+$elevation-core-02-antumbra: 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !default;
+$elevation-core-04-full: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !default;
+$elevation-core-04-umbra: 0px 2px 4px -1px rgba(0, 0, 0, 0.2) !default;
+$elevation-core-04-penumbra: 0px 4px 5px 0px rgba(0, 0, 0, 0.14) !default;
+$elevation-core-04-antumbra: 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !default;
 $elevation-core-08: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12) !default;
 
 $tokens: (
@@ -19,8 +25,18 @@ $tokens: (
       '24': $elevation-core-24,
       'inner': $elevation-core-inner,
       '00': $elevation-core-00,
-      '02': $elevation-core-02,
-      '04': $elevation-core-04,
+      '02': (
+        'full': $elevation-core-02-full,
+        'umbra': $elevation-core-02-umbra,
+        'penumbra': $elevation-core-02-penumbra,
+        'antumbra': $elevation-core-02-antumbra
+      ),
+      '04': (
+        'full': $elevation-core-04-full,
+        'umbra': $elevation-core-04-umbra,
+        'penumbra': $elevation-core-04-penumbra,
+        'antumbra': $elevation-core-04-antumbra
+      ),
       '08': $elevation-core-08
     )
   )

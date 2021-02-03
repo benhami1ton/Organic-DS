@@ -14,19 +14,32 @@
         "value": 0
       },
       "02": {
+        "full": {
+          "value": "{elevation.core.02.umbra.value}, {elevation.core.02.penumbra.value}, {elevation.core.02.antumbra.value}"
+        },
         "umbra": {
-          "value": "0px 3px 1px -2px rgba(0, 0, 0, 0.12)"
+          "value": "0px 3px 1px -2px rgba(0, 0, 0, 0.20)"
         },
         "penumbra": {
           "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.14)"
         },
-        "ambient": {
-          "value": "0px 1px 5px 0px rgba(0, 0, 0, 0.20)"
-        },
-        "value": "{elevation.core.02.umbra.value}, {elevation.core.02.penumbra.value}, {elevation.core.02.ambient.value}"
+        "antumbra": {
+          "value": "0px 1px 5px 0px rgba(0, 0, 0, 0.12)"
+        }
       },
       "04": {
-        "value": "0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12)"
+        "full": {
+          "value": "{elevation.core.04.umbra.value}, {elevation.core.04.penumbra.value}, {elevation.core.04.antumbra.value}"
+        },
+        "umbra": {
+          "value": "0px 2px 4px -1px rgba(0, 0, 0, 0.2)"
+        },
+        "penumbra": {
+          "value": "0px 4px 5px 0px rgba(0, 0, 0, 0.14)"
+        },
+        "antumbra": {
+          "value": "0px 1px 10px 0px rgba(0, 0, 0, 0.12)"
+        }
       },
       "08": {
         "value": "0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12)"

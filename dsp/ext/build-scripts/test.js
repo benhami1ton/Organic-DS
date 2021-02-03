@@ -1,63 +1,67 @@
-const fse = require("fs-extra");
+// Required packages to run this script, 
+const fse = require("fs-extra"); 
 const glob = require("glob");
 const path = require("path");
 
 
 
-
-// Searches through specific path, finds all files matching, and returns to an array
-
-// const coreFiles = function () {
-//     glob("dsp/data/json/*.json", function (er, tokenpaths) {
-//         // Manipulates array to remove folders and file type, as well as removing the 'start' file
-//         // files = tokenpaths.map(file => path.basename(file, '.json')).filter(file => file != 'start');
-//         // console.log(files);
-//         files = tokenpaths.map(file => path.basename(file, '.json')).filter(file => file != 'start');
-//         return files;
-//     })
-// };
-
-// Insert the files in the data/json folder to a Path-parsed object
+// Insert the files in the data/json folder to an array
 const allFiles = glob.sync("dsp/data/json/*.json");
 
+// Define the categories that we will be sorting the files into
+const tokenCategories = ["core", "theme"];
+
+// For each category, create an object containing the files matching that category
+const separateFilesByCat = tokenCategories.map(function (category) {
+    // define temporary variable that holds an object with the category and an array of all files matching the category
+    const iterativeCat = {[category]: allFiles.filter(file => file.includes(category)).map(function (filteredFile) {
+        // deconstruct each path into its relative parts, for easier consumption/manipulation later
+        const parsedFile = path.parse(filteredFile)
+        // return freshly deconstructed path details to the parent array
+        return parsedFile;
+    })}
+    // return temporary object to the parent array
+    return iterativeCat;
+})
+
+// Create a fixed object with the sorted token files, to make it easier to reference later
+const tokenFiles = {
+    // Referencing both the index of the array, and the key of the interior object
+    coreFiles: separateFilesByCat[0].core,
+    themeFiles: separateFilesByCat[1].theme,
+}
 
 
-const coreFiles = allFiles.filter(file => file.includes("core"));
-const themeFiles = allFiles.filter(file => file.includes("theme"));
 
-// Map a new array with the file paths only, removing the basename
-const fileLoc = allFiles.map(function (file) {
-    return path.dirname(file)
-});
-
-const moveCore = function () {
-    coreFiles.forEach(file => {
-        const dirName = path.dirname(file);
-        const baseName = path.basename(file);
-        const newPath = `${dirName}/core/${baseName}`;
-        fse.rename(file, newPath, (err) => {
+// Define a function that will move/manipulate the files based on category
+function moveFiles() {
+    tokenFiles.coreFiles.forEach(fileObj => {
+        // Remove the 'core' name from the file
+        const rootName = fileObj.base.slice(4);
+        // Define old path in a string, using the path.dir and the path.base
+        const oldPath = `${fileObj.dir}/${fileObj.base}`
+        // Define new path for the core files
+        const newPath = `${fileObj.dir}/core/${rootName}`;
+        // use fs-extra module to move core files
+        fse.rename(oldPath, newPath, (err) => {
             if (err) throw err;
-            console.log(`Rename of ${file} complete!`);
+            console.log(`Core file: ${rootName} has been moved!`);
+          });
+    })
+    tokenFiles.themeFiles.forEach(fileObj => {
+        // Remove the 'theme' name from the file
+        const rootName = fileObj.base.slice(5);
+        // Define old path in a string, using the path.dir and the path.base
+        const oldPath = `${fileObj.dir}/${fileObj.base}`
+        // Define new path for the theme files
+        const newPath = `${fileObj.dir}/theme/${rootName}`;
+        // use fs-extra module to move core files
+        fse.rename(oldPath, newPath, (err) => {
+            if (err) throw err;
+            console.log(`Theme file: ${rootName} has been moved!`);
           });
     })
 }
 
-moveCore();
 
-// // Map a new array with just the basenames of the files
-// const coreBasenames = allFiles.map(file => path.basename(file)).filter(file => file != 'start');
-
-console.log("All Paths");
-console.log(allFiles);
-
-console.log("All - Just Paths");
-console.log(fileLoc);
-
-// console.log("All - Just Filenames");
-// console.log(coreBasenames);
-
-console.log("Core Files");
-console.log(coreFiles);
-
-console.log("Theme Files");
-console.log(themeFiles);
+moveFiles();
