@@ -2,7 +2,7 @@
   "_class": "group",
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "4769AD3F-AE78-446E-A33C-106EC719C63B",
+  "do_objectID": "EFA15D08-C406-4BF1-BBAD-74637DD53AEC",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,10 +15,10 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 112,
-    "width": 195,
-    "x": 0,
-    "y": 0
+    "height": 13,
+    "width": 250,
+    "x": 214,
+    "y": 92
   },
   "groupLayout": {
     "_class": "MSImmutableFreeformGroupLayout"
@@ -33,24 +33,12 @@
   "layerListExpandedType": 0,
   "layers": [
     {
-      "class": "rectangle",
-      "id": "252D8B52-0EDE-4C31-B95D-684A80BDC7C7"
-    },
-    {
-      "class": "rectangle",
-      "id": "B353C95B-F418-4F70-A5F7-D98A4729BD1D"
-    },
-    {
       "class": "text",
-      "id": "5F95CD0A-AE70-4F93-87F1-D48BBDB4FD76"
-    },
-    {
-      "class": "text",
-      "id": "68DDD137-040F-4652-B548-B2856A08B497"
+      "id": "B64103BF-5CAF-49F6-9ADF-B93160AC9226"
     }
   ],
-  "name": ".dtignore",
-  "nameIsFixed": false,
+  "name": "umbra",
+  "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
@@ -89,7 +77,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "CA91D583-4170-4BF1-A0C3-1420FBA69760",
+    "do_objectID": "5FCCF8B3-370F-4310-AFCB-B656814ED538",
     "endMarkerType": 0,
     "fills": [
     ],

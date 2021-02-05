@@ -16,8 +16,8 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "PTMono-Regular",
-              "size": 10.24
+              "name": "NunitoSans-Regular",
+              "size": 16
             }
           },
           "kerning": 0,
@@ -25,22 +25,22 @@
             "_class": "paragraphStyle",
             "alignment": 0,
             "allowsDefaultTighteningForTruncation": 0,
-            "maximumLineHeight": 13,
-            "minimumLineHeight": 13,
+            "maximumLineHeight": 16,
+            "minimumLineHeight": 16,
             "paragraphSpacing": 16
           },
           "textStyleVerticalAlignmentKey": 0
         },
-        "length": 23,
+        "length": 5,
         "location": 0
       }
     ],
-    "string": "{0px 0px 7px 0px inset}"
+    "string": "Umbra"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "1CDE5D78-A618-4FD4-8F93-F3F607EBA054",
+  "do_objectID": "5D5AA7E4-0F40-4710-A0CF-339562E5A2F9",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -54,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 13,
-    "width": 299,
-    "x": 566,
-    "y": 34
+    "height": 16,
+    "width": 86,
+    "x": 109,
+    "y": 90
   },
-  "glyphBounds": "{{0, 2}, {141, 11}}",
+  "glyphBounds": "{{1, 1}, {47, 13}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -73,7 +73,7 @@
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "63B84609-F603-4B77-9279-3D6BA71C072C",
+  "sharedStyleID": "0738736E-C923-4D91-BCE9-C14CD07058F5",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -109,7 +109,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "7BF100B8-0033-4275-A33B-684A9F12D79C",
+    "do_objectID": "7AE899CA-0192-4DFF-8BDE-A154ECE01E9F",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -132,8 +132,8 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "PTMono-Regular",
-            "size": 10.24
+            "name": "NunitoSans-Regular",
+            "size": 16
           }
         },
         "kerning": 0,
@@ -141,8 +141,8 @@
           "_class": "paragraphStyle",
           "alignment": 0,
           "allowsDefaultTighteningForTruncation": 0,
-          "maximumLineHeight": 13,
-          "minimumLineHeight": 13,
+          "maximumLineHeight": 16,
+          "minimumLineHeight": 16,
           "paragraphSpacing": 16
         },
         "textStyleVerticalAlignmentKey": 0

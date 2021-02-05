@@ -16,8 +16,8 @@
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "PTMono-Regular",
-              "size": 10.24
+              "name": "NunitoSans-Regular",
+              "size": 16
             }
           },
           "kerning": 0,
@@ -25,22 +25,22 @@
             "_class": "paragraphStyle",
             "alignment": 0,
             "allowsDefaultTighteningForTruncation": 0,
-            "maximumLineHeight": 13,
-            "minimumLineHeight": 13,
+            "maximumLineHeight": 16,
+            "minimumLineHeight": 16,
             "paragraphSpacing": 16
           },
           "textStyleVerticalAlignmentKey": 0
         },
-        "length": 112,
+        "length": 8,
         "location": 0
       }
     ],
-    "string": "{0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12)}"
+    "string": "Antumbra"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "A00764D3-11DD-48D0-B266-43B8E69C6965",
+  "do_objectID": "EB32DFA8-A200-4E39-B7B4-1A115B40C50F",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -54,12 +54,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 39,
-    "width": 237,
-    "x": 214,
-    "y": 33.00000000000003
+    "height": 16,
+    "width": 86,
+    "x": 109,
+    "y": 130
   },
-  "glyphBounds": "{{0, 2}, {227, 37}}",
+  "glyphBounds": "{{0, 1}, {72, 13}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
@@ -73,7 +73,7 @@
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "63B84609-F603-4B77-9279-3D6BA71C072C",
+  "sharedStyleID": "0738736E-C923-4D91-BCE9-C14CD07058F5",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -109,7 +109,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "716DD7AA-B6FF-422D-B271-ED91C51D2D2C",
+    "do_objectID": "BFC83443-EDD8-4EFE-B3F4-425547A06B4A",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -132,8 +132,8 @@
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "PTMono-Regular",
-            "size": 10.24
+            "name": "NunitoSans-Regular",
+            "size": 16
           }
         },
         "kerning": 0,
@@ -141,8 +141,8 @@
           "_class": "paragraphStyle",
           "alignment": 0,
           "allowsDefaultTighteningForTruncation": 0,
-          "maximumLineHeight": 13,
-          "minimumLineHeight": 13,
+          "maximumLineHeight": 16,
+          "minimumLineHeight": 16,
           "paragraphSpacing": 16
         },
         "textStyleVerticalAlignmentKey": 0
