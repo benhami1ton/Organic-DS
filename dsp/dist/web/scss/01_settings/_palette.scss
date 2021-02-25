@@ -1,0 +1,68 @@
+@use '../00_tokens/ods-core-color' as ods;
+
+$primary-lighter: ods.$color-core-blue-20;
+$primary-light: ods.$color-core-blue-30;
+$primary: ods.$color-core-blue-50;
+$primary-dark: ods.$color-core-blue-70;
+$primary-darker: ods.$color-core-blue-90;
+
+$secondary-lighter: ods.$color-core-gold-10;
+$secondary-light: ods.$color-core-gold-30;
+$secondary: ods.$color-core-gold-50;
+$secondary-dark: ods.$color-core-gold-70;
+$secondary-darker: ods.$color-core-gold-80;
+
+$accent-lighter: ods.$color-core-mint-10;
+$accent-light: ods.$color-core-mint-30;
+$accent: ods.$color-core-mint-50;
+$accent-dark: ods.$color-core-mint-70;
+$accent-darker: ods.$color-core-mint-80;
+
+$base-lightest: ods.$color-core-gray-03;
+$base-lighter: ods.$color-core-gray-10;
+$base-light: ods.$color-core-gray-30;
+$base: ods.$color-core-gray-50;
+$base-dark: ods.$color-core-gray-70;
+$base-darker: ods.$color-core-gray-80;
+$base-darkest: ods.$color-core-gray-90;
+
+$background: ods.$color-core-white-trans-100;
+$background-inverse: ods.$color-core-blue-90;
+
+$color-success-darkest: ods.$color-core-green-90;
+$color-success-darker: ods.$color-core-green-80;
+$color-success-dark: ods.$color-core-green-70;
+$color-success: ods.$color-core-green-50;
+$color-success-light: ods.$color-core-green-30;
+$color-success-lighter: ods.$color-core-green-10;
+$color-success-lightest: ods.$color-core-green-5;
+
+$color-warn-darkest: ods.$color-core-yellow-80-v;
+$color-warn-darker: ods.$color-core-yellow-70-v;
+$color-warn-dark: ods.$color-core-yellow-60-v;
+$color-warn: ods.$color-core-yellow-50-v;
+$color-warn-light: ods.$color-core-yellow-30-v;
+$color-warn-lighter: ods.$color-core-yellow-10-v;
+$color-warn-lightest: ods.$color-core-yellow-05-v;
+
+$color-error-darkest: ods.$color-core-red-90;
+$color-error-darker: ods.$color-core-red-80;
+$color-error-dark: ods.$color-core-red-70;
+$color-error: ods.$color-core-red-50;
+$color-error-light: ods.$color-core-red-30;
+$color-error-lighter: ods.$color-core-red-10;
+$color-error-lightest: ods.$color-core-red-5;
+
+$color-info-darkest: ods.$color-core-cyan-90;
+$color-info-darker: ods.$color-core-cyan-80;
+$color-info-dark: ods.$color-core-cyan-70;
+$color-info: ods.$color-core-cyan-50;
+$color-info-light: ods.$color-core-cyan-30;
+$color-info-lighter: ods.$color-core-cyan-10;
+$color-info-lightest: ods.$color-core-cyan-5;
+
+$color-focus-color: ods.$color-core-green-90;
+$color-focus-color-inverse: ods.$color-core-green-90;
+$color-focus-border-inverse: ods.$color-core-green-90;
+$color-muted-inverse: ods.$color-core-green-90;
+$color-transparent: ods.$color-core-green-90;

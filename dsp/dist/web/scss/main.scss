@@ -1,27 +1,25 @@
 // 00. Tokens
 // This section holds ODS Tokens that are global to UHS digital products. These partials are distributed and updated from our core design system.
-@import "00_tokens/corecolors";
-@import "00_tokens/coreelevation";
+// @import "00_tokens/corecolors";
+// @import "00_tokens/coreelevation";
 
 // 01. Settings
 // This section holds global settings for the project. Emphasis on global. These files should be styles accessible from anywhere.
 // @use "01_settings/settings.systemcolors";
-// @use "01_settings/settings.basepalette";
 // @use "01_settings/settings.systemcolors";
 // @use "01_settings/settings.typography";
 // 02. Tools
+@use '02_tools' as tools;
 // 03. Generic
+@use '03_generic' as generic;
 // 04. Elements
+@use "04_elements" as elements;
 // 05. Components
+@use "06_components" as components;
 // 06. Objects
-@import "06_objects/card";
+
 // 07. Theme
+// @import "07_theme/theme.palette";
 // 99. Utilities
 // @use "99_utilities/utilities.clearfix";
 // @use "99_utilities/utilities.typography";
-.class {
-  color: $color-core-blue-70;
-  background-color: $color-core-blue-20;
-  box-shadow: $elevation-core-08;
-  padding: 20px;
-}

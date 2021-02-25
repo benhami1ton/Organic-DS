@@ -1,0 +1,21 @@
+
+/*
+  Do not edit directly
+  Generated on Thu, 18 Feb 2021 23:51:44 GMT
+*/
+
+$radius-core-circle: 50% !default;
+$radius-core-sm: 0.125rem !default;
+$radius-core-md: 0.25rem !default;
+$radius-core-lg: 0.5rem !default;
+
+$tokens: (
+  'radius': (
+    'core': (
+      'circle': $radius-core-circle,
+      'sm': $radius-core-sm,
+      'md': $radius-core-md,
+      'lg': $radius-core-lg
+    )
+  )
+);

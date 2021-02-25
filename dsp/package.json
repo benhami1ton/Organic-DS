@@ -1,12 +1,20 @@
 {
-  "name": "stratostokens",
-  "productName": "StratosTokens",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "style-dictionary": "^2.8.3"
-  },
+  "name": "style-dictionary-matching-build-files",
+  "version": "1.0.0",
+  "description": "An example to show how to automate build files that match folders",
+  "main": "dsp/data/json/index.js",
+  "module": "dsp/data/json/index.js",
+  "files": [
+    "build",
+    "properties"
+  ],
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build --config ./config.js",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "style-dictionary": "^3.0.0-rc.2"
   }
 }

@@ -1,0 +1,15 @@
+@use "../01_settings" as settings;
+
+::selection {
+  background: settings.$primary;
+  background: rgba(settings.$primary, 0.3);
+}
+
+::-moz-selection {
+  background: settings.$primary;
+  background: rgba(settings.$primary, 0.3);
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(settings.$primary, 0.2);
+}

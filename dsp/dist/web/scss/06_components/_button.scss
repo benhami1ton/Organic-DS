@@ -1,0 +1,30 @@
+@use "../00_tokens/ods-tokens.scss" as ods;
+@use "../01_settings" as settings;
+
+.button {
+  padding: ods.$spacing-core-sm ods.$spacing-core-md;
+  border-radius: ods.$radius-core-lg;
+  color: ods.$color-core-white-trans-100;
+  text-decoration: none;
+  display: inline-block;
+  &.primary {
+    @extend .button;
+    background-color: settings.$primary;
+    &:hover {
+      background-color: settings.$primary-light;
+    }
+  }
+  &.secondary {
+    @extend .button;
+    background-color: settings.$secondary;
+    &:hover {
+      background-color: settings.$secondary-light;
+    }
+  }
+  &.quiet {
+    @extend .button;
+    &:hover {
+      background-color: settings.$base-lighter;
+    }
+  }
+}

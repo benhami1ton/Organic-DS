@@ -1,0 +1,64 @@
+@use '../00_tokens/ods-core-color' as ods;
+
+$color-primary-lighter: ods.$color-core-red-10;
+$color-primary-light: ods.$color-core-red-30;
+$color-primary: ods.$color-core-red-50;
+$color-primary-dark: ods.$color-core-red-70;
+$color-primary-darker: ods.$color-core-red-90;
+
+$color-secondary-lighter: ods.$color-core-gold-10;
+$color-secondary-light: ods.$color-core-gold-30;
+$color-secondary: ods.$color-core-gold-50;
+$color-secondary-dark: ods.$color-core-gold-70;
+$color-secondary-darker: ods.$color-core-gold-80;
+
+$color-accent-lighter: ods.$color-core-mint-10;
+$color-accent-light: ods.$color-core-mint-30;
+$color-accent: ods.$color-core-mint-50;
+$color-accent-dark: ods.$color-core-mint-70;
+$color-accent-darker: ods.$color-core-mint-80;
+
+$color-base-lighter: ods.$color-core-gray-cool-10;
+$color-base-light: ods.$color-core-gray-cool-30;
+$color-base: ods.$color-core-gray-cool-50;
+$color-base-dark: ods.$color-core-gray-cool-70;
+$color-base-darker: ods.$color-core-gray-cool-80;
+
+$color-background: ods.$color-core-white-trans-100;
+$color-background-inverse: ods.$color-core-blue-90;
+
+// $color-gray-dark: ;
+// $color-gray: ;
+// $color-gray-light: ;
+// $color-gray-lighter: ;
+// $color-gray-lightest: ;
+
+// $color-success-darkest: ;
+// $color-success-darker: ;
+// $color-success-dark: ;
+// $color-success: ;
+// $color-success-light: ;
+// $color-success-lighter: ;
+// $color-success-lightest: ;
+
+// $color-warn-darkest: ;
+// $color-warn-darker: ;
+// $color-warn-dark: ;
+// $color-warn: ;
+// $color-warn-light: ;
+// $color-warn-lighter: ;
+// $color-warn-lightest: ;
+
+// $color-error-darkest: ;
+// $color-error-darker: ;
+// $color-error-dark: ;
+// $color-error: ;
+// $color-error-light: ;
+// $color-error-lighter: ;
+// $color-error-lightest: ;
+
+// $color-focus-color: ;
+// $color-focus-color-inverse: ;
+// $color-focus-border-inverse: ;
+// $color-muted-inverse: ;
+// $color-transparent: ;

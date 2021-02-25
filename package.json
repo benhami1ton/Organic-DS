@@ -1,17 +1,18 @@
 {
   "name": "OrganicDS",
-  "productName": "Organic DS",
+  "productName": "Organic-DS",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "style-dictionary": "^2.8.3"
+    "style-dictionary": "github:amzn/style-dictionary#3.0"
   },
   "scripts": {
-    "build-core": "node ext/build-scripts/build-core.js",
-    "build-theme": "node ext/build-scripts/build-theme.js",
+    "build": "style-dictionary build --config ./dsp/index.js",
+    "clean": "rm -rf build",
     "test-script": "test.js"
   },
+  "author": "Ben Hamilton <ben.hamilton@uhsinc.com>",
   "devDependencies": {
-    "sketch-constructor": "^1.24.2"
+    "style-dictionary": "^3.0.0-rc.4"
   }
 }

@@ -1,0 +1,9 @@
+@use "../00_tokens/ods-tokens.scss" as ods;
+@use "../01_settings" as settings;
+
+section {
+  max-width: 50%;
+  margin: ods.$spacing-core-sm auto;
+  background-color: settings.$base-lightest;
+  padding: ods.$spacing-core-sm;
+}
