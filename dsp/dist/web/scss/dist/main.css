@@ -1,118 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-::selection {
-  background: #2378c3;
-  background: rgba(35, 120, 195, 0.3);
-}
+/* Error: expected "{".
+ *   ,
+ * 4 | %color-background-button-primary: base.$primary;
+ *   |                                                ^
+ *   '
+ *   06_components/_button.scss 4:48  @forward
+ *   06_components/_index.scss 3:1    @use
+ *   main.scss 20:1                   root stylesheet */
 
-::-moz-selection {
-  background: #2378c3;
-  background: rgba(35, 120, 195, 0.3);
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 4 \2502  %color-background-button-primary: base.$primary;\a   \2502                                                 ^\a   \2575 \a   06_components/_button.scss 4:48  @forward\a   06_components/_index.scss 3:1    @use\a   main.scss 20:1                   root stylesheet';
 }
-
-* {
-  -webkit-tap-highlight-color: rgba(35, 120, 195, 0.2);
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-}
-
-section {
-  max-width: 50%;
-  margin: 1rem auto;
-  background-color: #f6f6f6;
-  padding: 1rem;
-}
-
-.alert {
-  width: 100%;
-  padding: 16px;
-  border-radius: 4px;
-  margin: 24px auto;
-  border-style: solid;
-  border-width: 2px;
-  font-size: 1.2rem;
-}
-.alert.info {
-  background-color: #e7f6f8;
-  border-color: #168092;
-  color: #2c4a4e;
-}
-.alert.success {
-  background-color: #eaf4dd;
-  border-color: #607f35;
-  color: #3c4a29;
-}
-.alert.warn {
-  background-color: #fff5c2;
-  border-color: #947100;
-  color: #776017;
-}
-.alert.error {
-  background-color: #f9eeee;
-  border-color: #d83933;
-  color: #6f3331;
-}
-
-.toast {
-  width: 50%;
-  padding: 24px;
-  border-radius: 4px;
-  margin: 24px auto;
-  border-left-style: solid;
-  border-left-width: 8px;
-  font-size: 1rem;
-  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-}
-.toast.info {
-  background-color: #e7f6f8;
-  border-color: #168092;
-  color: #2c4a4e;
-}
-.toast.success {
-  background-color: #eaf4dd;
-  border-color: #607f35;
-  color: #3c4a29;
-}
-.toast.warn {
-  background-color: #fff5c2;
-  border-color: #947100;
-  color: #776017;
-}
-.toast.error {
-  background-color: #f9eeee;
-  border-color: #d83933;
-  color: #6f3331;
-}
-
-.button, .button.quiet, .button.secondary, .button.primary {
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  color: #ffffff;
-  text-decoration: none;
-  display: inline-block;
-}
-.button.primary {
-  background-color: #2378c3;
-}
-.button.primary:hover {
-  background-color: #73b3e7;
-}
-.button.secondary {
-  background-color: #8e704f;
-}
-.button.secondary:hover {
-  background-color: #c7a97b;
-}
-.button.quiet:hover {
-  background-color: #e6e6e6;
-}
-
-/*# sourceMappingURL=main.css.map */

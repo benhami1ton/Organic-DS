@@ -1,0 +1,20 @@
+@use '../01_settings/palette' as base;
+/// Callout Box
+/// @author Ben Hamilton
+.callout {
+  margin: 24px;
+  padding: 72px;
+  font-size: 1.5em;
+  &.primary {
+    background-color: base.$primary;
+    color: white;
+  }
+  &.secondary {
+    background-color: base.$secondary;
+    color: white;
+  }
+  &.accent {
+    background-color: base.$accent;
+    color: white;
+  }
+}

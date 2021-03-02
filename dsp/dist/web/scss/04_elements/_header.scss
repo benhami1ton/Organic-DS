@@ -1,0 +1,34 @@
+@use '../01_settings' as base;
+.main-header {
+  display: grid;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+
+  .logo {
+    grid-column: 1 / span 3;
+    & img {
+      width: 100%;
+    }
+  }
+  nav {
+    grid-column: 6 / span 6;
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+
+    li {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+      color: base.$primary;
+      font-weight: 700;
+    }
+  }
+}

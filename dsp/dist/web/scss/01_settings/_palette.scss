@@ -1,3 +1,8 @@
+////
+/// @group template
+/// This is a variable for the Template.
+////
+
 @use '../00_tokens/ods-core-color' as ods;
 
 $primary-lighter: ods.$color-core-blue-20;
@@ -6,17 +11,17 @@ $primary: ods.$color-core-blue-50;
 $primary-dark: ods.$color-core-blue-70;
 $primary-darker: ods.$color-core-blue-90;
 
-$secondary-lighter: ods.$color-core-gold-10;
-$secondary-light: ods.$color-core-gold-30;
-$secondary: ods.$color-core-gold-50;
-$secondary-dark: ods.$color-core-gold-70;
-$secondary-darker: ods.$color-core-gold-80;
+$secondary-lighter: ods.$color-core-gray-10;
+$secondary-light: ods.$color-core-gray-30;
+$secondary: ods.$color-core-gray-50;
+$secondary-dark: ods.$color-core-gray-70;
+$secondary-darker: ods.$color-core-gray-80;
 
-$accent-lighter: ods.$color-core-mint-10;
-$accent-light: ods.$color-core-mint-30;
-$accent: ods.$color-core-mint-50;
-$accent-dark: ods.$color-core-mint-70;
-$accent-darker: ods.$color-core-mint-80;
+$accent-lighter: ods.$color-core-cyan-10;
+$accent-light: ods.$color-core-cyan-30;
+$accent: ods.$color-core-cyan-50;
+$accent-dark: ods.$color-core-cyan-70;
+$accent-darker: ods.$color-core-cyan-80;
 
 $base-lightest: ods.$color-core-gray-03;
 $base-lighter: ods.$color-core-gray-10;

@@ -8,17 +8,17 @@
   </head>
 
   <body>
-    <header>
-      <div class="logo">
-        <a href="#" class="home"><img class="logo-img" src="" alt="Logo" /></a>
-        <nav class="main-nav">
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header class="main-header">
+      <a href="#" class="logo"
+        ><img class="logo-img" src="../../assets/img/logo.png" alt="Logo"
+      /></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section id="typography">
@@ -51,7 +51,9 @@
         <div class="title"><h2>Buttons</h2></div>
         <div class="content">
           <a href="" class="button primary">Button Text</a>
+          <a href="" class="button primary disabled">Button Text</a>
           <a href="" class="button secondary">Button Text</a>
+          <a href="" class="button accent">Button Text</a>
           <a href="" class="button quiet">Button Text</a>
           <div class="button-group">
             <a href="" class="button primary">Button Text</a
@@ -95,29 +97,54 @@
         <h2>Alerts</h2>
         <div class="content">
           <h4>Alert Boxes</h4>
-          <div class="alert info">Mandalorians don't remove their helmets.</div>
-          <div class="alert success">This is the way.</div>
-          <div class="alert warn">I wouldn't try to remove Mando's helmet.</div>
-          <div class="alert error">You tried to take his helmet and died.</div>
+          <div class="alert info">
+            Mandalorians don't show their faces.
+            <div class="close-btn"></div>
+          </div>
+          <div class="alert success">
+            This is the way.
+            <div class="close-btn"></div>
+          </div>
+          <div class="alert warn">
+            I wouldn't try to remove Mando's helmet.
+            <div class="close-btn"></div>
+          </div>
+          <div class="alert error">
+            You tried to take his helmet and died.
+            <div class="close-btn"></div>
+          </div>
 
           <h4>Toasts</h4>
-          <div class="toast info">Mandalorians don't remove their helmets.</div>
-          <div class="toast success">This is the way.</div>
-          <div class="toast warn">I wouldn't try to remove Mando's helmet.</div>
-          <div class="toast error">You tried to take his helmet and died.</div>
+          <!-- toasts probably need smaller buttons -->
+          <div class="toast info">
+            Mandalorians don't show their faces.
+            <div class="close-btn"></div>
+          </div>
+          <div class="toast success">
+            This is the way.
+            <div class="close-btn"></div>
+          </div>
+          <div class="toast warn">
+            I wouldn't try to remove Mando's helmet.
+            <div class="close-btn"></div>
+          </div>
+          <div class="toast error">
+            You tried to take his helmet and died.
+            <div class="close-btn"></div>
+          </div>
         </div>
       </section>
       <section id="callout">
         <h2>Callout Box</h2>
-        <div class="callout">
+        <div class="callout primary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nemo
           fuga officiis nesciunt rem in!
         </div>
-        <div class="callout">
+        <div class="callout secondary">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
           doloremque hic amet, facilis quaerat quod.
         </div>
-        <div class="callout">
+        <div class="callout accent">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
           quisquam asperiores sunt sit molestiae sequi?
         </div>
@@ -130,8 +157,8 @@
             sunt hic facere harum perspiciatis fuga.
           </p>
           <div class="button-group">
-            <a href="" class="button">Button Text</a
-            ><a href="" class="button">Button Text</a>
+            <a href="" class="button primary">Button Text</a
+            ><a href="" class="button quiet">Button Text</a>
           </div>
         </div>
       </section>

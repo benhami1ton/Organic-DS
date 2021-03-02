@@ -1,5 +1,6 @@
 @use "../01_settings" as settings;
-
+@use 'close-button' as close;
+///
 .alert {
   width: 100%;
   padding: 16px;
@@ -8,6 +9,10 @@
   border-style: solid;
   border-width: 2px;
   font-size: 1.2rem;
+  position: relative;
+  > .close-btn {
+    @include close.close-button;
+  }
   &.info {
     background-color: settings.$color-info-lightest;
     border-color: settings.$color-info;

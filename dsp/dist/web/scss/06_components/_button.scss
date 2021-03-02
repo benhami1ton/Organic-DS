@@ -1,30 +1,71 @@
 @use "../00_tokens/ods-tokens.scss" as ods;
-@use "../01_settings" as settings;
+@use "../01_settings" as base;
+
+%color-background-button-primary: base.$primary;
+%color-background-button-primary--active: base.$primary-dark;
+%color-background-button-primary--hover: base.$primary-light;
+%color-background-button-primary--disabled: base.$primary-lighter;
+
+@mixin btn-states($btn-style) {
+  background-color: %color-background-button-primary;
+  &:hover {
+    background-color: %color-background-button-#{btn-style}--hover;
+  }
+  &:focus {
+    background-color: %color-background-button-primary--active;
+  }
+  &.disabled {
+    background-color: %color-background-button-primary--disabled;
+  }
+}
 
 .button {
   padding: ods.$spacing-core-sm ods.$spacing-core-md;
   border-radius: ods.$radius-core-lg;
   color: ods.$color-core-white-trans-100;
   text-decoration: none;
+
   display: inline-block;
   &.primary {
-    @extend .button;
-    background-color: settings.$primary;
+    background-color: $color-background-button-primary;
     &:hover {
-      background-color: settings.$primary-light;
+      background-color: $color-background-button-primary--hover;
+    }
+    &:focus {
+      background-color: $color-background-button-primary--active;
+    }
+    &.disabled {
+      background-color: $color-background-button-primary--disabled;
     }
   }
   &.secondary {
-    @extend .button;
-    background-color: settings.$secondary;
+    background-color: base.$secondary;
     &:hover {
-      background-color: settings.$secondary-light;
+      background-color: base.$secondary-light;
+    }
+  }
+  &.accent {
+    background-color: base.$accent;
+    &:hover {
+      background-color: base.$accent-light;
     }
   }
   &.quiet {
-    @extend .button;
+    color: base.$primary;
+    font-weight: 700;
+    text-decoration: underline;
     &:hover {
-      background-color: settings.$base-lighter;
+      color: base.$primary-light;
     }
+    &::after {
+      content: " >";
+    }
+  }
+}
+
+.button-group {
+  margin: ods.$spacing-core-sm 0;
+  & :first-child {
+    margin-right: ods.$spacing-core-sm;
   }
 }

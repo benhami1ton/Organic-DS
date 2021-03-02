@@ -1,5 +1,6 @@
 @use "../01_settings" as settings;
 @use "../00_tokens/ods-tokens.scss" as ods;
+@use 'close-button' as close;
 
 .toast {
   width: 50%;
@@ -10,6 +11,10 @@
   border-left-width: 8px;
   font-size: 1rem;
   box-shadow: ods.$elevation-core-08;
+  position: relative;
+  > .close-btn {
+    @include close.close-button;
+  }
   &.info {
     background-color: settings.$color-info-lightest;
     border-color: settings.$color-info;

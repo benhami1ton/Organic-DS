@@ -1,0 +1,17 @@
+@mixin close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2em;
+  height: 2em;
+
+  &:before {
+    content: "×";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+  }
+}

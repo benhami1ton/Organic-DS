@@ -1,3 +1,5 @@
+@charset 'utf-8';
+
 // 00. Tokens
 // This section holds ODS Tokens that are global to UHS digital products. These partials are distributed and updated from our core design system.
 // @import "00_tokens/corecolors";
@@ -13,9 +15,9 @@
 // 03. Generic
 @use '03_generic' as generic;
 // 04. Elements
-@use "04_elements" as elements;
+@use '04_elements' as elements;
 // 05. Components
-@use "06_components" as components;
+@use '06_components' as components;
 // 06. Objects
 
 // 07. Theme

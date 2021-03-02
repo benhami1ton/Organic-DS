@@ -1,13 +1,17 @@
-///* ========================================================================
-//   #CLEARFIX
-//   ======================================================================== */
+////
+/// This is a poster comment for this file.
+///
+/// @group Tools
+/// @author Bootstrap 5.0 https://getbootstrap.com/docs/5.0/helpers/clearfix/
+///
+////
 
-// Mixin to drop micro clearfix into a selector. Further reading:
-// http://www.cssmojo.com/the-very-latest-clearfix-reloaded/
-//
-// .usage {
-//   @include clearfix();
-// }
+/// Bootstrap clearfix helper
+/// @example scss
+/// .element {
+///   @include clearfix;
+/// }
+
 @mixin clearfix() {
   &::after {
     display: block;
