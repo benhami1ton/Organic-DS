@@ -2,7 +2,7 @@
   "_class": "group",
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "ABF28BC8-17E4-4903-BD31-ACDBD7E26BC9",
+  "do_objectID": "1228C465-3422-4947-BF6B-E6F817064D75",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,10 +15,10 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 13,
-    "width": 250,
-    "x": 214,
-    "y": 111
+    "height": 112,
+    "width": 451,
+    "x": 0,
+    "y": 459
   },
   "groupLayout": {
     "_class": "MSImmutableFreeformGroupLayout"
@@ -30,14 +30,18 @@
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 0,
+  "layerListExpandedType": 2,
   "layers": [
     {
+      "class": "group",
+      "id": "4769AD3F-AE78-446E-A33C-106EC719C63B"
+    },
+    {
       "class": "text",
-      "id": "9268201C-FE02-4508-8412-0310B6896458"
+      "id": "A00764D3-11DD-48D0-B266-43B8E69C6965"
     }
   ],
-  "name": "penumbra",
+  "name": "04",
   "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
@@ -77,7 +81,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "8693B364-B90B-4E45-AC3E-379B27375EA0",
+    "do_objectID": "04637ADA-FE79-4476-AA3B-649DCAE5C260",
     "endMarkerType": 0,
     "fills": [
     ],

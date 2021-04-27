@@ -1,41 +1,60 @@
 @use "../00_tokens/ods-tokens.scss" as ods;
 @use "../01_settings" as base;
 
-%color-background-button-primary: base.$primary;
-%color-background-button-primary--active: base.$primary-dark;
-%color-background-button-primary--hover: base.$primary-light;
-%color-background-button-primary--disabled: base.$primary-lighter;
+%spacing-button--large {
+  margin: ods.$spacing-core-sm;
+  padding: ods.$spacing-core-md ods.$spacing-core-lg;
+}
+%spacing-button--medium {
+  margin: ods.$spacing-core-xs;
+  padding: ods.$spacing-core-sm ods.$spacing-core-md;
+}
+%spacing-button--small {
+  margin: ods.$spacing-core-xxs;
+  padding: ods.$spacing-core-xs ods.$spacing-core-sm;
+}
 
-@mixin btn-states($btn-style) {
-  background-color: %color-background-button-primary;
+%color-button-primary--default {
+  background-color: base.$primary;
+  color: ods.$color-core-white-trans-100;
+}
+%color-button-primary--active {
+  background-color: base.$primary-dark;
+  color: ods.$color-core-white-trans-100;
+}
+%color-button-primary--hover {
+  background-color: base.$primary-light;
+  color: ods.$color-core-white-trans-100;
+}
+%color-button-primary--disabled {
+  background-color: base.$primary-lighter;
+  color: ods.$color-core-black-trans-100;
+}
+
+@mixin button($size: medium, $style: primary) {
+  @extend %spacing-button--#{$size};
+  @extend %color-button-#{$style} !optional;
   &:hover {
-    background-color: %color-background-button-#{btn-style}--hover;
+    @extend %color-button-#{$style}--hover;
   }
-  &:focus {
-    background-color: %color-background-button-primary--active;
-  }
-  &.disabled {
-    background-color: %color-background-button-primary--disabled;
+  &:hover {
   }
 }
 
 .button {
-  padding: ods.$spacing-core-sm ods.$spacing-core-md;
   border-radius: ods.$radius-core-lg;
-  color: ods.$color-core-white-trans-100;
   text-decoration: none;
-
   display: inline-block;
   &.primary {
-    background-color: $color-background-button-primary;
+    @include button("small", "primary");
     &:hover {
-      background-color: $color-background-button-primary--hover;
+      background-color: base.$primary-light;
     }
     &:focus {
-      background-color: $color-background-button-primary--active;
+      background-color: base.$primary-dark;
     }
     &.disabled {
-      background-color: $color-background-button-primary--disabled;
+      background-color: base.$primary-lighter;
     }
   }
   &.secondary {

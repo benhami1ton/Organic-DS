@@ -9,38 +9,36 @@
           "MSAttributedStringColorAttribute": {
             "_class": "color",
             "alpha": 1,
-            "blue": 0,
-            "green": 0,
-            "red": 0
+            "blue": 0.0392156862745098,
+            "green": 0.0392156862745098,
+            "red": 0.0392156862745098
           },
           "MSAttributedStringFontAttribute": {
             "_class": "fontDescriptor",
             "attributes": {
-              "name": "NunitoSans-Regular",
+              "name": "Arial-BoldMT",
               "size": 16
             }
           },
-          "kerning": 0,
+          "ligature": 0,
           "paragraphStyle": {
             "_class": "paragraphStyle",
             "alignment": 0,
             "allowsDefaultTighteningForTruncation": 0,
-            "maximumLineHeight": 16,
-            "minimumLineHeight": 16,
-            "paragraphSpacing": 16
-          },
-          "textStyleVerticalAlignmentKey": 0
+            "maximumLineHeight": 20,
+            "minimumLineHeight": 20
+          }
         },
-        "length": 11,
+        "length": 5,
         "location": 0
       }
     ],
-    "string": "Full Shadow"
+    "string": "04 dp"
   },
   "automaticallyDrawOnUnderlyingPath": false,
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "A5A2B1AB-55A9-4903-8BFB-478E354214BF",
+  "do_objectID": "5F95CD0A-AE70-4F93-87F1-D48BBDB4FD76",
   "dontSynchroniseWithSymbol": false,
   "exportOptions": {
     "_class": "exportOptions",
@@ -54,26 +52,26 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 16,
-    "width": 99,
-    "x": 109,
-    "y": 35
+    "height": 20,
+    "width": 42,
+    "x": 3,
+    "y": 0
   },
-  "glyphBounds": "{{1, 1}, {88, 13}}",
+  "glyphBounds": "{{0, 4}, {42, 16}}",
   "hasClippingMask": false,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
-  "lineSpacingBehaviour": 3,
-  "name": "value",
-  "nameIsFixed": true,
-  "resizingConstraint": 63,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "04 dp",
+  "nameIsFixed": false,
+  "resizingConstraint": 47,
   "resizingType": 0,
   "rotation": 0,
-  "sharedStyleID": "0738736E-C923-4D91-BCE9-C14CD07058F5",
+  "sharedStyleID": "317F4B6F-BCA9-49C4-B43F-E9764ED92F8D",
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -101,7 +99,7 @@
       "brightness": 0,
       "contrast": 1,
       "hue": 0,
-      "isEnabled": false,
+      "isEnabled": true,
       "saturation": 1
     },
     "contextSettings": {
@@ -109,7 +107,7 @@
       "blendMode": 0,
       "opacity": 1
     },
-    "do_objectID": "D6715B0C-50DC-4AED-9A6D-0C0E5BD76098",
+    "do_objectID": "47C3C31C-E2B3-4DB4-A12D-77874BD34E6F",
     "endMarkerType": 0,
     "fills": [
     ],
@@ -125,33 +123,31 @@
         "MSAttributedStringColorAttribute": {
           "_class": "color",
           "alpha": 1,
-          "blue": 0,
-          "green": 0,
-          "red": 0
+          "blue": 0.0392156862745098,
+          "green": 0.0392156862745098,
+          "red": 0.0392156862745098
         },
         "MSAttributedStringFontAttribute": {
           "_class": "fontDescriptor",
           "attributes": {
-            "name": "NunitoSans-Regular",
+            "name": "Arial-BoldMT",
             "size": 16
           }
         },
-        "kerning": 0,
+        "ligature": 0,
         "paragraphStyle": {
           "_class": "paragraphStyle",
           "alignment": 0,
           "allowsDefaultTighteningForTruncation": 0,
-          "maximumLineHeight": 16,
-          "minimumLineHeight": 16,
-          "paragraphSpacing": 16
-        },
-        "textStyleVerticalAlignmentKey": 0
+          "maximumLineHeight": 20,
+          "minimumLineHeight": 20
+        }
       },
-      "verticalAlignment": 1
+      "verticalAlignment": 0
     },
     "windingRule": 1
   },
-  "textBehaviour": 1,
+  "textBehaviour": 0,
   "userInfo": {
     "com.animaapp.stc-sketch-plugin": {
       "kModelPropertiesKey": {
